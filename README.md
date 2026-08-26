@@ -16,6 +16,18 @@ Somos el **Equipo 10** del curso **Fundamentos de Diseño 2026-2**, conformado p
 Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental.
 
 ---
+⚠️ Problemática 
+
+En la vida cotidiana, las personas que desean controlar y conocer mejor su alimentación presentan dificultades para obtener información práctica, inmediata y comprensible sobre la cantidad y la composición nutricional de los alimentos que consumen.
+
+Aunque existen tablas nutricionales, aplicaciones y bases de datos, estas herramientas suelen presentar valores correspondientes a cantidades estandarizadas, como 100 gramos o porciones predeterminadas. Por ello, el usuario debe identificar el alimento, estimar la cantidad servida, consultar distintas referencias e introducir manualmente los datos. Este proceso requiere tiempo y conocimientos previos, puede producir estimaciones poco consistentes y dificulta mantener un seguimiento frecuente.
+
+Esta situación resulta especialmente relevante para las personas que realizan actividad física y buscan conocer regularmente la composición de sus comidas, principalmente la cantidad de proteínas, carbohidratos y grasas presentes en las porciones que consumen.
+
+Por lo tanto, el problema no es necesariamente la ausencia de información nutricional, sino la dificultad para relacionar la información general disponible con la cantidad real de alimento presente en una porción cotidiana. Esta limitación puede reducir la capacidad de las personas para comparar sus porciones y tomar decisiones informadas y conscientes sobre su consumo.
+
+
+---
 
 ## 🎯 Objetivos de Desarrollo Sostenible (ODS)
 <p align="center">
