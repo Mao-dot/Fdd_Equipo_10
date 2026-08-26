@@ -16,7 +16,7 @@ Somos el **Equipo 10** del curso **Fundamentos de Diseño 2026-2**, conformado p
 Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental.
 
 ---
-⚠️ Problemática 
+## ⚠️ Problemática 
 
 En la vida cotidiana, las personas que desean controlar y conocer mejor su alimentación presentan dificultades para obtener información práctica, inmediata y comprensible sobre la cantidad y la composición nutricional de los alimentos que consumen.
 
