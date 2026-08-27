@@ -20,7 +20,7 @@ Nuestro objetivo es aplicar la metodología de diseño para generar soluciones i
 ## 🎯 ODS principal: ODS 12 — Producción y consumo responsables
 
 <p align="center">
-  <img src="Recursos/Imágenes/ODS/ODS_12.png" width="180" alt="ODS 12: Producción y consumo responsables" />
+  <img src="Recursos/Imágenes/ODS/ODS_12.gif" width="180" alt="ODS 12: Producción y consumo responsables" />
 </p>
 
 El Objetivo de Desarrollo Sostenible 12 busca garantizar modalidades de consumo y producción sostenibles. Este objetivo promueve el uso responsable de los recursos, la reducción de residuos y el acceso a información que permita a las personas adoptar decisiones de consumo más conscientes.
