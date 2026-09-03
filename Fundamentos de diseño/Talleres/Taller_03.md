@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="../../Recursos/Imágenes/ODS/ODS_12.png" width="125" alt="ODS 12: Producción y consumo responsables">
-</p>
-
 <h1 align="center">Taller 03</h1>
 
 <p align="center">
