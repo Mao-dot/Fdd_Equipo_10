@@ -1,211 +1,249 @@
-# Taller 03: Revisión de antecedentes científicos y tecnológicos
+<p align="center">
+  <img src="../../Recursos/Imágenes/ODS/ODS_12.png" width="125" alt="ODS 12: Producción y consumo responsables">
+</p>
 
-## 1. Datos generales
+<h1 align="center">Taller 03</h1>
 
-- **Equipo:** Equipo 10
-- **Curso:** Fundamentos de Diseño
-- **Periodo académico:** 2026-2
-- **Fecha de elaboración:** 3 de septiembre de 2026
-- **ODS principal:** ODS 12 - Producción y consumo responsables
-- **Meta seleccionada:** Meta 12.8 - Información y conocimientos para adoptar estilos de vida sostenibles
-
-### Problemática del proyecto
-
-Las personas que desean controlar su alimentación encuentran dificultades para obtener información práctica, inmediata y comprensible sobre la cantidad real y la composición nutricional de los alimentos que consumen. Aunque existen tablas, aplicaciones y bases de datos nutricionales, estas suelen trabajar con porciones estandarizadas y exigen que el usuario identifique el alimento, estime la cantidad servida o introduzca datos manualmente.
-
-El equipo estudia inicialmente esta dificultad en personas físicamente activas que buscan conocer con frecuencia la cantidad de proteínas, carbohidratos y grasas presentes en sus comidas.
-
-> **Pregunta de investigación:** ¿Qué dificultades enfrentan las personas físicamente activas al intentar obtener información práctica y comprensible sobre la cantidad y la composición nutricional de los alimentos que consumen?
+<p align="center">
+  <strong>Revisión de antecedentes científicos y tecnológicos</strong><br>
+  Fundamentos de Diseño · Equipo 10 · 2026-2
+</p>
 
 ---
 
-## 2. Objetivo y alcance del taller
+## 1. Artículos científicos
 
-### Objetivo general
+### 1.1. *A Comparison of Food Portion Size Estimation Using Geometric Models and Depth Images*
 
-Analizar antecedentes científicos, tecnológicos y comerciales vinculados con el reconocimiento de alimentos, la estimación de porciones y la obtención de información nutricional, a fin de identificar enfoques, variables, resultados y limitaciones relevantes para la problemática del Equipo 10.
+<p align="center">
+  <img src="../../Recursos/Imágenes/Taller_03/articulo_01.jpg" width="700" alt="Comparación entre la estimación de volumen con modelos geométricos e imágenes de profundidad">
+</p>
 
-### Alcance
+<p align="center"><em>Figura 1. Flujo de los dos métodos de estimación de volumen evaluados por Fang et al. Fuente: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6226035/">artículo original</a>.</em></p>
 
-La revisión comprende doce antecedentes proporcionados por el equipo:
+Fang et al. compararon dos maneras de calcular el volumen de una porción. La primera aproxima cada alimento a una forma conocida —por ejemplo, una esfera, un cilindro o un prisma— y ajusta sus dimensiones sobre la imagen. La segunda emplea un mapa de profundidad para representar el alimento mediante vóxeles y sumar el volumen ocupado [1].
 
-- 3 artículos científicos.
-- 3 patentes.
-- 3 tesis universitarias.
-- 3 productos comerciales.
+La prueba se realizó con diez objetos de entre 50 y 450 mL. Los mapas de profundidad tuvieron una resolución de 640 × 480 píxeles. En nueve de los diez casos este método sobreestimó el volumen; el mayor desvío apareció en el vaso, cuya estimación promedio fue 2,34 veces el volumen real. Los modelos geométricos dieron resultados más cercanos cuando la forma del objeto estaba bien definida [1].
 
-Los títulos se conservan en su idioma original. La explicación, el análisis y las conclusiones se presentan en español. Las cifras incluidas corresponden únicamente a valores declarados por las fuentes consultadas; cuando una fuente no publica una precisión, capacidad o rango, se indica expresamente como **no especificado**.
+Para el proyecto, el artículo señala una limitación relevante: una fotografía no permite determinar por sí sola la cantidad de comida. La forma, el ángulo de captura, la segmentación y la referencia de escala modifican el resultado. Además, las pruebas se realizaron con réplicas y máscaras conocidas, de modo que sus cifras no representan el comportamiento ante platos reales o con varios alimentos.
 
----
+### 1.2. *A Novel Approach to Estimate the Weight of Food Items Based on Features Extracted from an Image Using Boosting Algorithms*
 
-## 3. Metodología de revisión
+<p align="center">
+  <img src="../../Recursos/Imágenes/Taller_03/articulo_02.png" width="760" alt="Sistema de segmentación, clasificación y estimación del peso de alimentos">
+</p>
 
-Las fuentes entregadas por el equipo fueron verificadas en sus páginas originales o en las fichas institucionales asociadas. Para cada antecedente se analizaron cinco aspectos:
+<p align="center"><em>Figura 2. Arquitectura usada para segmentar el plato, reconocer sus componentes y estimar su peso. Fuente: <a href="https://www.nature.com/articles/s41598-023-47885-0">artículo original</a>.</em></p>
 
-1. El tema o problema que aborda.
-2. El método, sistema o propuesta presentada.
-3. Su aporte a la problemática del proyecto.
-4. Las variables o características estudiadas.
-5. Los valores, rangos o resultados cuantitativos disponibles.
+Konstantakopoulos, Georga y Fotiadis estudiaron si el peso de un alimento podía estimarse con una sola foto tomada desde un teléfono. El modelo utiliza el área visible del alimento, el área de un objeto de referencia, la identidad del plato y su categoría. Con esos datos se probaron tres algoritmos de regresión: XGBoost, CatBoost y LightGBM [2].
 
-Las referencias se presentan al final en formato numérico. Se incluyen autores o inventores, título, año, publicación o institución, páginas o número de artículo cuando corresponde, identificador y enlace. En patentes y productos comerciales se emplean los datos equivalentes aplicables, como titular, número de publicación o fabricante.
+El conjunto de trabajo reunió 23 052 imágenes anotadas de 226 platos mediterráneos y produjo 24 996 registros de entrenamiento. XGBoost obtuvo el mejor desempeño, con un error absoluto medio de 3,93 g, un error porcentual absoluto medio de 3,73 % y una raíz del error cuadrático medio de 6,05 g [2].
 
----
+Este resultado muestra que la fotografía puede convertirse en una estimación expresada en gramos cuando el alimento está bien separado del fondo, correctamente clasificado y acompañado por una referencia de tamaño. No conviene trasladar esas métricas de manera automática a comidas peruanas: el modelo se entrenó con gastronomía mediterránea y bajo condiciones de captura definidas por el estudio.
 
-## 4. Artículos científicos
+### 1.3. *Applying Image-Based Food-Recognition Systems on Dietary Assessment: A Systematic Review*
 
-### 4.1. *A Comparison of Food Portion Size Estimation Using Geometric Models and Depth Images*
+<p align="center">
+  <img src="../../Recursos/Imágenes/Taller_03/articulo_03.jpg" width="760" alt="Etapas de un sistema de reconocimiento de alimentos basado en imágenes">
+</p>
 
-Fang et al. comparan dos métodos para estimar el volumen de alimentos: el uso de modelos geométricos predefinidos y el procesamiento de imágenes de profundidad [1]. El primer método asigna formas como esfera, cilindro o prisma según el alimento identificado; el segundo reconstruye el volumen mediante vóxeles obtenidos de un mapa de profundidad.
+<p align="center"><em>Figura 3. Etapas habituales de un sistema de reconocimiento de alimentos y cálculo nutricional. Fuente: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9776640/">artículo original</a>.</em></p>
 
-El estudio evaluó diez objetos con volúmenes reales entre 50 y 450 mL, determinados por desplazamiento de agua. Las imágenes de profundidad tuvieron una resolución de 640 × 480 píxeles. En nueve de los diez objetos, el método basado en profundidad sobreestimó el volumen; en el caso más marcado, el vaso obtuvo una relación promedio de 2,34 entre el volumen estimado y el real. Los modelos geométricos produjeron mejores estimaciones cuando el objeto tenía una forma tridimensional claramente definida [1].
+Dalakleidi et al. revisaron los sistemas que usan imágenes para apoyar la evaluación alimentaria. En conjunto, estos trabajos siguen una secuencia definida: captura de la fotografía, preprocesamiento, segmentación, extracción de características, clasificación del alimento, estimación del volumen y consulta de una base nutricional [3].
 
-Este antecedente demuestra que la cantidad de alimento no puede inferirse de manera confiable solo a partir de su apariencia bidimensional. También evidencia que la forma, el ángulo de captura, la segmentación y la referencia espacial influyen directamente en la estimación de una porción. Su principal limitación es que utilizó réplicas de alimentos, etiquetas y máscaras de segmentación conocidas, por lo que sus resultados no representan por sí solos el funcionamiento con comidas reales y mixtas.
+La revisión examinó 159 publicaciones y seleccionó 78. De ellas, 45 —el 58 %— recurrieron al aprendizaje profundo, sobre todo a redes neuronales convolucionales. Los autores también señalan la mejora alcanzada en el conjunto Food-101, donde la precisión de clasificación pasó de 55,3 % a 90,27 % con el desarrollo de estas técnicas [3].
 
-### 4.2. *A Novel Approach to Estimate the Weight of Food Items Based on Features Extracted from an Image Using Boosting Algorithms*
+El artículo ayuda a separar dos tareas que suelen confundirse. Reconocer arroz, pollo o verduras no equivale a saber cuánto hay de cada alimento. Si la segmentación o la porción se calcula mal, el valor de calorías y macronutrientes también será incorrecto, aun cuando el nombre del plato se haya identificado bien.
 
-Konstantakopoulos, Georga y Fotiadis proponen estimar el peso de un alimento a partir de una sola imagen capturada con un teléfono móvil [2]. El modelo emplea características como el área ocupada por el alimento, el área de un objeto de referencia, la identidad y la categoría del alimento. Estas variables se procesan mediante algoritmos de regresión *boosting*: XGBoost, CatBoost y LightGBM.
+### Cuadro 1. Comparación de artículos científicos
 
-La investigación utilizó 23 052 imágenes anotadas de 226 platos mediterráneos y generó 24 996 registros para el entrenamiento. XGBoost obtuvo el mejor desempeño: error absoluto medio del peso de 3,93 g, error porcentual absoluto medio de 3,73 % y raíz del error cuadrático medio de 6,05 g [2].
-
-El aporte principal para el proyecto es mostrar que una sola fotografía puede relacionarse con una estimación cuantitativa del peso cuando existen segmentación, clasificación y una referencia de escala adecuadas. Sin embargo, el modelo fue evaluado con gastronomía mediterránea y depende de que el alimento haya sido correctamente segmentado y clasificado. Por ello, las cifras no deben extrapolarse directamente a platos peruanos, preparaciones mixtas o imágenes tomadas en condiciones distintas.
-
-### 4.3. *Applying Image-Based Food-Recognition Systems on Dietary Assessment: A Systematic Review*
-
-Dalakleidi et al. presentan una revisión sistemática de sistemas de reconocimiento de alimentos basados en imágenes para evaluación dietética [3]. La arquitectura general identificada comprende captura de la fotografía, preprocesamiento, segmentación, extracción de características, clasificación, estimación de volumen y, finalmente, cálculo de energía y nutrientes mediante una base de datos nutricional.
-
-La revisión examinó 159 publicaciones y seleccionó 78 estudios; 45 de ellos, equivalentes al 58 %, utilizaron aprendizaje profundo, especialmente redes neuronales convolucionales. Los autores señalan que el rendimiento de clasificación en el conjunto Food-101 evolucionó de 55,3 % a 90,27 % con el uso de estas redes [3]. También advierten que la iluminación, los objetos ajenos a la comida, la calidad de las bases de datos y el olvido del usuario al fotografiar sus alimentos siguen siendo fuentes de error.
-
-Este trabajo aporta una visión integral del proceso y permite distinguir dos problemas diferentes: reconocer qué alimento aparece en una imagen y determinar cuánto alimento hay. Para el Equipo 10 esta distinción es esencial, porque una clasificación correcta no garantiza una estimación correcta de la porción ni de sus macronutrientes.
+| N.° | Recurso | Tema | Aporte | Variables o características | Valores o rangos |
+|---:|---|---|---|---|---|
+| 1 | Fang et al., *A Comparison of Food Portion Size Estimation Using Geometric Models and Depth Images* [1] | Estimación del volumen mediante geometría e imágenes de profundidad. | Explica cómo la forma y la profundidad influyen en el cálculo de una porción. | Volumen real y estimado, forma, mapa de profundidad, resolución y error. | 10 objetos; 50-450 mL; 640 × 480 px; sobreestimación en 9 de 10 objetos; relación estimado/real de 2,34 para el vaso. |
+| 2 | Konstantakopoulos et al., *A Novel Approach to Estimate the Weight of Food Items Based on Features Extracted from an Image Using Boosting Algorithms* [2] | Estimación del peso a partir de una fotografía. | Relaciona características visuales y una referencia de escala con una medida en gramos. | Área del alimento, área de referencia, identidad, categoría, peso real y peso estimado. | 23 052 imágenes; 226 platos; 24 996 registros; XGBoost: MAE de 3,93 g, MAPE de 3,73 % y RMSE de 6,05 g. |
+| 3 | Dalakleidi et al., *Applying Image-Based Food-Recognition Systems on Dietary Assessment: A Systematic Review* [3] | Reconocimiento de alimentos aplicado a la evaluación dietética. | Ordena el proceso completo e identifica los principales errores técnicos y de uso. | Segmentación, clasificación, volumen, energía, nutrientes, precisión y conjunto de datos. | 159 publicaciones examinadas; 78 incluidas; 45 estudios (58 %) con aprendizaje profundo; precisión en Food-101 de 55,3 % a 90,27 %. |
 
 ---
 
-## 5. Patentes
+## 2. Patentes
 
-### 5.1. *Food Recognition Using Visual Analysis and Speech Recognition* (US8439683B2)
+### 2.1. *Food Recognition Using Visual Analysis and Speech Recognition* (US8439683B2)
 
-La patente de Puri et al., asignada a SRI International, describe un sistema que combina análisis visual con una descripción oral o escrita de la comida [4]. El sistema recibe varias imágenes del plato, extrae una lista de alimentos a partir de la descripción del usuario, clasifica y segmenta los elementos mediante características de color y textura, y estima su volumen para apoyar el cálculo calórico.
+<p align="center">
+  <img src="../../Recursos/Imágenes/Taller_03/patente_01.png" width="720" alt="Diagrama de reconocimiento de alimentos mediante voz e imágenes">
+</p>
 
-La realización preferida utiliza al menos tres imágenes de una misma escena. La patente describe experimentos con 400 conjuntos de imágenes correspondientes a 150 tipos de alimentos, así como una evaluación independiente con 26 tipos. También menciona la Food and Nutrient Database for Dietary Studies (FNDDS), con más de 7000 alimentos, como referencia nutricional [4].
+<p align="center"><em>Figura 4. Esquema general de captura, reconocimiento y estimación nutricional. Fuente: <a href="https://patents.google.com/patent/US8439683B2/en">patente US8439683B2</a>.</em></p>
 
-Su aporte consiste en demostrar el valor de combinar modalidades: la imagen aporta evidencia visual y la voz o el texto ayudan a reducir la ambigüedad de reconocimiento. Como limitación para el proyecto, el procedimiento requiere varias imágenes y participación adicional del usuario, lo que puede aumentar el esfuerzo necesario para registrar una comida. La ficha consultada registra la patente como activa.
+Puri et al., inventores de una patente asignada a SRI International, plantearon un sistema que combina fotografías con una descripción oral o escrita de la comida [4]. La voz o el texto producen una lista inicial de alimentos; luego, el análisis de color y textura ayuda a clasificarlos y separarlos dentro de la imagen. Con varias vistas del plato, el sistema estima el volumen y lo relaciona con información nutricional.
 
-### 5.2. *Connected Food Scale System and Method* (US20140063180A1)
+La realización preferida requiere al menos tres imágenes de la misma escena. La patente menciona 400 conjuntos de imágenes de 150 tipos de alimentos y una evaluación independiente con 26 tipos. También propone consultar la base FNDDS, que contiene más de 7000 alimentos [4].
 
-Sharma propone una balanza digital conectada con uno o varios dispositivos móviles [5]. El sistema integra un sensor de carga, conversión analógica-digital, memoria, pantalla, interfaz de comunicación y registros alimentarios diferenciados por usuario. La balanza puede sincronizar los datos con una aplicación móvil y asociar una fotografía del alimento con la entrada registrada.
+La combinación de voz e imagen puede reducir la ambigüedad ante preparaciones difíciles de distinguir visualmente. Como contrapartida, la interacción requiere que el usuario tome varias fotografías y añada una descripción. Esta exigencia deberá compararse con el tiempo y el esfuerzo que el público objetivo está dispuesto a dedicar al registro de una comida.
 
-La patente contempla conexiones físicas o inalámbricas, incluidas Wi-Fi y Bluetooth, y un soporte para colocar el teléfono y fotografiar el alimento. También describe la posibilidad de mantener registros para seis a ocho usuarios. No publica una capacidad de pesaje ni una precisión metrológica concreta [5].
+### 2.2. *Connected Food Scale System and Method* (US20140063180A1)
 
-Este antecedente aporta una arquitectura que vincula una medición objetiva del peso con una interfaz digital y un historial personal. No obstante, la identificación del alimento y la calidad de la información nutricional continúan dependiendo de la base de datos y de la interacción implementada. La fuente registra esta solicitud como abandonada; dicho estado no elimina su utilidad como antecedente técnico, pero debe diferenciarse de una patente concedida y vigente.
+<p align="center">
+  <img src="../../Recursos/Imágenes/Taller_03/patente_02.png" width="720" alt="Arquitectura de una balanza conectada con un dispositivo móvil y una base de datos">
+</p>
 
-### 5.3. *一种自动识别食物卡路里的电子秤及方法* (CN108871530A)
+<p align="center"><em>Figura 5. Conexión entre el dispositivo móvil, el registro alimentario y la base de datos. Fuente: <a href="https://patents.google.com/patent/US20140063180/en">solicitud US20140063180A1</a>.</em></p>
 
-La patente de 公文静 describe una balanza electrónica que busca reconocer automáticamente el alimento y calcular sus calorías sin que el usuario introduzca manualmente su nombre [6]. El sistema contiene un módulo de identificación, un módulo de pesaje, una base de datos, un módulo de análisis y un módulo de visualización.
+Sharma describió una balanza digital conectada con uno o varios dispositivos móviles [5]. El diseño reúne un sensor de carga, conversión analógica-digital, memoria, pantalla y una interfaz de comunicación. Desde la aplicación se puede asociar el peso con el usuario, el alimento registrado y una fotografía.
 
-El cálculo propuesto relaciona el peso medido, expresado en gramos, con el valor energético registrado para 100 g del alimento mediante la expresión `cal = m / 100 × C`. La descripción incluye ejemplos de referencia: arroz, 125 kcal/100 g; panecillo al vapor, 225 kcal/100 g; y manzana, 60 kcal/100 g [6]. Estos valores son ejemplos contenidos en la patente y no una tabla nutricional adoptada por el proyecto.
+La propuesta admite conexión física, Wi-Fi o Bluetooth y contempla historiales separados para seis a ocho personas. También incluye un soporte para colocar el teléfono y fotografiar el alimento mientras se encuentra sobre la balanza. La publicación no declara capacidad máxima ni precisión metrológica [5].
 
-El aporte principal es integrar en un mismo equipo la identificación, el pesaje y la presentación de la información calórica. La patente no especifica el rango o la precisión de la balanza ni el desempeño del reconocimiento automático. La ficha consultada la registra como solicitud pendiente.
+Su interés para el equipo se encuentra en la relación entre una medición física y el registro digital. El peso deja de ser una aproximación visual, aunque todavía es necesario identificar el alimento y seleccionar una entrada nutricional confiable. La solicitud figura como abandonada; se considera como antecedente de diseño y no como una patente vigente.
 
----
+### 2.3. *一种自动识别食物卡路里的电子秤及方法* (CN108871530A)
 
-## 6. Tesis
+<p align="center">
+  <img src="../../Recursos/Imágenes/Taller_03/patente_03.png" width="455" alt="Primera página de la patente china CN108871530A">
+</p>
 
-### 6.1. *Single View Reconstruction for Food Portion Estimation*
+<p align="center"><em>Figura 6. Primera página y diagrama de funcionamiento de la solicitud. Fuente: <a href="https://patents.google.com/patent/CN108871530A/en">patente CN108871530A</a>.</em></p>
 
-La tesis doctoral de Fang desarrolla métodos para estimar porciones a partir de una sola imagen, con el propósito de reducir la carga que supone tomar varias fotografías de una comida [7]. La investigación reúne tres líneas complementarias: modelos geométricos y mapas de profundidad para estimar volumen, patrones de coocurrencia para incorporar contexto alimentario y redes generativas adversarias para estimar directamente la energía de una imagen.
+La solicitud presentada por 公文静 propone una balanza electrónica capaz de reconocer el alimento y mostrar sus calorías sin que la persona tenga que escribir el nombre [6]. Para ello reúne cinco componentes: identificación, pesaje, base de datos, análisis y visualización.
 
-El trabajo define la porción como la cantidad de alimento expresable mediante volumen, peso, energía o nutrientes. En uno de los métodos basados en modelos geométricos se reporta un error inferior al 6 % en la estimación energética de una imagen, bajo el supuesto de contar con segmentación e identificación correctas [7]. Esta condición es importante: el resultado corresponde al subsistema de estimación y no a un proceso completamente automático evaluado de extremo a extremo.
+El cálculo toma el peso medido en gramos y el valor energético guardado para 100 g. La relación se expresa como `cal = m / 100 × C`. El documento incluye, a modo de ejemplo, arroz con 125 kcal/100 g, panecillo al vapor con 225 kcal/100 g y manzana con 60 kcal/100 g [6]. Estos números pertenecen al ejemplo de la patente y no forman una tabla nutricional adoptada por el equipo.
 
-Para el Equipo 10, la tesis aporta una explicación profunda de la relación entre imagen, escala, volumen, peso y energía. También demuestra que el contexto de una comida puede mejorar la estimación, aunque no sustituye la necesidad de validar el sistema con alimentos y porciones representativos del público objetivo.
+La propuesta integra las cuatro operaciones relacionadas con el proyecto: identificar, pesar, consultar y mostrar la información. Sin embargo, la publicación no informa la precisión del reconocimiento ni el rango o error de la balanza. La ficha de Google Patents registra la solicitud como pendiente.
 
-### 6.2. *Modelo ProLab: Checkifood, aplicación móvil que ayuda al régimen alimenticio con machine learning*
+### Cuadro 2. Comparación de patentes
 
-Romero De Chorié et al. presentan una propuesta peruana de aplicación móvil orientada a personas de 18 a 45 años que desean mejorar sus hábitos alimentarios [8]. Checkifood plantea utilizar *machine learning* para detectar y analizar platos mediante fotografías, simplificando el registro frente a aplicaciones que requieren el ingreso manual de alimentos.
-
-El principal aporte es contextual: confirma la pertinencia de una experiencia móvil con identificación visual para usuarios peruanos y aborda la facilidad de registro como parte central de la propuesta de valor. La tesis desarrolla ampliamente la viabilidad económica y social del modelo; sin embargo, la ficha institucional consultada no publica métricas técnicas de precisión del reconocimiento, error en gramos ni exactitud nutricional [8]. Por ello, no corresponde utilizar sus resultados financieros como evidencia de desempeño tecnológico.
-
-### 6.3. *Evaluación del aporte nutricional del menú del servicio de alimentación para deportistas albergados del IPD y su relación con sus requerimientos nutricionales*
-
-López Aliaga Pantigoso evalúa el menú y la ingesta efectiva de deportistas de alto rendimiento alojados en la Villa Deportiva Nacional (VIDENA) [9]. Durante una semana de agosto de 2018 se empleó pesaje directo para analizar el desayuno, almuerzo, cena y fraccionamientos consumidos por 30 deportistas, y se comparó el aporte con sus requerimientos de energía y macronutrientes.
-
-Aunque esta tesis no desarrolla un sistema de reconocimiento de imágenes, aporta un referente para definir qué debe medirse y cómo obtener valores de comparación: peso servido, peso consumido, energía, proteínas, carbohidratos y grasas. También evidencia que la información nutricional para personas físicamente activas debe relacionarse con la porción efectivamente consumida y no únicamente con una porción genérica [9].
-
-La ficha pública consultada no presenta todos los valores individuales o rangos nutricionales del estudio. En consecuencia, únicamente se consideran el tamaño de la muestra, la duración y las variables confirmadas, sin completar resultados no disponibles en la fuente resumida.
-
----
-
-## 7. Productos comerciales
-
-### 7.1. *ESN00 Smart Nutrition Scale*
-
-La Etekcity ESN00 es una balanza nutricional conectada a la aplicación VeSync [10]. Mide el peso del alimento y permite consultar hasta 19 nutrientes mediante una base de datos de aproximadamente un millón de registros alimentarios proporcionada por Nutritionix. También ofrece función de tara, personalización de alimentos y sincronización con Apple Health y Fitbit.
-
-El equipo utiliza cuatro sensores y mide entre 3 y 5000 g, con incrementos de 1 g. Admite gramos, mililitros, onzas y libras/onzas [10]. Su aporte para el proyecto es demostrar la precisión y claridad que puede obtenerse cuando la porción se mide físicamente. Su principal limitación de uso es que la identificación del alimento y la selección correcta de la entrada nutricional continúan dependiendo del usuario y de la base de datos.
-
-### 7.2. *Fitia - Contador de Calorías y Dietas con IA*
-
-Fitia es una aplicación de seguimiento nutricional que permite registrar alimentos mediante fotografía, voz, texto o código de barras [11]. Calcula una ingesta objetivo de calorías y macronutrientes con base en datos como actividad, composición corporal y objetivo personal. La empresa indica que su base de alimentos es revisada mediante un algoritmo interno y por profesionales en nutrición.
-
-El producto aporta una referencia de experiencia de usuario: ofrece varios mecanismos de entrada y convierte la información en metas y gráficos comprensibles. También confirma que las personas pueden preferir distintos modos de registrar una misma comida. La página comercial no publica un rango de error para la estimación mediante fotografía ni una precisión absoluta en gramos, por lo que no es posible comparar técnicamente esa función con los artículos científicos revisados.
-
-### 7.3. *SnapCalorie - AI Calorie Tracking Made Simple*
-
-SnapCalorie permite fotografiar una comida para que un sistema de inteligencia artificial identifique los alimentos y calcule su información nutricional [12]. El flujo comercial se resume en tres pasos: tomar la fotografía, analizarla y revisar el registro. La aplicación presenta calorías y macronutrientes, e incorpora notas de voz, seguimiento de tendencias y planificación de comidas.
-
-La página del producto afirma que el registro es cinco veces más rápido que el ingreso manual y que su tecnología alcanza el doble de precisión que nutricionistas [12]. Estas son afirmaciones comerciales: la misma página no proporciona la métrica, el conjunto de prueba, el tamaño de muestra ni un error absoluto que permitan verificarlas o compararlas con un estudio científico. Por ello, el aporte considerado es su flujo de interacción y no esas cifras como evidencia experimental.
+| N.° | Recurso | Tema | Aporte | Variables o características | Valores o rangos |
+|---:|---|---|---|---|---|
+| 1 | *Food Recognition Using Visual Analysis and Speech Recognition*, US8439683B2 [4] | Reconocimiento mediante imágenes y una descripción oral o escrita. | Combina dos tipos de entrada para reducir dudas al identificar una comida. | Imagen, voz o texto, color, textura, clase, volumen y contenido calórico. | Al menos 3 imágenes; 400 conjuntos; 150 tipos de alimentos; evaluación con 26 tipos; FNDDS con más de 7000 alimentos. |
+| 2 | *Connected Food Scale System and Method*, US20140063180A1 [5] | Balanza digital enlazada a una aplicación y a registros personales. | Une una medida directa del peso con fotografías, historial e información nutricional. | Peso, usuario, alimento, fotografía, memoria y conectividad. | Registros para 6-8 usuarios; conexión física, Wi-Fi o Bluetooth. Capacidad y precisión: no especificadas. |
+| 3 | *一种自动识别食物卡路里的电子秤及方法*, CN108871530A [6] | Reconocimiento automático y cálculo de calorías desde una balanza. | Integra identificación, pesaje, consulta nutricional y visualización. | Características del alimento, nombre, peso en gramos y energía en kcal. | Fórmula `cal = m / 100 × C`; ejemplos: arroz 125 kcal/100 g, panecillo al vapor 225 kcal/100 g y manzana 60 kcal/100 g. Rango y precisión: no especificados. |
 
 ---
 
-## 8. Síntesis integrada de los antecedentes
+## 3. Tesis
 
-### 8.1. Reconocimiento y estimación de cantidad son etapas diferentes
+### 3.1. *Single View Reconstruction for Food Portion Estimation*
 
-Los antecedentes distinguen con claridad entre identificar el alimento y determinar su cantidad. La clasificación puede reconocer que un plato contiene arroz, pollo o verduras, pero el cálculo nutricional requiere además estimar el peso o volumen de cada elemento. Los errores de segmentación o identificación se trasladan a las etapas posteriores y afectan el resultado final.
+<p align="center">
+  <img src="../../Recursos/Imágenes/Taller_03/tesis_01.png" width="330" alt="Portada de la tesis doctoral de Shaobo Fang">
+</p>
 
-### 8.2. La estimación visual necesita referencias y validación
+<p align="center"><em>Figura 7. Portada de la tesis doctoral de Shaobo Fang. Fuente: <a href="https://hammer.purdue.edu/articles/thesis/SINGLE_VIEW_RECONSTRUCTION_FOR_FOOD_PORTION_ESTIMATION/7767125/1">Purdue University</a>.</em></p>
 
-Los artículos y tesis muestran que una imagen puede utilizarse para estimar porciones, pero su desempeño depende de la escala, la forma tridimensional, el ángulo, la iluminación, la superposición entre alimentos y la diversidad del conjunto de entrenamiento. Los mejores resultados revisados se obtienen bajo condiciones específicas y no deben asumirse como universales.
+La tesis doctoral de Fang estudia cómo estimar una porción usando una sola imagen, con la intención de evitar que el usuario tenga que fotografiar el plato desde varios ángulos [7]. El trabajo reúne tres líneas: reconstrucción con modelos geométricos y mapas de profundidad, uso de patrones de coocurrencia entre alimentos y estimación directa de energía mediante redes generativas adversarias.
 
-### 8.3. El pesaje aporta una referencia objetiva
+En esta investigación, la porción puede expresarse como volumen, peso, energía o nutrientes. Uno de los métodos geométricos reporta un error inferior al 6 % al estimar la energía de una imagen, siempre que la segmentación y la identificación sean correctas [7]. La condición es importante: se evaluó una etapa del proceso y no un sistema completamente automático de principio a fin.
 
-La balanza comercial y las patentes relacionadas demuestran que el peso puede medirse directamente con una incertidumbre menor que una estimación puramente visual. Sin embargo, pesar no resuelve automáticamente la identificación del alimento ni garantiza que la entrada elegida en la base nutricional sea correcta. La revisión sugiere que medición, identificación y consulta nutricional deben evaluarse como componentes separados.
+La tesis permite entender cómo se conectan la escala de la imagen, el volumen, el peso y las kilocalorías. También muestra que el contexto del plato puede mejorar una estimación. Para usar ese enfoque en el proyecto habría que comprobarlo con preparaciones y tamaños de porción cercanos a los del público estudiado.
 
-### 8.4. La facilidad de registro influye en el uso sostenido
+### 3.2. *Modelo ProLab: Checkifood, aplicación móvil que ayuda al régimen alimenticio con machine learning*
 
-Las aplicaciones comerciales reducen pasos mediante fotografías, voz, códigos de barras y sincronización. Esto responde directamente a la problemática del proyecto, pues una herramienta técnicamente precisa puede resultar poco útil si obliga al usuario a realizar demasiadas búsquedas o estimaciones manuales. No obstante, la rapidez declarada por un producto no sustituye la validación de la exactitud de sus resultados.
+<p align="center">
+  <img src="../../Recursos/Imágenes/Taller_03/tesis_02.jpg" width="330" alt="Portada de la tesis Checkifood de la Pontificia Universidad Católica del Perú">
+</p>
 
-### 8.5. La información debe ser comprensible y trazable
+<p align="center"><em>Figura 8. Portada de la propuesta Checkifood. Fuente: <a href="http://hdl.handle.net/20.500.12404/28095">Repositorio de Tesis PUCP</a>.</em></p>
 
-Para apoyar decisiones informadas, los valores nutricionales deben indicar con claridad a qué alimento y cantidad corresponden. También conviene diferenciar entre una medición, una estimación algorítmica y un valor tomado de una base de datos. Esta trazabilidad permitiría al usuario interpretar proteínas, carbohidratos, grasas y energía sin asumir una precisión que el sistema no haya demostrado.
+Romero De Chorié et al. desarrollaron una propuesta peruana dirigida a personas de 18 a 45 años interesadas en mejorar sus hábitos alimentarios [8]. Checkifood plantea reconocer y analizar platos a partir de fotografías mediante *machine learning*, reduciendo el ingreso manual que normalmente exigen las aplicaciones de seguimiento.
 
-### 8.6. Implicancias para las siguientes etapas del proyecto
+El documento se concentra en el modelo de negocio y en la experiencia prevista para el usuario, más que en la validación del algoritmo. Su valor como antecedente se encuentra en el contexto local y en la simplificación del registro de las comidas. La ficha pública no presenta datos sobre precisión de reconocimiento, error en gramos o exactitud del cálculo nutricional [8]; por esa razón, no se atribuye al sistema un desempeño técnico que la fuente no haya medido.
 
-Sin definir todavía una solución final, los antecedentes permiten proponer criterios para continuar la investigación:
+### 3.3. *Evaluación del aporte nutricional del menú del servicio de alimentación para deportistas albergados del IPD y su relación con sus requerimientos nutricionales*
 
-- Analizar por separado la identificación del alimento, la estimación de la porción y el cálculo de nutrientes.
-- Considerar condiciones reales de uso y alimentos representativos del contexto peruano.
-- Evaluar el esfuerzo requerido al usuario y no únicamente la precisión técnica.
-- Comparar cualquier estimación con una referencia objetiva, como el pesaje directo.
-- Mostrar unidades, fuente nutricional y nivel de certeza de forma comprensible.
-- Evitar presentar información nutricional como diagnóstico o recomendación médica personalizada.
+<p align="center">
+  <img src="../../Recursos/Imágenes/Taller_03/tesis_03.jpg" width="340" alt="Portada de la tesis sobre alimentación de deportistas albergados del IPD">
+</p>
+
+<p align="center"><em>Figura 9. Portada de la tesis de Sandra Cecilia López Aliaga Pantigoso. Fuente: <a href="http://hdl.handle.net/10757/625118">Repositorio Académico UPC</a>.</em></p>
+
+López Aliaga Pantigoso analizó el menú y el consumo efectivo de deportistas de alto rendimiento alojados en la Villa Deportiva Nacional [9]. Durante una semana de agosto de 2018 se pesaron directamente el desayuno, el almuerzo, la cena y los fraccionamientos de 30 deportistas. Después se comparó lo consumido con sus requerimientos de energía y macronutrientes.
+
+Aunque esta tesis no utiliza visión por computadora, aporta una referencia para validar mediciones: registra el peso servido, el peso consumido, la energía, las proteínas, los carbohidratos y las grasas. Este enfoque confirma que el análisis nutricional de una persona físicamente activa debe considerar la cantidad realmente consumida y no únicamente una porción estándar. La ficha pública consultada no expone todos los resultados individuales, por lo que el cuadro recoge solo los datos que pueden comprobarse [9].
+
+### Cuadro 3. Comparación de tesis
+
+| N.° | Recurso | Tema | Aporte | Variables o características | Valores o rangos |
+|---:|---|---|---|---|---|
+| 1 | Fang, *Single View Reconstruction for Food Portion Estimation* [7] | Estimación de porciones desde una sola imagen. | Relaciona la imagen con volumen, peso y energía, e incorpora contexto y aprendizaje profundo. | Forma, escala, volumen, peso, energía, segmentación y clase del alimento. | Error menor al 6 % en una estimación energética con modelos geométricos, suponiendo segmentación y clasificación correctas. |
+| 2 | Romero De Chorié et al., *Modelo ProLab: Checkifood, aplicación móvil que ayuda al régimen alimenticio con machine learning* [8] | Registro y análisis de comidas mediante fotografías. | Presenta una propuesta local centrada en reducir la entrada manual. | Fotografía, plato detectado, hábitos, perfil y régimen alimentario. | Público objetivo de 18-45 años. La ficha pública no informa precisión ni error nutricional. |
+| 3 | López Aliaga Pantigoso, *Evaluación del aporte nutricional del menú del servicio de alimentación para deportistas albergados del IPD y su relación con sus requerimientos nutricionales* [9] | Aporte nutricional y consumo efectivo de deportistas. | Define variables nutricionales y emplea el pesaje directo como referencia. | Peso servido y consumido, energía, proteínas, carbohidratos, grasas y requerimientos individuales. | 30 deportistas; 1 semana; 4 momentos de alimentación: desayuno, almuerzo, cena y fraccionamientos. |
 
 ---
 
-## 9. Conclusiones
+## 4. Productos comerciales
 
-1. La literatura científica confirma que es posible estimar el peso, volumen o energía de alimentos mediante imágenes; sin embargo, la precisión depende de condiciones de captura, segmentación, clasificación, referencias de escala y representatividad de los datos.
+### 4.1. *ESN00 Smart Nutrition Scale*
 
-2. Las patentes muestran tres arquitecturas complementarias: reconocimiento multimodal con imágenes y voz, conexión entre balanza y aplicación, e integración de identificación, pesaje y cálculo calórico en un solo equipo. También evidencian que la existencia de una propuesta técnica no implica que su precisión haya sido validada públicamente.
+<p align="center">
+  <img src="../../Recursos/Imágenes/Taller_03/producto_01.png" width="500" alt="Balanza nutricional inteligente Etekcity ESN00">
+</p>
 
-3. Las tesis aportan métodos de reconstrucción, un antecedente peruano de registro fotográfico y variables nutricionales relevantes para personas físicamente activas. En especial, el estudio con deportistas destaca la importancia de relacionar los nutrientes con la cantidad realmente consumida.
+<p align="center"><em>Figura 10. Balanza nutricional inteligente Etekcity ESN00. Fuente: <a href="https://etekcity.com/products/smart-nutrition-scale-esn00">Etekcity</a>.</em></p>
 
-4. Los productos comerciales demuestran que existe interés por reducir el ingreso manual de información. La balanza ofrece valores metrológicos verificables, mientras que las aplicaciones basadas en imágenes priorizan la rapidez y facilidad de uso, aunque sus páginas comerciales no siempre publican métricas suficientes para evaluar la precisión.
+La Etekcity ESN00 combina una balanza de cocina con la aplicación VeSync [10]. El usuario pesa el alimento y consulta hasta 19 nutrientes en una base de aproximadamente un millón de registros proporcionada por Nutritionix. El producto también ofrece tara, creación de alimentos personalizados y sincronización con Apple Health y Fitbit.
 
-5. En conjunto, los antecedentes respaldan la pertinencia de estudiar cómo brindar información nutricional de una porción cotidiana de forma práctica y comprensible. También indican que cualquier propuesta futura deberá equilibrar exactitud, facilidad de uso, transparencia de los datos y adecuación al contexto del público objetivo.
+Sus cuatro sensores trabajan entre 3 y 5000 g, con incrementos de 1 g. La pantalla admite gramos, mililitros, onzas y libras/onzas [10]. Frente a una estimación realizada únicamente con la cámara, el pesaje proporciona una cantidad directa y verificable. Sin embargo, el usuario debe seleccionar el alimento correcto, ya que una medición precisa del peso no corrige una elección equivocada en la base de datos.
+
+### 4.2. *Fitia - Contador de Calorías y Dietas con IA*
+
+<p align="center">
+  <img src="../../Recursos/Imágenes/Taller_03/producto_02.jpg" width="330" alt="Pantalla de seguimiento de calorías y macronutrientes de Fitia">
+</p>
+
+<p align="center"><em>Figura 11. Vista del registro diario de calorías y macronutrientes en Fitia. Fuente: <a href="https://apps.apple.com/app/fitia-diet-meal-planner/id1448277011">ficha de la aplicación</a>.</em></p>
+
+Fitia permite registrar alimentos por fotografía, voz, texto o código de barras [11]. A partir del perfil y del objetivo de la persona, la aplicación organiza una meta de calorías y macronutrientes, muestra el avance diario y ofrece planes de comidas. La empresa indica que las entradas de su base pasan por un algoritmo interno y por revisión de profesionales en nutrición.
+
+La posibilidad de elegir entre varios métodos de registro es especialmente relevante: no todas las comidas se describen con la misma facilidad y no todos los usuarios prefieren tomar una foto. La página explica que el escáner fotográfico estima calorías y macronutrientes y permite ajustar la porción, pero no publica una precisión en gramos ni un margen de error [11]. Por lo tanto, el producto sirve como referencia de interacción, no como prueba del rendimiento de esa función.
+
+### 4.3. *SnapCalorie - AI Calorie Tracking Made Simple*
+
+<p align="center">
+  <img src="../../Recursos/Imágenes/Taller_03/producto_03.png" width="700" alt="Interfaz móvil de SnapCalorie">
+</p>
+
+<p align="center"><em>Figura 12. Pantallas de seguimiento y diario fotográfico de SnapCalorie. Fuente: <a href="https://www.snapcalorie.com/">SnapCalorie</a>.</em></p>
+
+SnapCalorie propone un registro breve: fotografiar la comida, dejar que el sistema identifique los alimentos y revisar el resultado antes de guardarlo [12]. La aplicación presenta calorías, proteínas, carbohidratos y grasas; además, incorpora notas de voz, tendencias y planificación de comidas.
+
+En su página comercial se afirma que el registro es cinco veces más rápido que el ingreso manual y que la tecnología alcanza el doble de precisión que nutricionistas [12]. La página no publica la métrica, el tamaño de muestra ni el error absoluto detrás de esas comparaciones. Por ese motivo, las cifras se mantienen como declaraciones del fabricante y no como resultados comparables con los artículos científicos.
+
+### Cuadro 4. Comparación de productos comerciales
+
+| N.° | Recurso | Tema | Aporte | Variables o características | Valores o rangos |
+|---:|---|---|---|---|---|
+| 1 | Etekcity, *ESN00 Smart Nutrition Scale* [10] | Pesaje y consulta nutricional mediante una aplicación. | Ofrece una medida directa de la porción, tara y conexión con una base nutricional. | Peso, volumen equivalente para líquidos, alimento elegido y 19 nutrientes. | 3-5000 g; incremento de 1 g; 5000 mL; base de aproximadamente 1 millón de alimentos. |
+| 2 | Fitia, *Contador de Calorías y Dietas con IA* [11] | Registro de alimentos y seguimiento de calorías y macronutrientes. | Reúne entradas por foto, voz, texto y código de barras en una experiencia sencilla. | Alimento, porción, calorías, proteínas, carbohidratos, grasas, actividad y objetivo. | Su página indica más de 150 estudios como base del algoritmo de necesidades; no publica precisión de la estimación fotográfica. |
+| 3 | PerceptionLabs, *SnapCalorie - AI Calorie Tracking Made Simple* [12] | Registro nutricional a partir de una fotografía. | Reduce el flujo a captura, análisis, revisión y guardado. | Imagen, alimento, porción estimada, calorías y macronutrientes. | Declara 5× mayor rapidez y 2× la precisión de nutricionistas, sin publicar metodología ni error absoluto en la página del producto. |
 
 ---
 
-## 10. Referencias
+## 5. Síntesis de hallazgos
+
+**Diferencia entre reconocimiento y estimación de la porción.** Los artículos y las patentes separan la clasificación del cálculo de la cantidad. Un sistema puede reconocer correctamente un alimento y, al mismo tiempo, estimar de manera incorrecta su peso. Este error se traslada directamente al cálculo de energía y nutrientes.
+
+**Necesidad de referencias para la estimación visual.** La escala, la forma tridimensional, el ángulo y la superposición entre alimentos modifican la medida. Los resultados más precisos se obtuvieron con segmentaciones correctas, objetos de referencia o condiciones controladas. Estas condiciones deberán considerarse en las pruebas que realice el equipo.
+
+**Uso del pesaje como punto de comparación.** Tanto las patentes como la balanza comercial muestran que la medición del peso es más directa que su estimación a partir de una imagen. El pesaje no resuelve por completo el proceso, pues todavía se debe identificar el alimento y utilizar una composición nutricional adecuada. No obstante, proporciona un valor con el cual comprobar la estimación visual.
+
+**Importancia de la rapidez y la facilidad de registro.** Fitia, SnapCalorie y Checkifood reducen el ingreso manual mediante fotografías, voz y escaneo. Esta facilidad puede favorecer el uso cotidiano. Para evaluar una propuesta no será suficiente contar los pasos; también deberán medirse el tiempo requerido, la cantidad de correcciones y la confiabilidad del resultado final.
+
+**Trazabilidad de la información nutricional.** El usuario deberá distinguir el peso medido del peso estimado y conocer la base utilizada para calcular calorías, proteínas, carbohidratos y grasas. La presentación de las unidades y la posibilidad de corregir el alimento o la porción evitarán que una aproximación sea interpretada como un dato exacto.
+
+---
+
+## 6. Conclusiones
+
+1. Las imágenes pueden emplearse para estimar peso, volumen o energía, pero el resultado depende de la captura, la segmentación, la clasificación y la referencia de escala. Una cifra obtenida en condiciones controladas no puede asumirse igual para cualquier plato.
+
+2. Los antecedentes técnicos siguen tres caminos que pueden complementarse: análisis visual, apoyo de voz o texto y pesaje directo. Cada uno resuelve una parte diferente del problema y también exige un nivel distinto de participación del usuario.
+
+3. Las tesis añaden dos elementos que la revisión internacional no cubre por completo: un antecedente de uso pensado para el contexto peruano y la necesidad de comparar los nutrientes con la cantidad realmente consumida por personas físicamente activas.
+
+4. Los productos comerciales muestran interfaces rápidas y fáciles de entender, aunque sus páginas no siempre publican métricas suficientes para juzgar la precisión. En las siguientes etapas convendrá evaluar por separado exactitud, tiempo de registro, facilidad de corrección y claridad de la información.
+
+---
+
+## 7. Referencias
 
 1. Fang S, Zhu F, Jiang C, Zhang S, Boushey CJ, Delp EJ. [*A Comparison of Food Portion Size Estimation Using Geometric Models and Depth Images*](https://pmc.ncbi.nlm.nih.gov/articles/PMC6226035/). En: *2016 IEEE International Conference on Image Processing (ICIP)*. IEEE; 2016. p. 26-30. doi: [10.1109/ICIP.2016.7532312](https://doi.org/10.1109/ICIP.2016.7532312).
 
@@ -213,13 +251,13 @@ Sin definir todavía una solución final, los antecedentes permiten proponer cri
 
 3. Dalakleidi KV, Papadelli M, Kapolos I, Papadimitriou K. [*Applying Image-Based Food-Recognition Systems on Dietary Assessment: A Systematic Review*](https://pmc.ncbi.nlm.nih.gov/articles/PMC9776640/). *Advances in Nutrition*. 2022;13(6):2590-2619. doi: [10.1093/advances/nmac078](https://doi.org/10.1093/advances/nmac078).
 
-4. Puri M, Zhu Z, Lubin J, Pschar T, Divakaran A, Sawhney HS. [*Food Recognition Using Visual Analysis and Speech Recognition*](https://patents.google.com/patent/US8439683B2/en). Patente estadounidense US8439683B2. SRI International Inc.; publicada el 14 de mayo de 2013.
+4. Puri M, Zhu Z, Lubin J, Pschar T, Divakaran A, Sawhney HS. [*Food Recognition Using Visual Analysis and Speech Recognition*](https://patents.google.com/patent/US8439683B2/en). Patente estadounidense US8439683B2. SRI International Inc.; 14 de mayo de 2013.
 
-5. Sharma A. [*Connected Food Scale System and Method*](https://patents.google.com/patent/US20140063180/en). Solicitud de patente estadounidense US20140063180A1. BBY Solutions Inc.; publicada el 6 de marzo de 2014.
+5. Sharma A. [*Connected Food Scale System and Method*](https://patents.google.com/patent/US20140063180/en). Solicitud de patente estadounidense US20140063180A1. BBY Solutions Inc.; 6 de marzo de 2014.
 
-6. 公文静. [*一种自动识别食物卡路里的电子秤及方法*](https://patents.google.com/patent/CN108871530A/en). Solicitud de patente china CN108871530A. Sichuan Feixun Information Technology Co. Ltd.; publicada el 23 de noviembre de 2018.
+6. 公文静. [*一种自动识别食物卡路里的电子秤及方法*](https://patents.google.com/patent/CN108871530A/en). Solicitud de patente china CN108871530A. Sichuan Feixun Information Technology Co. Ltd.; 23 de noviembre de 2018.
 
-7. Fang S. [*Single View Reconstruction for Food Portion Estimation*](https://hammer.purdue.edu/articles/thesis/SINGLE_VIEW_RECONSTRUCTION_FOR_FOOD_PORTION_ESTIMATION/7767125/1) [tesis doctoral]. West Lafayette: Purdue University; 2019.
+7. Fang S. [*Single View Reconstruction for Food Portion Estimation*](https://hammer.purdue.edu/articles/thesis/SINGLE_VIEW_RECONSTRUCTION_FOR_FOOD_PORTION_ESTIMATION/7767125/1) [tesis doctoral]. West Lafayette: Purdue University; 2019. doi: [10.25394/PGS.7767125.v1](https://doi.org/10.25394/PGS.7767125.v1).
 
 8. Romero De Chorié GE, Tineo Ramón ME, Benavides Santur JD, Guerrero Reyes FA, Rosas Arbildo G. [*Modelo ProLab: Checkifood, aplicación móvil que ayuda al régimen alimenticio con machine learning*](http://hdl.handle.net/20.500.12404/28095) [tesis de maestría]. Lima: Pontificia Universidad Católica del Perú; 2024.
 
@@ -230,4 +268,3 @@ Sin definir todavía una solución final, los antecedentes permiten proponer cri
 11. Fitia. [*Contador de Calorías y Dietas con IA*](https://fitia.app/es/) [Internet]. Consultado el 3 de septiembre de 2026.
 
 12. PerceptionLabs Inc. [*SnapCalorie - AI Calorie Tracking Made Simple*](https://www.snapcalorie.com/) [Internet]. Consultado el 3 de septiembre de 2026.
-
