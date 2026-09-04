@@ -91,7 +91,7 @@ La propuesta admite conexión física, Wi-Fi o Bluetooth y contempla historiales
 
 Su interés para el equipo se encuentra en la relación entre una medición física y el registro digital. El peso deja de ser una aproximación visual, aunque todavía es necesario identificar el alimento y seleccionar una entrada nutricional confiable. La solicitud figura como abandonada; se considera como antecedente de diseño y no como una patente vigente.
 
-### 2.3. *一种自动识别食物卡路里的电子秤及方法* (CN108871530A)
+### 2.3. *一种自动识别食物卡路里的电子秤及方法* *[Una especie de báscula electrónica y método para identificar automáticamente las calorías de los alimentos]* (CN108871530A)
 
 <p align="center">
   <img src="../../Recursos/Imágenes/Taller_03/patente_03.png" width="455" alt="Primera página de la patente china CN108871530A">
