@@ -4,7 +4,7 @@
 
 | Dato | Información |
 |---|---|
-| **Título original** | *热卡、蛋白质等营养素计算仪* |
+| **Título original** | *热卡、蛋白质等营养素计算仪* [Cálculo del instrumento para nutrientes como calorías y proteínas]|
 | **Título en español** | Calculador de calorías, proteínas y otros nutrientes |
 | **Número de publicación** | CN114360689A |
 | **Fecha de publicación** | 15 de abril de 2022 |
