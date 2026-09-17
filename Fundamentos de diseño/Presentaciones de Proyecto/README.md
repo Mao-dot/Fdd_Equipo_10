@@ -10,3 +10,7 @@ Cuando corresponda, guardar aquí:
 - recursos propios de la exposición que no pertenezcan a otro módulo.
 
 Usar nombres como `Avance_01.pdf`, `Presentacion_final.pptx` y `Poster_final.pdf`. No crear archivos vacíos como marcadores.
+
+## Archivos actuales
+
+- [`Equipo10_Expo Problematica.pptx`](Equipo10_Expo%20Problematica.pptx): presentación de la problemática y su relación con los ODS seleccionados.
