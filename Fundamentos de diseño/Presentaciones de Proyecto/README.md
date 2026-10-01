@@ -13,4 +13,4 @@ Usar nombres como `Avance_01.pdf`, `Presentacion_final.pptx` y `Poster_final.pdf
 
 ## Archivos actuales
 
-- [`Equipo10_Expo Problematica.pptx`](Equipo10_Expo%20Problematica.pptx): presentación de la problemática y su relación con los ODS seleccionados.
+- [`Equipo10_Expo_Problematica.pdf`](Equipo10_Expo_Problematica.pdf): presentación actualizada de la problemática y su relación con el ODS seleccionado.
