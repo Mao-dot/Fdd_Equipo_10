@@ -13,4 +13,5 @@ Usar nombres como `Avance_01.pdf`, `Presentacion_final.pptx` y `Poster_final.pdf
 
 ## Archivos actuales
 
+- [Avance de Proyecto 1](Avance%20de%20Proyecto%201.MD): enlace al video de exposición y demostración de FoodScan.
 - [`Equipo10_Expo_Problematica.pdf`](Equipo10_Expo_Problematica.pdf): presentación actualizada de la problemática y su relación con el ODS seleccionado.
