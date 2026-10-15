@@ -67,7 +67,7 @@ Para precisar su vínculo con el consumo sostenible, el equipo analizará tambi�
 
 ## ❓ Pregunta de investigación
 
-> ¿Qué dificultades enfrentan las personas físicamente activas al intentar obtener información práctica y comprensible sobre la cantidad y la composición nutricional de los alimentos que consumen?
+> ¿Cómo facilitar que las personas que desean iniciar o mantener una alimentación controlada reconozcan de manera práctica las cantidades y composición nutricional de los alimentos que consumen? 
 
 ---
 
