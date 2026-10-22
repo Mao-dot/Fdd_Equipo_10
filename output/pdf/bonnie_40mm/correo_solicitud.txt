@@ -1,0 +1,22 @@
+Para: faci.laboratoriosingenieria@oficinas-upch.pe
+Asunto: Impresión 3D - Fundamentos de diseño - [sección/horario] - Grupo [número]
+
+Estimado equipo del laboratorio:
+
+Solicitamos evaluar la impresión 3D de una figura de Bonnie, considerando el límite de 5 g de material indicado para nuestra actividad.
+
+- Nombre completo del responsable: [completar]
+- Carrera del solicitante: [completar]
+- Versión del archivo: propuesta de 40 mm, pendiente de validación del laboratorio.
+- Función de la pieza: [indicar el uso real de la figura]
+- Tipo de material: por confirmar con el laboratorio; estimación de referencia en PLA.
+- Unidad de medida: milímetros.
+- Dimensiones: 23.10 mm de ancho x 16.43 mm de fondo x 40.00 mm de alto.
+- Consumo de referencia: 2.94 g en PrusaSlicer, con capa de 0.2 mm, relleno 10 %, 2 perímetros y soportes incluidos. Agradeceremos confirmar el consumo con el perfil de su impresora antes de fabricar.
+- Enlace de Onshape: [completar si han creado el documento; el ejemplo del taller solicita este dato]
+- Modelo original: https://www.thingiverse.com/thing:6283326, de Umbrezilla (CC BY-SA).
+
+Adjuntamos el modelo Bonnie_40mm.stl y su plano Bonnie_40mm.pdf, con el mismo nombre base.
+
+Muchas gracias.
+[Nombre del responsable y grupo]

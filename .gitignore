@@ -23,3 +23,7 @@ Archivos en clase, no github/
 
 # Archivos de Codex
 .codex*
+
+# Proyecto independiente de FoodScan y planificación local
+/FoodScan/
+/componentes.md

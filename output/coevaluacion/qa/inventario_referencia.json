@@ -1,0 +1,62 @@
+{
+  "[Content_Types].xml": {
+    "size": 1415,
+    "sha256": "714305b4636dfd5320056cba76a233312a907b763f375e36b178453973c21b90"
+  },
+  "_rels/.rels": {
+    "size": 590,
+    "sha256": "e19238d7a71fa7a2490776252686f70e2de6238c87cd509b5e3a3cc07c2ea4df"
+  },
+  "word/document.xml": {
+    "size": 48901,
+    "sha256": "5687e9c58c54c7788a68ace5992fe23c1ca65cc1c4bfdb8582a0581cf1e890e4"
+  },
+  "word/_rels/document.xml.rels": {
+    "size": 1201,
+    "sha256": "c82a8cfe7a77c08ac34f9f2acffcb27dc50a5dfd8543400ec5e174f4ecc6eeb5"
+  },
+  "word/fonts/font1.odttf": {
+    "size": 208444,
+    "sha256": "1f7c4f85a321bbaa9accc1589948252decccdf19c15f70efb998c1d3845bcb5a"
+  },
+  "word/fonts/font2.odttf": {
+    "size": 1650632,
+    "sha256": "030c7d19c21674c20d7f40a05c6a1294f41b317569619566c09b4f78a83b04b9"
+  },
+  "word/fonts/font3.odttf": {
+    "size": 1542676,
+    "sha256": "3f7c98c517c7689c3fef1bd6bdd2987aad36ab4221b39b7c44f050a8dd8ad34b"
+  },
+  "word/theme/theme1.xml": {
+    "size": 7643,
+    "sha256": "b2295d3198893d2c03f5e584c749a15751b798aefdcd9bee2889f13903d68cb2"
+  },
+  "word/settings.xml": {
+    "size": 3383,
+    "sha256": "2ee03b6c8a0de867d69ceb2d82a24e8fd37c9839312d1f44a7828daf356bde0a"
+  },
+  "word/styles.xml": {
+    "size": 34249,
+    "sha256": "2c2bdffb6dc1220f237c76143b2e1a8428034b1aa5e9f7e16add052c19ed3485"
+  },
+  "word/webSettings.xml": {
+    "size": 1060,
+    "sha256": "246ca94e5cbe02df81802f83f143f829966fdef93bc242fa568e1de2497ecdea"
+  },
+  "word/fontTable.xml": {
+    "size": 2596,
+    "sha256": "1164ff4a691530993ac573e1fffa034946a09d92f93764df5150e110825d0e20"
+  },
+  "docProps/core.xml": {
+    "size": 663,
+    "sha256": "d971f9e57c68d32a48b8561d2b817aac76c05d8ef61d05a8a7baad2bb40dd743"
+  },
+  "docProps/app.xml": {
+    "size": 992,
+    "sha256": "3e801f015fb9f61f7e4cc0fbb6aa597fd423d5ad9136af996429cc7e0d22d022"
+  },
+  "word/_rels/fontTable.xml.rels": {
+    "size": 553,
+    "sha256": "0ac209708e0ea1379445c542be6443162fc37de9efc04bfc894056c6c824a664"
+  }
+}

@@ -1,0 +1,22 @@
+FoodScan · Avance de proyecto 1 · Equipo 10
+Canva editable: https://www.canva.com/design/DAHXXuxnAO4/XvwmkkhFX58q0PVNy8T7cQ/edit
+
+23 diapositivas, organizadas exclusivamente por los criterios 1–9 de la rúbrica Presentación Avance de Proyecto 1.
+1: Carátula.
+2: Introducción y problemática.
+3–6: Estado de la tecnología (artículos, seis patentes, tesis y productos).
+7–8: Lista de exigencias (25 identificadores agrupados).
+9: Caja negra ampliada con flujos M/E/S, órdenes de analizar/modificar/cancelar/confirmar y roles explícitos del usuario y del sistema.
+10–11: Secuencia de operaciones (usuario y dispositivo).
+12–13: Estructura de funciones.
+14–15: Matriz morfológica y tres conceptos con caminos de flechas.
+16–21: Tres bocetos y evaluación de Pugh técnica, económica y resultado.
+22–23: Referencias Vancouver con enlaces.
+El criterio de avance del prototipo/app se preparará posteriormente; no se incluyó una diapositiva para él.
+Matriz morfológica y evaluación de Pugh: propuestas preliminares de diseño, pendientes de validación por el equipo.
+Pugh ponderada: A = 0, B = 4 y C = 7. C es objetivo de diseño; B permite continuar el parcial.
+Ajustes de exigencias marcados como propuestas: LE02 (dimensión máxima 35 cm), LE06 (fuente externa 5 V/2,4 A), LE21 (primer rango validable 50–1000 g).
+El montaje del parcial usa la app con peso total ingresado desde una balanza externa independiente.
+La caja integrada, el firmware y su enlace con la app se presentan como etapa futura.
+Archivo editable local actualizado: FoodScan_Avance1_Rubrica_Equipo10_v3.pptx.
+Copia de respaldo del Canva anterior: https://www.canva.com/d/RHCyZZeTow-bcMS

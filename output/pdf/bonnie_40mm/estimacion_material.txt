@@ -1,0 +1,36 @@
+ESTIMACIÓN DE MATERIAL - BONNIE
+
+Límite informado por el equipo: 5 g.
+No se ha indicado la impresora ni el material del laboratorio.
+
+Se realizaron dos laminaciones con PrusaSlicer 2.9.2 y el mismo perfil de referencia:
+- Original: 35.242 x 25.062 x 61.016 mm: 8.07 g.
+- Propuesta: 23.103 x 16.430 x 40.000 mm: 2.94 g.
+El total incluye la figura, soportes automáticos, skirt y brim de 2 mm.
+La versión de 40 mm deja un margen estimado de 2.06 g respecto de los 5 g.
+
+Condiciones de referencia:
+- PLA: densidad 1.24 g/cm3, diámetro de filamento 1.75 mm.
+- Boquilla de 0.4 mm, altura de capa de 0.2 mm.
+- Relleno Grid al 10 %, 2 perímetros, 3 capas superiores e inferiores.
+- Soportes automáticos estilo snug, umbral 45°, separación 2.5 mm, 2 capas de interfaz.
+- Orientación vertical original, sin balsa, brim de 2 mm y un skirt.
+- Se adjunta perfil_estimacion_PLA.ini para poder reproducir la referencia.
+
+Este resultado es una estimación, no una medición ni una garantía del laboratorio.
+Se debe volver a laminar Bonnie_40mm.stl con el material, boquilla y perfil reales.
+Comprobar que el total con soportes y adhesión no exceda 5 g.
+El perfil de referencia no constituye una configuración validada para la impresora del laboratorio.
+
+La malla original tiene 18 aristas con más de dos caras incidentes.
+El laminador la procesó y generó recorridos. Conviene revisar la previsualización por capas antes de imprimir.
+
+Entrega según páginas 28 y 29 del Taller S10:
+Adjuntar Bonnie_40mm.stl y Bonnie_40mm.pdf, con el mismo nombre base.
+El ejemplo de correo incluye responsable, carrera, versión, función, material,
+unidad de medida y enlace de Onshape. Completar los datos personales y del curso.
+Destinatario que figura en el taller: faci.laboratoriosingenieria@oficinas-upch.pe
+
+Origen: https://www.thingiverse.com/thing:6283326
+Autor del modelo: Umbrezilla. Licencia según el archivo original: CC BY-SA.
+Modificación: escalado uniforme al 65.557 % y nombre de archivo descriptivo.
