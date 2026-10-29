@@ -11,7 +11,13 @@
 
 ---
 
+## Entrega del Taller 11 - FoodScan
+
+- [Esquema eléctrico, planos acotados y modelo 3D](Fundamentos%20de%20diseño/Talleres/Taller_11.md).
+- [Abrir modelo 3D en Onshape](https://cad.onshape.com/documents/6371db0cdada012e678cb023/w/355e492b405585520bd45e0d/e/5fa7184819c33dff05c63f25?renderMode=0&uiState=6ae2cee7440795f4516e4027).
+
 ## 🌍 Descripción del Equipo
+
 Somos el **Equipo 10** del curso **Fundamentos de Diseño 2026-2**, conformado por estudiantes de las carreras de Ingeniería Informática e Industrial.
 Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental.
 

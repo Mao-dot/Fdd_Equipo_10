@@ -1,0 +1,80 @@
+﻿Pieza,Material,Tipo,X mm,Y mm,Z mm
+M01_Base_capa_1,MDF blanco 3 mm,panel,320.0,320.0,3.0
+M01_Base_capa_2,MDF blanco 3 mm,panel,320.0,320.0,3.0
+M02_Lateral_izquierdo,MDF blanco 3 mm,panel,3.0,320.0,341.0
+M03_Lateral_derecho,MDF blanco 3 mm,panel,3.0,320.0,341.0
+M04_Fondo,MDF blanco 3 mm,panel,314.0,3.0,341.0
+M05_Tapa_superior,MDF blanco 3 mm,panel,320.0,320.0,3.0
+M06_Puerta,MDF blanco 3 mm,panel,311.0,3.0,338.0
+M07_Plataforma_capa_1,MDF blanco 3 mm,panel,220.0,220.0,3.0
+M07_Plataforma_capa_2,MDF blanco 3 mm,panel,220.0,220.0,3.0
+P01_Adaptador_fijo,PLA+,impresa,30.0,20.0,12.0
+E02_LC1_Celda_5kg_APROX,Aluminio - envolvente aproximada,electronica,75.0,12.0,12.0
+P02_Adaptador_movil,PLA+,impresa,30.0,20.0,8.0
+P03_Tope_1_holgura_1mm,PLA+,impresa,8.0,8.0,31.0
+P03_Tope_2_holgura_1mm,PLA+,impresa,8.0,8.0,31.0
+P03_Tope_3_holgura_1mm,PLA+,impresa,8.0,8.0,31.0
+P03_Tope_4_holgura_1mm,PLA+,impresa,8.0,8.0,31.0
+M08_Plato_200mm_REFERENCIA,Plato lavable - referencia,referencia,200.0,200.0,9.0
+P04_Soporte_camara,PLA+,impresa,46.0,54.0,25.0
+E01_U1_ESP32_CAM_PCB_APROX,PCB - 27 x 40 aprox.,electronica,27.0,40.0,1.6
+E01_U1_Blindaje_APROX,Metal - referencia,electronica,20.0,16.0,4.0
+E01_OV2640_Lente_APROX,Camara - referencia,electronica,8.0,8.0,7.0
+E05_LED_izq_1,LED blanco 5 mm,electronica,5.0,5.0,5.0
+E05_LED_izq_2,LED blanco 5 mm,electronica,5.0,5.0,5.0
+E05_LED_izq_3,LED blanco 5 mm,electronica,5.0,5.0,5.0
+E05_LED_izq_4,LED blanco 5 mm,electronica,5.0,5.0,5.0
+P05_Soporte_LED_izquierdo,PLA+,impresa,16.0,96.0,22.0
+E15_Placa_LED_izquierdo,PCB recortada - referencia,electronica,1.6,90.0,22.0
+M09_Difusor_izquierdo,Polipropileno translucido,estructura,0.8,90.0,22.0
+E05_LED_der_1,LED blanco 5 mm,electronica,5.0,5.0,5.0
+E05_LED_der_2,LED blanco 5 mm,electronica,5.0,5.0,5.0
+E05_LED_der_3,LED blanco 5 mm,electronica,5.0,5.0,5.0
+E05_LED_der_4,LED blanco 5 mm,electronica,5.0,5.0,5.0
+P05_Soporte_LED_derecho,PLA+,impresa,16.0,96.0,22.0
+E15_Placa_LED_derecho,PCB recortada - referencia,electronica,1.6,90.0,22.0
+M09_Difusor_derecho,Polipropileno translucido,estructura,0.8,90.0,22.0
+E05_LED_post_1,LED blanco 5 mm,electronica,5.0,5.0,5.0
+E05_LED_post_2,LED blanco 5 mm,electronica,5.0,5.0,5.0
+E05_LED_post_3,LED blanco 5 mm,electronica,5.0,5.0,5.0
+E05_LED_post_4,LED blanco 5 mm,electronica,5.0,5.0,5.0
+P05_Soporte_LED_posterior,PLA+,impresa,96.0,16.0,22.0
+E15_Placa_LED_posterior,PCB recortada - referencia,electronica,90.0,1.6,22.0
+M09_Difusor_posterior,Polipropileno translucido,estructura,90.0,0.8,22.0
+E03_U2_HX711_PCB_APROX,PCB - envolvente aproximada,electronica,33.0,20.0,1.6
+E03_U2_HX711_IC_APROX,IC - referencia,electronica,10.0,6.0,2.0
+P06_Separador_HX711_1,PLA+,impresa,5.0,5.0,10.0
+P06_Separador_HX711_2,PLA+,impresa,5.0,5.0,10.0
+P06_Separador_HX711_3,PLA+,impresa,5.0,5.0,10.0
+P06_Separador_HX711_4,PLA+,impresa,5.0,5.0,10.0
+E15_Placa_distribucion_90x30,PCB recortada - referencia,electronica,90.0,30.0,1.6
+P07_Separador_distribucion_1,PLA+,impresa,5.0,5.0,6.0
+P07_Separador_distribucion_2,PLA+,impresa,5.0,5.0,6.0
+P07_Separador_distribucion_3,PLA+,impresa,5.0,5.0,6.0
+P07_Separador_distribucion_4,PLA+,impresa,5.0,5.0,6.0
+E11_C1_470uF_APROX,Condensador - referencia,electronica,10.0,10.0,13.0
+E14_Portafusible_APROX,Portafusible - referencia,electronica,28.0,9.0,6.0
+E13_F1_5x20,Fusible - referencia,electronica,20.0,5.0,5.0
+P08_Cubierta_conexiones,PLA+ - cubierta desmontable,impresa,215.0,38.0,34.0
+E09_J1_Jack_DC_APROX,Jack DC - referencia,electronica,17.0,12.0,12.0
+E10_SW1_Interruptor_APROX,Interruptor - referencia,electronica,13.0,23.0,15.0
+P09_Soporte_detector_puerta,PLA+,impresa,22.0,18.0,23.0
+E04_SW2_Microswitch_APROX,Microswitch - referencia,electronica,18.0,6.0,10.0
+E04_SW2_Palanca_APROX,Palanca - referencia,electronica,15.0,4.0,1.0
+P10_Escuadra_1,PLA+,impresa,20.0,20.0,20.0
+P10_Escuadra_2,PLA+,impresa,20.0,20.0,20.0
+P10_Escuadra_3,PLA+,impresa,20.0,20.0,20.0
+P10_Escuadra_4,PLA+,impresa,20.0,20.0,20.0
+P10_Escuadra_5,PLA+,impresa,20.0,20.0,20.0
+P10_Escuadra_6,PLA+,impresa,20.0,20.0,20.0
+P10_Escuadra_7,PLA+,impresa,20.0,20.0,20.0
+P10_Escuadra_8,PLA+,impresa,20.0,20.0,20.0
+M10_Bisagra_1_fija,Bisagra 25 mm - simplificada,estructura,5.5,24.5,25.0
+M10_Bisagra_1_movil,Bisagra 25 mm - simplificada,estructura,32.0,6.5,25.0
+M10_Bisagra_2_fija,Bisagra 25 mm - simplificada,estructura,5.5,24.5,25.0
+M10_Bisagra_2_movil,Bisagra 25 mm - simplificada,estructura,32.0,6.5,25.0
+P11_Manija,PLA+,impresa,14.0,24.0,40.0
+M11_Pata_goma_1,Goma,estructura,16.0,16.0,6.0
+M11_Pata_goma_2,Goma,estructura,16.0,16.0,6.0
+M11_Pata_goma_3,Goma,estructura,16.0,16.0,6.0
+M11_Pata_goma_4,Goma,estructura,16.0,16.0,6.0

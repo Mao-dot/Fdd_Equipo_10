@@ -1,0 +1,11 @@
+{
+  "herramienta": "CadQuery 2.6.1",
+  "unidades": "mm",
+  "cuerpos": 79,
+  "cuerpos_validos": true,
+  "holgura_plataforma_pared_mm": 47,
+  "holgura_topes_mm": 1,
+  "distancia_lente_plano_plato_mm": 270,
+  "solapes_volumetricos": [],
+  "limites": "Geometria conceptual. No valida resistencia, optica, tolerancias, ni piezas comerciales reales."
+}

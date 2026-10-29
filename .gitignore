@@ -11,6 +11,8 @@ Desktop.ini
 *.tmp
 *.temp
 ~$*
+__pycache__/
+*.pyc
 
 # Salidas locales de compilación
 build/

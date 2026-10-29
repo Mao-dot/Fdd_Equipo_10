@@ -1,0 +1,16 @@
+{
+  "ancho": 320,
+  "fondo": 320,
+  "alto": 350,
+  "panel": 3,
+  "base": 6,
+  "plataforma": 220,
+  "plataforma_z": 38,
+  "plataforma_espesor": 6,
+  "plato_diametro": 200,
+  "plano_plato_z": 48,
+  "lente_z": 318,
+  "puerta_ancho": 311,
+  "puerta_alto": 338,
+  "apertura_grados": 105
+}

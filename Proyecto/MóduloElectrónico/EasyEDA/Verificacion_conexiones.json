@@ -1,0 +1,224 @@
+{
+  "status": "PASS",
+  "components": 34,
+  "pins": 81,
+  "nets": 25,
+  "format": "EasyEDA Standard, docType 1",
+  "source": "componentes.md v1.1, seccion 2.1",
+  "checks": [
+    "34 componentes; 12 LED y 12 resistencias independientes",
+    "Ningun cortocircuito entre redes con nombre",
+    "Pines y cables coinciden geometricamente",
+    "Alimentacion de HX711 a 3.3 V",
+    "GPIO13=DT; GPIO14=SCK; GPIO15=puerta",
+    "Unico terminal aislado: SW2.NC, marcado no conectar"
+  ],
+  "netlist": [
+    {
+      "name": "VIN_5V",
+      "pins": [
+        "J1.CENTER",
+        "F1.1"
+      ]
+    },
+    {
+      "name": "GND",
+      "pins": [
+        "J1.SLEEVE",
+        "C1.2",
+        "C2.2",
+        "U1.GND",
+        "U2.GND",
+        "SW2.COM",
+        "D1.K",
+        "D2.K",
+        "D3.K",
+        "D4.K",
+        "D5.K",
+        "D6.K",
+        "D7.K",
+        "D8.K",
+        "D9.K",
+        "D10.K",
+        "D11.K",
+        "D12.K"
+      ]
+    },
+    {
+      "name": "Net_3",
+      "pins": [
+        "F1.2",
+        "SW1.1"
+      ]
+    },
+    {
+      "name": "+5V",
+      "pins": [
+        "SW1.2",
+        "C1.1",
+        "C2.1",
+        "U1.5V",
+        "R1.1",
+        "R2.1",
+        "R3.1",
+        "R4.1",
+        "R5.1",
+        "R6.1",
+        "R7.1",
+        "R8.1",
+        "R9.1",
+        "R10.1",
+        "R11.1",
+        "R12.1"
+      ]
+    },
+    {
+      "name": "+3V3",
+      "pins": [
+        "U1.3V3",
+        "U2.VCC",
+        "R13.1"
+      ]
+    },
+    {
+      "name": "HX_DOUT",
+      "pins": [
+        "U1.IO13",
+        "U2.DT"
+      ]
+    },
+    {
+      "name": "HX_SCK",
+      "pins": [
+        "U1.IO14",
+        "U2.SCK"
+      ]
+    },
+    {
+      "name": "DOOR_N",
+      "pins": [
+        "U1.IO15",
+        "R13.2",
+        "SW2.NO"
+      ]
+    },
+    {
+      "name": "EXC_P",
+      "pins": [
+        "U2.E+",
+        "LC1.E+"
+      ]
+    },
+    {
+      "name": "EXC_N",
+      "pins": [
+        "U2.E-",
+        "LC1.E-"
+      ]
+    },
+    {
+      "name": "SIG_P",
+      "pins": [
+        "U2.A+",
+        "LC1.S+"
+      ]
+    },
+    {
+      "name": "SIG_N",
+      "pins": [
+        "U2.A-",
+        "LC1.S-"
+      ]
+    },
+    {
+      "name": "Net_13",
+      "pins": [
+        "SW2.NC"
+      ]
+    },
+    {
+      "name": "Net_14",
+      "pins": [
+        "R1.2",
+        "D1.A"
+      ]
+    },
+    {
+      "name": "Net_15",
+      "pins": [
+        "R2.2",
+        "D2.A"
+      ]
+    },
+    {
+      "name": "Net_16",
+      "pins": [
+        "R3.2",
+        "D3.A"
+      ]
+    },
+    {
+      "name": "Net_17",
+      "pins": [
+        "R4.2",
+        "D4.A"
+      ]
+    },
+    {
+      "name": "Net_18",
+      "pins": [
+        "R5.2",
+        "D5.A"
+      ]
+    },
+    {
+      "name": "Net_19",
+      "pins": [
+        "R6.2",
+        "D6.A"
+      ]
+    },
+    {
+      "name": "Net_20",
+      "pins": [
+        "R7.2",
+        "D7.A"
+      ]
+    },
+    {
+      "name": "Net_21",
+      "pins": [
+        "R8.2",
+        "D8.A"
+      ]
+    },
+    {
+      "name": "Net_22",
+      "pins": [
+        "R9.2",
+        "D9.A"
+      ]
+    },
+    {
+      "name": "Net_23",
+      "pins": [
+        "R10.2",
+        "D10.A"
+      ]
+    },
+    {
+      "name": "Net_24",
+      "pins": [
+        "R11.2",
+        "D11.A"
+      ]
+    },
+    {
+      "name": "Net_25",
+      "pins": [
+        "R12.2",
+        "D12.A"
+      ]
+    }
+  ]
+}

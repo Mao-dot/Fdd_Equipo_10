@@ -10,3 +10,6 @@ LICENSE text eol=lf
 *.pdf binary
 *.pptx binary
 *.stl binary
+*.step binary
+*.epro binary
+*.zip binary
