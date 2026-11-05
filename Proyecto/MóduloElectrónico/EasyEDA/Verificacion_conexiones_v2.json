@@ -1,0 +1,1222 @@
+{
+  "status": "PASS",
+  "revision": "2.0",
+  "date": "2026-11-04",
+  "components": 40,
+  "pins": 126,
+  "nets": 44,
+  "format": "EasyEDA Standard, docType1",
+  "validation": "Conectividad local; no ERC oficial ni ensayo fisico",
+  "checks": [
+    "40 componentes; 12 resistencias limitadoras independientes",
+    "Sin union de redes con nombres distintos",
+    "Camara: P1 de18pines; PWDN sin salidaGPIO",
+    "GPIO sin repetidos y fuera de memoria, USB, UART y straps",
+    "12 catodos a drenador Q1; source a GND; gate con100ohm y pulldown100kohm",
+    "SoloCAM1.18 y SW2.NC sin conexion externa"
+  ],
+  "camera_header": [
+    {
+      "pin": 1,
+      "signal": "3.3V",
+      "gpio": null,
+      "net": "+3V3"
+    },
+    {
+      "pin": 2,
+      "signal": "GND",
+      "gpio": null,
+      "net": "GND"
+    },
+    {
+      "pin": 3,
+      "signal": "SIOC",
+      "gpio": 9,
+      "net": "CAM_SIOC"
+    },
+    {
+      "pin": 4,
+      "signal": "SIOD",
+      "gpio": 8,
+      "net": "CAM_SIOD"
+    },
+    {
+      "pin": 5,
+      "signal": "VSYNC",
+      "gpio": 13,
+      "net": "CAM_VSYNC"
+    },
+    {
+      "pin": 6,
+      "signal": "HREF",
+      "gpio": 14,
+      "net": "CAM_HREF"
+    },
+    {
+      "pin": 7,
+      "signal": "PCLK",
+      "gpio": 21,
+      "net": "CAM_PCLK"
+    },
+    {
+      "pin": 8,
+      "signal": "XCLK",
+      "gpio": 15,
+      "net": "CAM_XCLK"
+    },
+    {
+      "pin": 9,
+      "signal": "Y9 / D7",
+      "gpio": 18,
+      "net": "CAM_D7"
+    },
+    {
+      "pin": 10,
+      "signal": "Y8 / D6",
+      "gpio": 17,
+      "net": "CAM_D6"
+    },
+    {
+      "pin": 11,
+      "signal": "Y7 / D5",
+      "gpio": 16,
+      "net": "CAM_D5"
+    },
+    {
+      "pin": 12,
+      "signal": "Y6 / D4",
+      "gpio": 12,
+      "net": "CAM_D4"
+    },
+    {
+      "pin": 13,
+      "signal": "Y5 / D3",
+      "gpio": 11,
+      "net": "CAM_D3"
+    },
+    {
+      "pin": 14,
+      "signal": "Y4 / D2",
+      "gpio": 10,
+      "net": "CAM_D2"
+    },
+    {
+      "pin": 15,
+      "signal": "Y3 / D1",
+      "gpio": 7,
+      "net": "CAM_D1"
+    },
+    {
+      "pin": 16,
+      "signal": "Y2 / D0",
+      "gpio": 6,
+      "net": "CAM_D0"
+    },
+    {
+      "pin": 17,
+      "signal": "RESET_N",
+      "gpio": 5,
+      "net": "CAM_RESET_N"
+    },
+    {
+      "pin": 18,
+      "signal": "PWDN",
+      "gpio": null,
+      "net": null
+    }
+  ],
+  "components_detail": {
+    "U1": {
+      "value": "ESP32-S3 DevKitC-1",
+      "description": "Variante N16R8; modulo WROOM-1; terminales usados",
+      "pins": {
+        "5V": [
+          190,
+          235
+        ],
+        "GND": [
+          190,
+          265
+        ],
+        "3V3": [
+          190,
+          295
+        ],
+        "IO4": [
+          190,
+          365
+        ],
+        "IO2": [
+          190,
+          405
+        ],
+        "IO1": [
+          190,
+          445
+        ],
+        "IO42": [
+          190,
+          485
+        ],
+        "IO9": [
+          450,
+          283
+        ],
+        "IO8": [
+          450,
+          307
+        ],
+        "IO13": [
+          450,
+          331
+        ],
+        "IO14": [
+          450,
+          355
+        ],
+        "IO21": [
+          450,
+          379
+        ],
+        "IO15": [
+          450,
+          403
+        ],
+        "IO18": [
+          450,
+          427
+        ],
+        "IO17": [
+          450,
+          451
+        ],
+        "IO16": [
+          450,
+          475
+        ],
+        "IO12": [
+          450,
+          499
+        ],
+        "IO11": [
+          450,
+          523
+        ],
+        "IO10": [
+          450,
+          547
+        ],
+        "IO7": [
+          450,
+          571
+        ],
+        "IO6": [
+          450,
+          595
+        ],
+        "IO5": [
+          450,
+          619
+        ]
+      }
+    },
+    "CAM1": {
+      "value": "Waveshare OV5640 (C)",
+      "description": "SKU13802; P1 cabecera 2x9; autofocus; DVP de 8 bits",
+      "pins": {
+        "1": [
+          605,
+          235
+        ],
+        "2": [
+          605,
+          259
+        ],
+        "3": [
+          605,
+          283
+        ],
+        "4": [
+          605,
+          307
+        ],
+        "5": [
+          605,
+          331
+        ],
+        "6": [
+          605,
+          355
+        ],
+        "7": [
+          605,
+          379
+        ],
+        "8": [
+          605,
+          403
+        ],
+        "9": [
+          605,
+          427
+        ],
+        "10": [
+          605,
+          451
+        ],
+        "11": [
+          605,
+          475
+        ],
+        "12": [
+          605,
+          499
+        ],
+        "13": [
+          605,
+          523
+        ],
+        "14": [
+          605,
+          547
+        ],
+        "15": [
+          605,
+          571
+        ],
+        "16": [
+          605,
+          595
+        ],
+        "17": [
+          605,
+          619
+        ],
+        "18": [
+          605,
+          643
+        ]
+      }
+    },
+    "J1": {
+      "value": "Jack 5.5 x 2.1 mm",
+      "description": "Centro positivo",
+      "pins": {
+        "CENTER": [
+          960,
+          190
+        ],
+        "SLEEVE": [
+          960,
+          290
+        ]
+      }
+    },
+    "F1": {
+      "value": "1.5 A",
+      "description": "Fusible5x20; portafusible accesorio",
+      "pins": {
+        "1": [
+          1010,
+          190
+        ],
+        "2": [
+          1070,
+          190
+        ]
+      }
+    },
+    "SW1": {
+      "value": "KCD1-102",
+      "description": "Interruptor general",
+      "pins": {
+        "1": [
+          1130,
+          190
+        ],
+        "2": [
+          1190,
+          190
+        ]
+      }
+    },
+    "C1": {
+      "value": "470 uF / 16 V",
+      "description": "Desacoplo entre +5V y GND",
+      "pins": {
+        "1": [
+          1290,
+          220
+        ],
+        "2": [
+          1290,
+          270
+        ]
+      }
+    },
+    "C2": {
+      "value": "100 nF",
+      "description": "Desacoplo entre +5V y GND",
+      "pins": {
+        "1": [
+          1450,
+          220
+        ],
+        "2": [
+          1450,
+          270
+        ]
+      }
+    },
+    "C3": {
+      "value": "100 uF / 10 V",
+      "description": "Desacoplo entre +3V3 y GND, junto a CAM1",
+      "pins": {
+        "1": [
+          1080,
+          330
+        ],
+        "2": [
+          1080,
+          380
+        ]
+      }
+    },
+    "C4": {
+      "value": "100 nF",
+      "description": "Desacoplo entre +3V3 y GND, junto a CAM1",
+      "pins": {
+        "1": [
+          1240,
+          330
+        ],
+        "2": [
+          1240,
+          380
+        ]
+      }
+    },
+    "U2": {
+      "value": "Modulo HX711",
+      "description": "Modulo apto para3.3V; canal A",
+      "pins": {
+        "VCC": [
+          940,
+          520
+        ],
+        "GND": [
+          940,
+          550
+        ],
+        "DT": [
+          940,
+          580
+        ],
+        "SCK": [
+          940,
+          610
+        ],
+        "E+": [
+          1140,
+          520
+        ],
+        "E-": [
+          1140,
+          550
+        ],
+        "A+": [
+          1140,
+          580
+        ],
+        "A-": [
+          1140,
+          610
+        ]
+      }
+    },
+    "LC1": {
+      "value": "Celda 5 kg / 4 hilos",
+      "description": "Verificar hilos, montaje y calibracion",
+      "pins": {
+        "E+": [
+          1340,
+          520
+        ],
+        "E-": [
+          1340,
+          550
+        ],
+        "S+": [
+          1340,
+          580
+        ],
+        "S-": [
+          1340,
+          610
+        ]
+      }
+    },
+    "R13": {
+      "value": "10 kohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          970,
+          770
+        ],
+        "2": [
+          1030,
+          770
+        ]
+      }
+    },
+    "SW2": {
+      "value": "KW11-3Z-3F",
+      "description": "Al cerrar acciona COM-NO; rebote por firmware",
+      "pins": {
+        "COM": [
+          1210,
+          795
+        ],
+        "NO": [
+          1150,
+          770
+        ],
+        "NC": [
+          1270,
+          770
+        ]
+      }
+    },
+    "R14": {
+      "value": "100 ohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          100,
+          955
+        ],
+        "2": [
+          160,
+          955
+        ]
+      }
+    },
+    "R15": {
+      "value": "100 kohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          85,
+          985
+        ],
+        "2": [
+          85,
+          1035
+        ]
+      }
+    },
+    "Q1": {
+      "value": "AO3400A",
+      "description": "N-MOS logic-level; SOT23 en adaptador, sin huellaPCB",
+      "pins": {
+        "1": [
+          210,
+          955
+        ],
+        "2": [
+          260,
+          1005
+        ],
+        "3": [
+          260,
+          910
+        ]
+      }
+    },
+    "R1": {
+      "value": "100 ohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          345,
+          875
+        ],
+        "2": [
+          345,
+          925
+        ]
+      }
+    },
+    "D1": {
+      "value": "Blanco",
+      "description": "LED 5 mm; Vf 3.2-3.4 V",
+      "pins": {
+        "A": [
+          345,
+          940
+        ],
+        "K": [
+          345,
+          980
+        ]
+      }
+    },
+    "R2": {
+      "value": "100 ohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          445,
+          875
+        ],
+        "2": [
+          445,
+          925
+        ]
+      }
+    },
+    "D2": {
+      "value": "Blanco",
+      "description": "LED 5 mm; Vf 3.2-3.4 V",
+      "pins": {
+        "A": [
+          445,
+          940
+        ],
+        "K": [
+          445,
+          980
+        ]
+      }
+    },
+    "R3": {
+      "value": "100 ohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          545,
+          875
+        ],
+        "2": [
+          545,
+          925
+        ]
+      }
+    },
+    "D3": {
+      "value": "Blanco",
+      "description": "LED 5 mm; Vf 3.2-3.4 V",
+      "pins": {
+        "A": [
+          545,
+          940
+        ],
+        "K": [
+          545,
+          980
+        ]
+      }
+    },
+    "R4": {
+      "value": "100 ohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          645,
+          875
+        ],
+        "2": [
+          645,
+          925
+        ]
+      }
+    },
+    "D4": {
+      "value": "Blanco",
+      "description": "LED 5 mm; Vf 3.2-3.4 V",
+      "pins": {
+        "A": [
+          645,
+          940
+        ],
+        "K": [
+          645,
+          980
+        ]
+      }
+    },
+    "R5": {
+      "value": "100 ohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          745,
+          875
+        ],
+        "2": [
+          745,
+          925
+        ]
+      }
+    },
+    "D5": {
+      "value": "Blanco",
+      "description": "LED 5 mm; Vf 3.2-3.4 V",
+      "pins": {
+        "A": [
+          745,
+          940
+        ],
+        "K": [
+          745,
+          980
+        ]
+      }
+    },
+    "R6": {
+      "value": "100 ohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          845,
+          875
+        ],
+        "2": [
+          845,
+          925
+        ]
+      }
+    },
+    "D6": {
+      "value": "Blanco",
+      "description": "LED 5 mm; Vf 3.2-3.4 V",
+      "pins": {
+        "A": [
+          845,
+          940
+        ],
+        "K": [
+          845,
+          980
+        ]
+      }
+    },
+    "R7": {
+      "value": "100 ohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          945,
+          875
+        ],
+        "2": [
+          945,
+          925
+        ]
+      }
+    },
+    "D7": {
+      "value": "Blanco",
+      "description": "LED 5 mm; Vf 3.2-3.4 V",
+      "pins": {
+        "A": [
+          945,
+          940
+        ],
+        "K": [
+          945,
+          980
+        ]
+      }
+    },
+    "R8": {
+      "value": "100 ohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          1045,
+          875
+        ],
+        "2": [
+          1045,
+          925
+        ]
+      }
+    },
+    "D8": {
+      "value": "Blanco",
+      "description": "LED 5 mm; Vf 3.2-3.4 V",
+      "pins": {
+        "A": [
+          1045,
+          940
+        ],
+        "K": [
+          1045,
+          980
+        ]
+      }
+    },
+    "R9": {
+      "value": "100 ohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          1145,
+          875
+        ],
+        "2": [
+          1145,
+          925
+        ]
+      }
+    },
+    "D9": {
+      "value": "Blanco",
+      "description": "LED 5 mm; Vf 3.2-3.4 V",
+      "pins": {
+        "A": [
+          1145,
+          940
+        ],
+        "K": [
+          1145,
+          980
+        ]
+      }
+    },
+    "R10": {
+      "value": "100 ohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          1245,
+          875
+        ],
+        "2": [
+          1245,
+          925
+        ]
+      }
+    },
+    "D10": {
+      "value": "Blanco",
+      "description": "LED 5 mm; Vf 3.2-3.4 V",
+      "pins": {
+        "A": [
+          1245,
+          940
+        ],
+        "K": [
+          1245,
+          980
+        ]
+      }
+    },
+    "R11": {
+      "value": "100 ohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          1345,
+          875
+        ],
+        "2": [
+          1345,
+          925
+        ]
+      }
+    },
+    "D11": {
+      "value": "Blanco",
+      "description": "LED 5 mm; Vf 3.2-3.4 V",
+      "pins": {
+        "A": [
+          1345,
+          940
+        ],
+        "K": [
+          1345,
+          980
+        ]
+      }
+    },
+    "R12": {
+      "value": "100 ohm",
+      "description": "Resistencia 1/4 W",
+      "pins": {
+        "1": [
+          1445,
+          875
+        ],
+        "2": [
+          1445,
+          925
+        ]
+      }
+    },
+    "D12": {
+      "value": "Blanco",
+      "description": "LED 5 mm; Vf 3.2-3.4 V",
+      "pins": {
+        "A": [
+          1445,
+          940
+        ],
+        "K": [
+          1445,
+          980
+        ]
+      }
+    }
+  },
+  "netlist": [
+    {
+      "name": "+5V",
+      "pins": [
+        "U1.5V",
+        "SW1.2",
+        "C1.1",
+        "C2.1",
+        "R1.1",
+        "R2.1",
+        "R3.1",
+        "R4.1",
+        "R5.1",
+        "R6.1",
+        "R7.1",
+        "R8.1",
+        "R9.1",
+        "R10.1",
+        "R11.1",
+        "R12.1"
+      ]
+    },
+    {
+      "name": "GND",
+      "pins": [
+        "U1.GND",
+        "CAM1.2",
+        "J1.SLEEVE",
+        "C1.2",
+        "C2.2",
+        "C3.2",
+        "C4.2",
+        "U2.GND",
+        "SW2.COM",
+        "R15.2",
+        "Q1.2"
+      ]
+    },
+    {
+      "name": "+3V3",
+      "pins": [
+        "U1.3V3",
+        "CAM1.1",
+        "C3.1",
+        "C4.1",
+        "U2.VCC",
+        "R13.1"
+      ]
+    },
+    {
+      "name": "HX_DOUT",
+      "pins": [
+        "U1.IO4",
+        "U2.DT"
+      ]
+    },
+    {
+      "name": "HX_SCK",
+      "pins": [
+        "U1.IO2",
+        "U2.SCK"
+      ]
+    },
+    {
+      "name": "DOOR_N",
+      "pins": [
+        "U1.IO1",
+        "R13.2",
+        "SW2.NO"
+      ]
+    },
+    {
+      "name": "LED_EN",
+      "pins": [
+        "U1.IO42",
+        "R14.1"
+      ]
+    },
+    {
+      "name": "CAM_SIOC",
+      "pins": [
+        "U1.IO9",
+        "CAM1.3"
+      ]
+    },
+    {
+      "name": "CAM_SIOD",
+      "pins": [
+        "U1.IO8",
+        "CAM1.4"
+      ]
+    },
+    {
+      "name": "CAM_VSYNC",
+      "pins": [
+        "U1.IO13",
+        "CAM1.5"
+      ]
+    },
+    {
+      "name": "CAM_HREF",
+      "pins": [
+        "U1.IO14",
+        "CAM1.6"
+      ]
+    },
+    {
+      "name": "CAM_PCLK",
+      "pins": [
+        "U1.IO21",
+        "CAM1.7"
+      ]
+    },
+    {
+      "name": "CAM_XCLK",
+      "pins": [
+        "U1.IO15",
+        "CAM1.8"
+      ]
+    },
+    {
+      "name": "CAM_D7",
+      "pins": [
+        "U1.IO18",
+        "CAM1.9"
+      ]
+    },
+    {
+      "name": "CAM_D6",
+      "pins": [
+        "U1.IO17",
+        "CAM1.10"
+      ]
+    },
+    {
+      "name": "CAM_D5",
+      "pins": [
+        "U1.IO16",
+        "CAM1.11"
+      ]
+    },
+    {
+      "name": "CAM_D4",
+      "pins": [
+        "U1.IO12",
+        "CAM1.12"
+      ]
+    },
+    {
+      "name": "CAM_D3",
+      "pins": [
+        "U1.IO11",
+        "CAM1.13"
+      ]
+    },
+    {
+      "name": "CAM_D2",
+      "pins": [
+        "U1.IO10",
+        "CAM1.14"
+      ]
+    },
+    {
+      "name": "CAM_D1",
+      "pins": [
+        "U1.IO7",
+        "CAM1.15"
+      ]
+    },
+    {
+      "name": "CAM_D0",
+      "pins": [
+        "U1.IO6",
+        "CAM1.16"
+      ]
+    },
+    {
+      "name": "CAM_RESET_N",
+      "pins": [
+        "U1.IO5",
+        "CAM1.17"
+      ]
+    },
+    {
+      "name": "Net_23",
+      "pins": [
+        "CAM1.18"
+      ]
+    },
+    {
+      "name": "VIN_5V",
+      "pins": [
+        "J1.CENTER",
+        "F1.1"
+      ]
+    },
+    {
+      "name": "Net_25",
+      "pins": [
+        "F1.2",
+        "SW1.1"
+      ]
+    },
+    {
+      "name": "EXC_P",
+      "pins": [
+        "U2.E+",
+        "LC1.E+"
+      ]
+    },
+    {
+      "name": "EXC_N",
+      "pins": [
+        "U2.E-",
+        "LC1.E-"
+      ]
+    },
+    {
+      "name": "SIG_P",
+      "pins": [
+        "U2.A+",
+        "LC1.S+"
+      ]
+    },
+    {
+      "name": "SIG_N",
+      "pins": [
+        "U2.A-",
+        "LC1.S-"
+      ]
+    },
+    {
+      "name": "Net_30",
+      "pins": [
+        "SW2.NC"
+      ]
+    },
+    {
+      "name": "Net_31",
+      "pins": [
+        "R14.2",
+        "R15.1",
+        "Q1.1"
+      ]
+    },
+    {
+      "name": "LED_RETURN",
+      "pins": [
+        "Q1.3",
+        "D1.K",
+        "D2.K",
+        "D3.K",
+        "D4.K",
+        "D5.K",
+        "D6.K",
+        "D7.K",
+        "D8.K",
+        "D9.K",
+        "D10.K",
+        "D11.K",
+        "D12.K"
+      ]
+    },
+    {
+      "name": "Net_33",
+      "pins": [
+        "R1.2",
+        "D1.A"
+      ]
+    },
+    {
+      "name": "Net_34",
+      "pins": [
+        "R2.2",
+        "D2.A"
+      ]
+    },
+    {
+      "name": "Net_35",
+      "pins": [
+        "R3.2",
+        "D3.A"
+      ]
+    },
+    {
+      "name": "Net_36",
+      "pins": [
+        "R4.2",
+        "D4.A"
+      ]
+    },
+    {
+      "name": "Net_37",
+      "pins": [
+        "R5.2",
+        "D5.A"
+      ]
+    },
+    {
+      "name": "Net_38",
+      "pins": [
+        "R6.2",
+        "D6.A"
+      ]
+    },
+    {
+      "name": "Net_39",
+      "pins": [
+        "R7.2",
+        "D7.A"
+      ]
+    },
+    {
+      "name": "Net_40",
+      "pins": [
+        "R8.2",
+        "D8.A"
+      ]
+    },
+    {
+      "name": "Net_41",
+      "pins": [
+        "R9.2",
+        "D9.A"
+      ]
+    },
+    {
+      "name": "Net_42",
+      "pins": [
+        "R10.2",
+        "D10.A"
+      ]
+    },
+    {
+      "name": "Net_43",
+      "pins": [
+        "R11.2",
+        "D11.A"
+      ]
+    },
+    {
+      "name": "Net_44",
+      "pins": [
+        "R12.2",
+        "D12.A"
+      ]
+    }
+  ]
+}

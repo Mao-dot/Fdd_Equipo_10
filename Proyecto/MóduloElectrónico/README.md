@@ -1,5 +1,18 @@
 # Módulo electrónico de FoodScan
 
+## Corrección vigente: revisión 2, 4 de noviembre de 2026
+
+Consultar [README_v2.md](README_v2.md), la [lista nueva de componentes](BOM.md)
+y el [esquemático corregido v2](EasyEDA/FoodScan_Esquematico_v2.pdf).
+El editable es [FoodScan_Esquematico_v2.json](EasyEDA/FoodScan_Esquematico_v2.json).
+Incluye ESP32-S3 N16R8, cámara OV5640 (C) separada y control de luces por MOSFET.
+El modelo 3D queda fuera de esta revisión.
+
+## Archivo histórico: revisión 1
+
+La documentación que sigue corresponde a la versión 1. Los enlaces a la BOM
+conducen a la lista vigente v2; el archivo `.epro` antiguo conserva la revisión 1.
+
 Esquema de interconexión del prototipo del Equipo 10, basado en la
 [especificación técnica de S11](../Especificacion_S11.md), que resume las
 conexiones definidas por el equipo en `componentes.md`, versión 1.1.
@@ -138,4 +151,4 @@ reemplaza el esquema con el diseño definido en el script.
   Especificación y ejemplo descargados en `referencias/` para consultar el formato.
 - [Pines de cámara de Espressif, CAMERA_MODEL_AI_THINKER](https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/Camera/CameraWebServer/camera_pins.h).
 - [Espressif: selección del modo de arranque y GPIO15](https://docs.espressif.com/projects/esptool/en/latest/esp32/advanced-topics/boot-mode-selection.html).
-- Modelos, valores y presupuesto: [`componentes.md`](../../componentes.md).
+- Componentes y presupuesto vigentes: [lista de componentes v2](Componentes_v2.md).
