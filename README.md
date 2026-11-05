@@ -14,9 +14,9 @@
 ## Entrega del Taller 11 - FoodScan
 
 - [Informe técnico corregido: componentes y funcionamiento v2](Fundamentos%20de%20diseño/Entregables/Informe_Entregable_2_Equipo10_Corregido_v2.pdf) (04/11/2026). Conserva la investigación y señala los bocetos mecánicos como anteriores.
-- [Corrección electrónica v2: esquemático y lista de componentes](Fundamentos%20de%20diseño/Talleres/Taller_11_Correccion_Electronica.md) (04/11/2026). El modelo 3D permanece en la versión anterior.
-- [Esquema eléctrico, planos acotados y modelo 3D](Fundamentos%20de%20diseño/Talleres/Taller_11.md).
-- [Abrir modelo 3D en Onshape](https://cad.onshape.com/documents/6371db0cdada012e678cb023/w/355e492b405585520bd45e0d/e/5fa7184819c33dff05c63f25?renderMode=0&uiState=6ae2cee7440795f4516e4027).
+- [Modelo 3D vigente: FoodScan Onshape v2](Proyecto/MóduloMecánico/CAD/FoodScan_Onshape_v2.fs) (05/11/2026). [Cómo abrirlo y parámetros](Proyecto/MóduloMecánico/README_v2.md).
+- [Corrección electrónica v2: esquemático y lista de componentes](Fundamentos%20de%20diseño/Talleres/Taller_11_Correccion_Electronica.md) (04/11/2026).
+- [Entrega vigente y archivo de planos/modelos anteriores](Fundamentos%20de%20diseño/Talleres/Taller_11.md).
 
 ## 🌍 Descripción del Equipo
 

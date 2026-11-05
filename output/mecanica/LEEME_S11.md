@@ -1,5 +1,11 @@
 # FoodScan - Archivos para el taller S11
 
+**Archivo histórico v1.** Desde el 5 de noviembre de 2026, el modelo vigente es
+[FoodScan_Onshape_v2.fs](../../Proyecto/MóduloMecánico/CAD/FoodScan_Onshape_v2.fs).
+Consultar las [instrucciones v2](../../Proyecto/MóduloMecánico/README_v2.md).
+El paquete `FoodScan_S11_Modelo_y_Planos.zip` y las instrucciones siguientes
+corresponden al modelo anterior; no son exportaciones del FeatureScript nuevo.
+
 ## Qué pide la tarea
 
 1. Esquema eléctrico del subproyecto en EasyEDA Pro.

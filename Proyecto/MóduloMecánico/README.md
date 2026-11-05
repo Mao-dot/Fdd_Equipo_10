@@ -1,5 +1,24 @@
 # Modelo 3D de FoodScan - Taller S11
 
+## Modelo vigente: revisión 2, 5 de noviembre de 2026
+
+El archivo [FoodScan_Onshape_v2.fs](CAD/FoodScan_Onshape_v2.fs) reemplaza al
+modelo anterior como fuente vigente. Es una copia íntegra del FeatureScript
+`FoodScan_Onshape (2).fs` entregado por el equipo. Incluye la placa ESP32-S3
+N16R8 y la cámara Waveshare OV5640 (C) independientes.
+
+Consultar [README_v2.md](README_v2.md) para abrirlo, sus parámetros y el alcance
+de la revisión, y el [registro del archivo](CAD/Registro_modelo_v2.json) para
+comprobar su identidad. Los STEP, STL, planos y vistas con sufijo v1 que aparecen
+abajo pertenecen al modelo anterior; no son exportaciones del FeatureScript nuevo.
+
+## Archivo histórico: revisión 1
+
+El contenido siguiente documenta la geometría y las verificaciones de la
+versión anterior. Sus medidas, imágenes y resultado de 79 sólidos no se
+atribuyen a la revisión 2. El enlace de Onshape fue registrado para esa entrega;
+no se ha comprobado aquí qué revisión contiene actualmente.
+
 **Equipo 10 · Revisión conceptual 1.0 · 28 de octubre de 2026 · Unidades: mm**
 
 **[Abrir el modelo en Onshape](https://cad.onshape.com/documents/6371db0cdada012e678cb023/w/355e492b405585520bd45e0d/e/5fa7184819c33dff05c63f25?renderMode=0&uiState=6ae2cee7440795f4516e4027)**

@@ -4,7 +4,8 @@ Esta carpeta contendrá todos los archivos necesarios para comprender y reproduc
 
 ## Entrega del Taller 11
 
-- [Esquema eléctrico, planos y modelo en Onshape](../Fundamentos%20de%20diseño/Talleres/Taller_11.md).
+- [Modelo 3D vigente: FoodScan Onshape v2](MóduloMecánico/CAD/FoodScan_Onshape_v2.fs) e [instrucciones](MóduloMecánico/README_v2.md).
+- [Entrega vigente: electrónica v2 y modelo 3D](../Fundamentos%20de%20diseño/Talleres/Taller_11.md).
 - [Especificación técnica de FoodScan para S11](Especificacion_S11.md).
 
 ## Módulos
