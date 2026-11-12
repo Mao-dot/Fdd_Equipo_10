@@ -1,0 +1,64 @@
+{
+  "revision": 3,
+  "date": "2026-11-11",
+  "canonical_file": "FoodScan_Onshape_v3.fs",
+  "sha256": "cd4b48af45f38f05e7efd2c69cdfaf86c737eb8c39a5951a6ee1b22014c995dd",
+  "size_bytes": 48428,
+  "replaces_onshape_document": false,
+  "onshape_document": {
+    "name": "FoodScan - Prototipo Concepto C (Rev. 3)",
+    "url": "https://cad.onshape.com/documents/200c8df44603c62597e2948f/w/87c43f9d4f4a1e54677a2b02/e/d247a785c1a7df9b849f7410",
+    "visibility": "private",
+    "created": "2026-11-12"
+  },
+  "previous_revision_file": "FoodScan_Onshape_v2.fs",
+  "featurescript_version": "3112",
+  "standard_library": {
+    "path": "onshape/std/geometry.fs",
+    "version": "3112.0"
+  },
+  "exported_function": "foodScanPrototipoV3",
+  "feature_name": "FoodScan - Prototipo Concepto C v3",
+  "parameters": {
+    "ancho": { "min_mm": 280.0, "default_mm": 310.0, "max_mm": 600.0 },
+    "fondo": { "min_mm": 260.0, "default_mm": 300.0, "max_mm": 600.0 },
+    "alto": { "min_mm": 330.0, "default_mm": 380.0, "max_mm": 800.0 },
+    "esp": { "min_mm": 2.5, "default_mm": 3.5, "max_mm": 6.0 },
+    "dedo": { "min_mm": 8.0, "default_mm": 20.0, "max_mm": 60.0 },
+    "dPlato": { "min_mm": 150.0, "default_mm": 220.0, "max_mm": 250.0 },
+    "puertaAbierta": { "default": false },
+    "electronica": { "default": true }
+  },
+  "derived_heights_mm_at_defaults": {
+    "tray_top": 34.7,
+    "plate_rim": 54.7,
+    "lens_bottom": 342.0,
+    "lens_to_plate_rim": 287.3,
+    "visible_half_width_short_side_at_rim": 115.0,
+    "led_strips": [59.7, 259.7],
+    "led_strip_max_without_plate_reflection": 287.1,
+    "door_opening": [39.0, 259.0],
+    "shelf_bottom_top": [341.0, 344.5],
+    "lid_underside": 376.5
+  },
+  "part_count": {
+    "total": 92,
+    "hidden_when_electronica_false": 24,
+    "board_panels_via_terminar": 6,
+    "corner_lighting": 20,
+    "cables": 12
+  },
+  "removed_from_v2": [
+    "Acrilico - Difusores LED (3)",
+    "PLA - Marcos LED (3)",
+    "D1-D12 LED 5 mm (12)",
+    "R1-R12 100 ohm (12)",
+    "Placas perforadas de paneles LED (3)"
+  ],
+  "checks": {
+    "bracket_balance": "ok",
+    "derived_heights_recomputed": "ok",
+    "onshape_compilation": "not_run",
+    "geometry_validation": "not_run"
+  }
+}
