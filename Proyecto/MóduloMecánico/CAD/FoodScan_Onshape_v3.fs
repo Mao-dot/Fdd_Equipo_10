@@ -55,7 +55,7 @@ function primitiva(context is Context, id is Id, d is array)
     }
     else if (size(d) == 4)
     {
-        fSphere(context, id, {
+        opSphere(context, id, {
                     "center" : vector(d[0], d[1], d[2]) * millimeter,
                     "radius" : d[3] * millimeter
                 });

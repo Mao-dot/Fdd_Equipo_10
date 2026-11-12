@@ -1,15 +1,15 @@
 # Taller 11 - FoodScan: esquema eléctrico y modelo 3D
 
-**Equipo 10 · Fundamentos de Diseño · Actualizado el 5 de noviembre de 2026**
+**Equipo 10 · Fundamentos de Diseño · Actualizado el 12 de noviembre de 2026**
 
 ## Entregables
 
 | Trabajo | Documento / enlace |
 |---|---|
-| Modelo 3D vigente | [FoodScan_Onshape_v2.fs](../../Proyecto/MóduloMecánico/CAD/FoodScan_Onshape_v2.fs): FeatureScript recibido del equipo el 05/11/2026. |
-| Cómo abrir el modelo | [Onshape, parámetros y alcance de v2](../../Proyecto/MóduloMecánico/README_v2.md) |
-| Esquema eléctrico en PDF | [FoodScan - esquema de interconexión v2](../../Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v2.pdf) |
-| Electrónica editable y componentes | [Corrección electrónica v2: EasyEDA, BOM y verificación](Taller_11_Correccion_Electronica.md) |
+| Modelo 3D vigente | [FoodScan v3 en STEP](../../Proyecto/MóduloMecánico/CAD/FoodScan_Conjunto_Completo_v3.step) |
+| Cómo abrir el modelo | [Onshape, FeatureScript y parámetros](../../Proyecto/MóduloMecánico/README_v3.md) |
+| Esquema eléctrico en PDF | [FoodScan v4 con tiras COB](../../output/pdf/FoodScan_Conexiones_v4_COB.pdf) |
+| Electrónica editable | [Esquema v4 en EasyEDA Standard](../../Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_EasyEDA_Standard_v4_COB.json) y [guía de conexiones](../../Proyecto/MóduloElectrónico/README_v4.md) |
 | Informe técnico corregido | [Entregable 2: corrección electrónica del 04/11/2026](../Entregables/Informe_Entregable_2_Equipo10_Corregido_v2.pdf) |
 
 ## Prototipo
@@ -17,13 +17,11 @@
 FoodScan integra una ESP32-S3 N16R8, cámara OV5640 (C) independiente, celda de
 carga de 5 kg, HX711, iluminación blanca con control MOSFET y detector de puerta.
 El modelo vigente define carcasa, puerta, bandeja y ubicación de los módulos.
-Sus valores predeterminados son **310 × 300 × 415 mm** (ancho, fondo sin puerta
+Sus valores predeterminados son **310 × 300 × 380 mm** (ancho, fondo sin puerta
 y alto sin patas), MDF de **3,5 mm** y plato de referencia de **Ø220 mm**.
 
-El archivo nuevo reemplaza al conjunto v1 como fuente principal. La revisión
-comprueba el archivo recibido, no su compilación o el ensamble dentro de una
-cuenta de Onshape. Los planos y las figuras del informe del 04/11 siguen siendo
-los bocetos anteriores, identificados como tales.
+Onshape regeneró las 92 piezas con los parámetros predeterminados. Los planos
+y las figuras del informe del 04/11 corresponden a los bocetos anteriores.
 
 ## Archivo histórico: entrega v1 del 28 de octubre de 2026
 

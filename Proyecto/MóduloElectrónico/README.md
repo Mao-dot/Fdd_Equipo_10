@@ -1,6 +1,12 @@
 # Módulo electrónico de FoodScan
 
-## Corrección vigente: revisión 2, 4 de noviembre de 2026
+## Esquemático v4 para el modelo 3D v3
+
+El [esquemático v4 con tiras COB](README_v4.md) está disponible como
+[editable en EasyEDA Standard](EasyEDA/FoodScan_Esquematico_EasyEDA_Standard_v4_COB.json)
+y [hoja PDF](../../output/pdf/FoodScan_Conexiones_v4_COB.pdf).
+
+## Revisión 2, 4 de noviembre de 2026
 
 Consultar [README_v2.md](README_v2.md), la [lista nueva de componentes](BOM.md)
 y el [esquemático corregido v2](EasyEDA/FoodScan_Esquematico_v2.pdf).

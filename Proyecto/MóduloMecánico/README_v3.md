@@ -2,19 +2,19 @@
 
 **Equipo 10 · 11 de noviembre de 2026 · Unidades: mm**
 
-El modelo de esta revisión es [FoodScan_Onshape_v3.fs](CAD/FoodScan_Onshape_v3.fs).
-Es un modelo **nuevo**: se carga en un documento de Onshape aparte y no
-reemplaza ni modifica la revisión 2 ([FoodScan_Onshape_v2.fs](CAD/FoodScan_Onshape_v2.fs)),
-que sigue en la cuenta del equipo sin cambios.
+El [STEP completo](CAD/FoodScan_Conjunto_Completo_v3.step) contiene los 92 sólidos
+en milímetros, incluida la puerta y la tapa. El [FeatureScript de la revisión 3](CAD/FoodScan_Onshape_v3.fs)
+permite regenerar el modelo con otros parámetros.
 
-**Documento en Onshape:** [FoodScan - Prototipo Concepto C (Rev. 3)](https://cad.onshape.com/documents/200c8df44603c62597e2948f/w/87c43f9d4f4a1e54677a2b02/e/d247a785c1a7df9b849f7410).
-Es un documento privado, creado aparte del documento de la Rev. 2; solo se
-abre con la cuenta propietaria o si se comparte desde Onshape. Contiene un
-Part Studio y la pestaña Feature Studio 1, donde va el código de este archivo.
+El [documento editable de Onshape](https://cad.onshape.com/documents/45e3d926c78c8605f6f81458/w/91fa14538bcd65fd6b70d7cb/e/b685e9ed6cbeabbb007e5a59)
+requiere acceso desde Onshape. Contiene el modelo generado en **Part Studio 1**
+y el código en **Feature Studio 1**.
 
 Es código **FeatureScript 3112** (`onshape/std/geometry.fs` versión `3112.0`).
 Exporta `foodScanPrototipoV3`, que aparece como **FoodScan - Prototipo Concepto C v3**.
-No se ha compilado todavía en Onshape: la geometría debe comprobarse allí.
+Se sustituyó `fSphere` por `opSphere` para construir esferas a partir de sus
+coordenadas. En Onshape se verificó la compilación y la regeneración de las
+92 piezas con los parámetros predeterminados.
 
 ## Cambios respecto a la revisión 2
 
@@ -100,7 +100,7 @@ usar modelos STEP descargados (por ejemplo, de SnapEDA):
 
 ## Abrir en Onshape (documento nuevo)
 
-1. Crear un **documento nuevo** en Onshape; no abrir el documento de la v2.
+1. Crear un **documento nuevo** en Onshape.
 2. Crear una pestaña **Feature Studio**, copiar todo el contenido de
    `FoodScan_Onshape_v3.fs` y guardar con **Commit**.
 3. Revisar los mensajes de compilación.
@@ -108,11 +108,8 @@ usar modelos STEP descargados (por ejemplo, de SnapEDA):
    **FoodScan - Prototipo Concepto C v3**, generar el modelo y comprobar
    piezas, holguras y avisos.
 
-## Pendiente fuera del modelo
+## Esquemático correspondiente
 
-Estos cambios del modelo requieren actualizar la parte electrónica, que no se
-modificó en esta revisión:
-
-- Esquemático y BOM: D1-D12 y R1-R12 pasan a ser LED1-LED4 (tiras COB) en X2A/X2B; añadir X3, X4 y X5.
-- F1 pasa de 1,5 A a **T3,15 A**; el adaptador pasa a **5 V / 4,8 A (WODE WA-24-5)**.
-- Interior de la caja en blanco mate (no representado en el modelo).
+El [esquemático v4](../MóduloElectrónico/README_v4.md) documenta las cuatro tiras
+COB, las borneras y la alimentación de esta revisión. La lista de compra del
+módulo electrónico corresponde a la revisión 2.
