@@ -5,6 +5,23 @@
 El nuevo modelo 3D está pendiente. La [lista de componentes](../MóduloElectrónico/BOM.md)
 reúne las piezas para definir el soporte de cámara, el panel frontal y la salida de vapor.
 
+### Medidas de referencia para el rediseño
+
+- Tomar como punto de partida la envolvente exterior de **310 × 300 × 380 mm**
+  del modelo v3 anterior. Con sus paneles de 3,5 mm, la planta entre paredes
+  es de **303 × 293 mm**. El vano frontal anterior mide **250 mm de ancho**.
+- Para alojar platos de hasta **270 mm de diámetro**, estudiar un paso
+  libre de **290 mm** en la entrada. Revisar el marco, la puerta abierta
+  y la posición de los perfiles LED delanteros para mantener el paso libre.
+- El módulo BMH12M205 ocupa **120 × 120 mm** en planta. Su página de producto
+  indica **36,4 mm de altura** y su manual indica **30,7 mm**. Reservar al
+  menos **37 mm sobre el piso** para el módulo, además del apoyo del plato si
+  hace falta. Confirmar la altura real antes de definir el soporte de cámara.
+  [Página del producto](https://www.bestmodulescorp.com/en/bmh12m205.html) ·
+  [Manual del módulo](https://www.bestmodulescorp.com/en/amfile/file/download/file/2030/product/1300/).
+- Verificar con el plato real que la base se apoya con estabilidad, que
+  se puede introducir con comida por el vano y que queda libre de la carcasa al pesar.
+
 ## Archivo histórico de la revisión 2, 5 de noviembre de 2026
 
 El archivo [FoodScan_Onshape_v2.fs](CAD/FoodScan_Onshape_v2.fs) es una copia íntegra del FeatureScript
