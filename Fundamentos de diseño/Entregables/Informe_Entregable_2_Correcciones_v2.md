@@ -15,7 +15,7 @@ Se corrigió el [informe del Entregable 2](Informe_Entregable_2_Equipo10_Corregi
 | 38 | Justificación del concepto C actualizada. S/ 150 corresponde solo a placa y cámara; total por cotizar. Puntajes de Pugh conservados como comparación conceptual. |
 | 40 | Fuentes de Espressif, Waveshare y AO3400A; documentación electrónica v2. |
 
-La referencia vigente es [Componentes_v2.md](../../Proyecto/MóduloElectrónico/Componentes_v2.md), junto con la [BOM](../../Proyecto/MóduloElectrónico/BOM.md) y el [esquemático v2](../../Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v2.pdf).
+La referencia para esta corrección es [Componentes_v2.md](../../Proyecto/MóduloElectrónico/Componentes_v2.md), junto con la [BOM v2](../../Proyecto/MóduloElectrónico/BOM_v2.md) y el [esquemático v2](../../Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v2.pdf).
 
 La revisión distingue el diseño propuesto de las pruebas realizadas: quedan pendientes montaje, calibración, captura/autofocus, consumo y temperatura, firmware e integración automática con la app. Gemini y el cálculo con TPCA se conservan en el backend existente.
 

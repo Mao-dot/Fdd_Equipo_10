@@ -12,7 +12,7 @@ Cámara, sensores y electrónica se instalan dentro de la máquina. Durante el u
 |---|---|
 | [Esquemático editable v2](EasyEDA/FoodScan_Esquematico_v2.json) | Interconexión en EasyEDA Standard; importable en EasyEDA Pro. |
 | [Esquemático PDF v2](EasyEDA/FoodScan_Esquematico_v2.pdf) | Vista del esquema corregido para revisar o presentar. |
-| [BOM del esquema](BOM.md) | Referencias de símbolos y cantidades representadas. |
+| [BOM del esquema](BOM_v2.md) | Referencias de símbolos y cantidades representadas. |
 | [Verificación de conexiones v2](EasyEDA/Verificacion_conexiones_v2.json) | Comprobaciones locales del archivo y lista de redes. |
 | [Esquemático anterior v1](EasyEDA/FoodScan_Esquematico_v1.json) | Referencia histórica de la ESP32-CAM AI-Thinker con OV2640. |
 

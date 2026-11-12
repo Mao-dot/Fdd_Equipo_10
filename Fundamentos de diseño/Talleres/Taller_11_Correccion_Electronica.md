@@ -8,7 +8,7 @@ las piezas al taller. El modelo 3D no se modifica en esta etapa.
 | Entregable | Enlace |
 |---|---|
 | Informe técnico corregido | [Informe del Entregable 2, revisión v2](../Entregables/Informe_Entregable_2_Equipo10_Corregido_v2.pdf) |
-| Lista de componentes | [BOM v2](../../Proyecto/MóduloElectrónico/BOM.md) |
+| Lista de componentes | [BOM v2](../../Proyecto/MóduloElectrónico/BOM_v2.md) |
 | Lista ampliada de compra y funcionamiento | [componentes.md](../../Proyecto/MóduloElectrónico/Componentes_v2.md) |
 | Esquemático PDF A3 | [FoodScan_Esquematico_v2.pdf](../../output/pdf/FoodScan_Esquematico_v2.pdf) |
 | Esquemático editable EasyEDA Standard | [FoodScan_Esquematico_v2.json](../../Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v2.json) |

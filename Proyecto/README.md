@@ -2,10 +2,14 @@
 
 Esta carpeta contendrá todos los archivos necesarios para comprender y reproducir la solución desarrollada por el equipo.
 
-## Entrega del Taller 11
+## Rediseño de FoodScan
 
-- [Modelo 3D FoodScan v3 en STEP](MóduloMecánico/CAD/FoodScan_Conjunto_Completo_v3.step) e [instrucciones para Onshape](MóduloMecánico/README_v3.md).
-- [Esquemático v4 para las tiras COB](MóduloElectrónico/README_v4.md).
+- [Lista de componentes](MóduloElectrónico/BOM.md).
+- [Estado del módulo mecánico](MóduloMecánico/README.md).
+
+## Entrega anterior del Taller 11
+
+- [Esquemático v4 con tiras COB y cámara Waveshare](MóduloElectrónico/README_v4.md).
 - [Entrega del Taller 11](../Fundamentos%20de%20diseño/Talleres/Taller_11.md).
 - [Especificación técnica de FoodScan para S11](Especificacion_S11.md).
 

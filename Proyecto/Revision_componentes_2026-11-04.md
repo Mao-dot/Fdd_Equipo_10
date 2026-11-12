@@ -5,7 +5,7 @@ Fecha: 4 de noviembre de 2026. Estado: planificación para revisar el prototipo 
 ## Base revisada
 
 - El informe y el [esquema anterior v1](MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v1.json) utilizaban ESP32-CAM AI-Thinker, OV2640, celda de 5 kg, HX711, microswitch y tres paneles de cuatro LED. La lista vigente es [Componentes_v2.md](MóduloElectrónico/Componentes_v2.md); la copia de la raíz `componentes.md` ya fue actualizada.
-- La [verificación de conexiones anterior](MóduloElectrónico/EasyEDA/Verificacion_conexiones.json) corresponde a iluminación conectada a la alimentación general. La [BOM vigente](MóduloElectrónico/BOM.md) y el esquema v2 incorporan Q1 para controlarla desde el microcontrolador.
+- La [verificación de conexiones anterior](MóduloElectrónico/EasyEDA/Verificacion_conexiones.json) corresponde a iluminación conectada a la alimentación general. La [BOM v2](MóduloElectrónico/BOM_v2.md) y el esquema v2 incorporan Q1 para controlarla desde el microcontrolador.
 - [Especificación del Taller 11](Especificacion_S11.md) y [documentación mecánica](MóduloMecánico/README.md): plataforma de 220 × 220 mm, plato de referencia de 200 mm y cámara a una distancia nominal de 270 mm del plano del plato. El soporte CAD actual es fijo.
 - [Guion del avance de FoodScan](../output/guiones/Guion_FoodScan_Avance_Prototipo_5_minutos.md): documenta Gemini 3.8 Flash, fotografía, peso total y descripción, con 924 entradas de las Tablas Peruanas de Composición de Alimentos del INS, décima edición de 2017. El programa calcula los nutrientes a partir de la tabla; el usuario puede corregir alimentos y porciones. Describe ingreso manual del peso y la integración automática pendiente.
 
@@ -74,6 +74,6 @@ No se justifica añadir una segunda ESP32, pantalla o sensores adicionales para 
 3. Ensayo de las luces y difusores existentes para decidir si se mantienen o sustituyen.
 4. Implementar posteriormente el enlace con el backend existente de `FoodScan/`: `POST /api/analyze` recibe JSON `image` (Data URL), `totalGrams` y `description` opcional. El código de la app ya se pudo revisar; el control de estados de la máquina y la integración ESP32 continúan pendientes y no forman parte de esta corrección electrónica.
 
-La lista y el esquema corregidos se entregan en `MóduloElectrónico/BOM.md` y `MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v2.json`, con su PDF. Esta revisión no acredita compras ni pruebas físicas. El CAD permanece en la versión previa y fuera del alcance solicitado.
+La lista y el esquema corregidos se entregan en `MóduloElectrónico/BOM_v2.md` y `MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v2.json`, con su PDF. Esta revisión no acredita compras ni pruebas físicas. El CAD permanece en la versión previa y fuera del alcance solicitado.
 
 Referencia de la cámara recomendada: [Waveshare OV5640 Camera Board (C), SKU 13802](https://www.waveshare.com/catalog/product/view/id/3494/s/ov5640-camera-board-c/category/37/). La ficha del fabricante especifica autofocus, DVP de 8 bits, SCCB, 3.3 V y resolución máxima del sensor de 2592 × 1944. Precio publicado al consultar el 4 de noviembre de 2026: US$ 26.99, sin calcular entrega a Perú. El enfoque, la resolución de captura utilizada y el comportamiento térmico se verifican con el montaje real.

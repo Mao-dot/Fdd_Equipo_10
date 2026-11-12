@@ -13,7 +13,7 @@ mediante Internet. El modelo 3D permanece en la revisión anterior.
 
 | Archivo | Uso |
 |---|---|
-| [BOM.md](BOM.md) | Lista nueva: 40 componentes representados, accesorios y conexiones. |
+| [BOM v2](BOM_v2.md) | Lista de la revisión 2: 40 componentes representados, accesorios y conexiones. |
 | [lista ampliada](Componentes_v2.md) | Lista ampliada de compra, funcionamiento, mapa GPIO y presupuesto. |
 | [FoodScan_Esquematico_v2.json](EasyEDA/FoodScan_Esquematico_v2.json) | Esquema editable nativo de EasyEDA Standard. |
 | [FoodScan_Esquematico_v2.pdf](EasyEDA/FoodScan_Esquematico_v2.pdf) | Una hoja A3 horizontal para revisar o imprimir. |

@@ -2,7 +2,8 @@
 
 **Equipo 10 · 12 de noviembre de 2026**
 
-La hoja corresponde al [modelo 3D v3](../MóduloMecánico/README_v3.md).
+Esta hoja documenta la entrega anterior con tiras COB y cámara Waveshare OV5640 (C).
+La [lista del rediseño](BOM.md) incorpora la cámara Adafruit 5838 y la pantalla frontal.
 
 - [Esquemático editable exportado desde EasyEDA Standard](EasyEDA/FoodScan_Esquematico_EasyEDA_Standard_v4_COB.json).
 - [Hoja PDF A3](../../output/pdf/FoodScan_Conexiones_v4_COB.pdf).

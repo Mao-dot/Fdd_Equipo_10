@@ -1,6 +1,11 @@
 # Módulo electrónico de FoodScan
 
-## Esquemático v4 para el modelo 3D v3
+## Componentes del rediseño
+
+La [lista de componentes](BOM.md) reúne la cámara Adafruit 5838, la pantalla frontal
+y las piezas para el manejo del vapor. El esquema del rediseño está pendiente.
+
+## Esquemático v4 de la entrega anterior
 
 El [esquemático v4 con tiras COB](README_v4.md) está disponible como
 [editable en EasyEDA Standard](EasyEDA/FoodScan_Esquematico_EasyEDA_Standard_v4_COB.json)
@@ -8,7 +13,7 @@ y [hoja PDF](../../output/pdf/FoodScan_Conexiones_v4_COB.pdf).
 
 ## Revisión 2, 4 de noviembre de 2026
 
-Consultar [README_v2.md](README_v2.md), la [lista nueva de componentes](BOM.md)
+Consultar [README_v2.md](README_v2.md), la [lista de componentes v2](BOM_v2.md)
 y el [esquemático corregido v2](EasyEDA/FoodScan_Esquematico_v2.pdf).
 El editable es [FoodScan_Esquematico_v2.json](EasyEDA/FoodScan_Esquematico_v2.json).
 Incluye ESP32-S3 N16R8, cámara OV5640 (C) separada y control de luces por MOSFET.
@@ -17,7 +22,7 @@ El modelo 3D queda fuera de esta revisión.
 ## Archivo histórico: revisión 1
 
 La documentación que sigue corresponde a la versión 1. Los enlaces a la BOM
-conducen a la lista vigente v2; el archivo `.epro` antiguo conserva la revisión 1.
+conducen a la lista de la revisión 2; el archivo `.epro` antiguo conserva la revisión 1.
 
 Esquema de interconexión del prototipo del Equipo 10, basado en la
 [especificación técnica de S11](../Especificacion_S11.md), que resume las
@@ -34,7 +39,7 @@ Revisión 1.0 del esquema: **22 de octubre de 2026**.
 | [FoodScan_Esquematico_v1.png](EasyEDA/FoodScan_Esquematico_v1.png) | Vista previa del PDF. |
 | [FoodScan_Esquematico_v1.svg](EasyEDA/FoodScan_Esquematico_v1.svg) | Vista vectorial del esquema. |
 | [Verificacion_conexiones.json](EasyEDA/Verificacion_conexiones.json) | Resultado de la comprobación local y lista de redes. |
-| [BOM.md](BOM.md) | Lista de componentes y correspondencia con el presupuesto. |
+| [BOM v2](BOM_v2.md) | Lista de componentes y correspondencia con el presupuesto de la revisión 2. |
 
 El JSON contiene símbolos, pines, cables eléctricos y etiquetas de red editables;
 no contiene una imagen incrustada. Los símbolos están incluidos en el archivo,
@@ -157,4 +162,4 @@ reemplaza el esquema con el diseño definido en el script.
   Especificación y ejemplo descargados en `referencias/` para consultar el formato.
 - [Pines de cámara de Espressif, CAMERA_MODEL_AI_THINKER](https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/Camera/CameraWebServer/camera_pins.h).
 - [Espressif: selección del modo de arranque y GPIO15](https://docs.espressif.com/projects/esptool/en/latest/esp32/advanced-topics/boot-mode-selection.html).
-- Componentes y presupuesto vigentes: [lista de componentes v2](Componentes_v2.md).
+- Componentes y presupuesto de la revisión 2: [lista de componentes v2](Componentes_v2.md).

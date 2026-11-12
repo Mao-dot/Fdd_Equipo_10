@@ -1,8 +1,8 @@
-# FoodScan: modelo 3D vigente, revisión 2
+# FoodScan: archivo del modelo 3D, revisión 2
 
 **Equipo 10 · Archivo recibido el 5 de noviembre de 2026 · Unidades: mm**
 
-El modelo vigente es [FoodScan_Onshape_v2.fs](CAD/FoodScan_Onshape_v2.fs).
+El archivo de esta revisión es [FoodScan_Onshape_v2.fs](CAD/FoodScan_Onshape_v2.fs).
 Se incorpora sin modificar el contenido de `FoodScan_Onshape (2).fs`, entregado
 por el equipo, y sustituye como referencia principal al conjunto STEP v1.
 
@@ -63,7 +63,7 @@ y [operaciones personalizadas del mismo documento](https://cad.onshape.com/help/
 
 | Archivo / grupo | Estado |
 |---|---|
-| [FoodScan_Onshape_v2.fs](CAD/FoodScan_Onshape_v2.fs) | Fuente vigente recibida del equipo; contenido conservado íntegro. |
+| [FoodScan_Onshape_v2.fs](CAD/FoodScan_Onshape_v2.fs) | Fuente recibida del equipo; contenido conservado íntegro. |
 | [Registro_modelo_v2.json](CAD/Registro_modelo_v2.json) | Hash, versiones y parámetros extraídos del archivo. Revisión documental. |
 | STEP, STL, PDF de planos, vistas e inventarios v1 | Archivo histórico del modelo anterior. |
 | Nuevos STEP, STL, planos y capturas v2 | No incluidos en el archivo recibido; pendientes de exportar desde el modelo nuevo. |

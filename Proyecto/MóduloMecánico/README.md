@@ -1,12 +1,11 @@
-# Modelo 3D de FoodScan - Taller S11
+# Módulo mecánico de FoodScan
 
-## Modelo vigente: revisión 3
+## Rediseño
 
-El conjunto de 92 piezas está disponible como [STEP en milímetros](CAD/FoodScan_Conjunto_Completo_v3.step)
-y como [FeatureScript editable](CAD/FoodScan_Onshape_v3.fs). La [guía de la revisión 3](README_v3.md)
-incluye el enlace de Onshape y los parámetros.
+El nuevo modelo 3D está pendiente. La [lista de componentes](../MóduloElectrónico/BOM.md)
+reúne las piezas para definir el soporte de cámara, el panel frontal y la salida de vapor.
 
-## Revisión 2, 5 de noviembre de 2026
+## Archivo histórico de la revisión 2, 5 de noviembre de 2026
 
 El archivo [FoodScan_Onshape_v2.fs](CAD/FoodScan_Onshape_v2.fs) es una copia íntegra del FeatureScript
 `FoodScan_Onshape (2).fs` entregado por el equipo. Incluye la placa ESP32-S3

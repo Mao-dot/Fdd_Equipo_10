@@ -4,7 +4,7 @@
 
 Extraer el ZIP conservando su estructura de carpetas.
 
-1. Leer `componentes.md` para comprar las piezas y `Proyecto/MóduloElectrónico/BOM.md` para las referencias del esquema.
+1. Consultar `Proyecto/MóduloElectrónico/Componentes_v2.md` y `Proyecto/MóduloElectrónico/BOM_v2.md` para los componentes y las referencias de esta revisión.
 2. Abrir `Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v2.pdf` para revisar o imprimir la hoja A3.
 3. Importar `Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v2.json` en EasyEDA Standard. En Pro usar la importación de Standard y revisar referencias y valores.
 4. Revisar `README_v2.md` en el módulo electrónico para fuentes, reproducción y alcance de las comprobaciones.

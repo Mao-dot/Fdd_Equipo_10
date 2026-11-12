@@ -2,26 +2,26 @@
 
 **Equipo 10 · Fundamentos de Diseño · Actualizado el 12 de noviembre de 2026**
 
-## Entregables
+## Rediseño
+
+Consultar la [lista de componentes del rediseño](../../Proyecto/MóduloElectrónico/BOM.md).
+El nuevo modelo 3D está pendiente.
+
+## Entregables anteriores
 
 | Trabajo | Documento / enlace |
 |---|---|
-| Modelo 3D vigente | [FoodScan v3 en STEP](../../Proyecto/MóduloMecánico/CAD/FoodScan_Conjunto_Completo_v3.step) |
-| Cómo abrir el modelo | [Onshape, FeatureScript y parámetros](../../Proyecto/MóduloMecánico/README_v3.md) |
 | Esquema eléctrico en PDF | [FoodScan v4 con tiras COB](../../output/pdf/FoodScan_Conexiones_v4_COB.pdf) |
 | Electrónica editable | [Esquema v4 en EasyEDA Standard](../../Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_EasyEDA_Standard_v4_COB.json) y [guía de conexiones](../../Proyecto/MóduloElectrónico/README_v4.md) |
 | Informe técnico corregido | [Entregable 2: corrección electrónica del 04/11/2026](../Entregables/Informe_Entregable_2_Equipo10_Corregido_v2.pdf) |
 
-## Prototipo
+## Prototipo de la entrega anterior
 
-FoodScan integra una ESP32-S3 N16R8, cámara OV5640 (C) independiente, celda de
-carga de 5 kg, HX711, iluminación blanca con control MOSFET y detector de puerta.
-El modelo vigente define carcasa, puerta, bandeja y ubicación de los módulos.
-Sus valores predeterminados son **310 × 300 × 380 mm** (ancho, fondo sin puerta
-y alto sin patas), MDF de **3,5 mm** y plato de referencia de **Ø220 mm**.
-
-Onshape regeneró las 92 piezas con los parámetros predeterminados. Los planos
-y las figuras del informe del 04/11 corresponden a los bocetos anteriores.
+La entrega usaba una ESP32-S3 N16R8, cámara Waveshare OV5640 (C), celda de
+carga de 5 kg, HX711, cuatro tiras COB y detector de puerta. Su modelo de
+referencia medía **310 × 300 × 380 mm** (ancho, fondo sin puerta y alto sin
+patas), con MDF de **3,5 mm** y plato de **Ø220 mm**. Los planos y las figuras
+del informe del 04/11 corresponden a bocetos anteriores.
 
 ## Archivo histórico: entrega v1 del 28 de octubre de 2026
 
