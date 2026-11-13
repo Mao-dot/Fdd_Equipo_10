@@ -1,0 +1,342 @@
+{
+  "P01": {
+    "contornos_cerrados_brep": 9,
+    "entidades": {
+      "LINE": 4,
+      "CIRCLE": 8
+    },
+    "unidades": "mm",
+    "caja_xyz_mm": [
+      320.0,
+      310.0,
+      6.0
+    ]
+  },
+  "P02": {
+    "contornos_cerrados_brep": 5,
+    "entidades": {
+      "LINE": 4,
+      "CIRCLE": 4
+    },
+    "unidades": "mm",
+    "caja_xyz_mm": [
+      320.0,
+      310.0,
+      6.0
+    ]
+  },
+  "P03": {
+    "contornos_cerrados_brep": 15,
+    "entidades": {
+      "LINE": 16,
+      "CIRCLE": 11
+    },
+    "unidades": "mm",
+    "caja_xyz_mm": [
+      320.0,
+      368.0,
+      6.0
+    ]
+  },
+  "P04": {
+    "contornos_cerrados_brep": 17,
+    "entidades": {
+      "LINE": 20,
+      "CIRCLE": 12
+    },
+    "unidades": "mm",
+    "caja_xyz_mm": [
+      320.0,
+      368.0,
+      6.0
+    ]
+  },
+  "P05": {
+    "contornos_cerrados_brep": 11,
+    "entidades": {
+      "LINE": 4,
+      "CIRCLE": 10
+    },
+    "unidades": "mm",
+    "caja_xyz_mm": [
+      298.0,
+      368.0,
+      6.0
+    ]
+  },
+  "P06": {
+    "contornos_cerrados_brep": 11,
+    "entidades": {
+      "LINE": 4,
+      "CIRCLE": 10
+    },
+    "unidades": "mm",
+    "caja_xyz_mm": [
+      298.0,
+      368.0,
+      6.0
+    ]
+  },
+  "P07": {
+    "contornos_cerrados_brep": 26,
+    "entidades": {
+      "LINE": 24,
+      "CIRCLE": 20,
+      "ARC": 1
+    },
+    "unidades": "mm",
+    "caja_xyz_mm": [
+      308.0,
+      298.0,
+      6.0
+    ]
+  },
+  "P08": {
+    "contornos_cerrados_brep": 9,
+    "entidades": {
+      "LINE": 24,
+      "CIRCLE": 8
+    },
+    "unidades": "mm",
+    "caja_xyz_mm": [
+      300.0,
+      275.0,
+      6.0
+    ]
+  },
+  "P29": {
+    "triangulos": 856,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      24.0,
+      28.0,
+      8.002
+    ]
+  },
+  "P20B": {
+    "triangulos": 868,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      18.001,
+      18.0,
+      18.001
+    ]
+  },
+  "P20A": {
+    "triangulos": 868,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      18.001,
+      18.0,
+      18.001
+    ]
+  },
+  "P21B": {
+    "triangulos": 868,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      18.001,
+      16.0,
+      18.001
+    ]
+  },
+  "P21A": {
+    "triangulos": 868,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      18.001,
+      16.0,
+      18.001
+    ]
+  },
+  "P22": {
+    "triangulos": 2436,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      12.502,
+      14.001,
+      32.0
+    ]
+  },
+  "P23": {
+    "triangulos": 1636,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      36.001,
+      8.002,
+      32.0
+    ]
+  },
+  "P24": {
+    "triangulos": 876,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      18.0,
+      20.002,
+      54.0
+    ]
+  },
+  "P25": {
+    "triangulos": 556,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      21.1,
+      6.2,
+      4.002
+    ]
+  },
+  "P26": {
+    "triangulos": 1724,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      108.0,
+      19.002,
+      47.0
+    ]
+  },
+  "P27": {
+    "triangulos": 4072,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      156.005,
+      156.005,
+      5.061
+    ]
+  },
+  "P10": {
+    "contornos_cerrados_brep": 1,
+    "entidades": {
+      "CIRCLE": 1
+    },
+    "unidades": "mm",
+    "caja_xyz_mm": [
+      240.0,
+      240.0,
+      1.5
+    ]
+  },
+  "P34": {
+    "triangulos": 436,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      11.5,
+      18.0,
+      5.002
+    ]
+  },
+  "P35": {
+    "triangulos": 448,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      19.0,
+      12.0,
+      3.002
+    ]
+  },
+  "P31": {
+    "triangulos": 1740,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      22.0,
+      50.0,
+      32.672
+    ]
+  },
+  "P32": {
+    "triangulos": 840,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      5.601,
+      5.602,
+      4.003
+    ]
+  },
+  "P30": {
+    "triangulos": 1732,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      214.0,
+      24.0,
+      4.002
+    ]
+  },
+  "P37L": {
+    "triangulos": 1332,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      20.0,
+      26.0,
+      42.001
+    ]
+  },
+  "P37R": {
+    "triangulos": 1332,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      20.0,
+      26.0,
+      42.001
+    ]
+  },
+  "P36": {
+    "triangulos": 1776,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      54.0,
+      69.0,
+      12.001
+    ]
+  },
+  "P09": {
+    "contornos_cerrados_brep": 5,
+    "entidades": {
+      "LINE": 4,
+      "CIRCLE": 4
+    },
+    "unidades": "mm",
+    "caja_xyz_mm": [
+      74.0,
+      36.0,
+      3.0
+    ]
+  },
+  "P38": {
+    "triangulos": 1724,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      34.0,
+      17.0,
+      8.002
+    ]
+  },
+  "P39": {
+    "triangulos": 876,
+    "aristas_sin_dos_triangulos": 0,
+    "unidades_del_modelo": "mm",
+    "caja_xyz_mm": [
+      10.0,
+      27.851,
+      80.0
+    ]
+  }
+}

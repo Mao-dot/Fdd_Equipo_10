@@ -12,5 +12,17 @@ LICENSE text eol=lf
 *.pptx binary
 *.stl binary
 *.step binary
+*.stp binary
+*.FCStd binary
 *.epro binary
+*.epro2 binary
+*.fzpz binary
 *.zip binary
+
+# Preserve manufacturer source bytes for the SHA-256 inventories.
+Proyecto/MóduloMecánico/Rediseño/commercial/electronics/originals/*.brd binary
+Proyecto/MóduloMecánico/Rediseño/commercial/electronics/originals/*-license.txt -text
+Proyecto/MóduloElectrónico/Rediseño_FoodScan/fuentes/*.brd binary
+Proyecto/MóduloElectrónico/Rediseño_FoodScan/fuentes/*.sch binary
+Proyecto/MóduloElectrónico/Rediseño_FoodScan/fuentes/*-license.txt -text
+Proyecto/MóduloElectrónico/Rediseño_FoodScan/fuentes/*_LICENSE.md -text

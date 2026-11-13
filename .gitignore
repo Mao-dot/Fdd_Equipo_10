@@ -29,3 +29,22 @@ Archivos en clase, no github/
 # Proyecto independiente de FoodScan y planificación local
 /FoodScan/
 /componentes.md
+
+# Copias de referencia de proveedores. Consultar los registros de fuentes de FoodScan.
+/Proyecto/MóduloMecánico/Rediseño/commercial/auxiliary/controls/
+/Proyecto/MóduloMecánico/Rediseño/commercial/auxiliary/door/
+/Proyecto/MóduloMecánico/Rediseño/commercial/auxiliary/oled/
+/Proyecto/MóduloMecánico/Rediseño/commercial/auxiliary/led/*_original.*
+/Proyecto/MóduloMecánico/Rediseño/commercial/auxiliary/led/*.pdf
+/Proyecto/MóduloMecánico/Rediseño/commercial/auxiliary/power/*.pdf
+/Proyecto/MóduloMecánico/Rediseño/commercial/auxiliary/power/*_original.step
+/Proyecto/MóduloMecánico/Rediseño/commercial/electronics/originals/*.pdf
+/Proyecto/MóduloMecánico/Rediseño/commercial/electronics/originals/*.dxf
+/Proyecto/MóduloMecánico/Rediseño/commercial/electronics/originals/Espressif-*.step
+/Proyecto/MóduloMecánico/Rediseño/commercial/electronics/originals/XemStudio-*.step
+/Proyecto/MóduloElectrónico/Rediseño_FoodScan/fuentes/*.pdf
+/Proyecto/MóduloElectrónico/Rediseño_FoodScan/fuentes/*.[sS][tT][eE][pP]
+/Proyecto/MóduloElectrónico/Rediseño_FoodScan/fuentes/*.stp
+/Proyecto/MóduloElectrónico/Rediseño_FoodScan/fuentes/*.dxf
+/Proyecto/MóduloElectrónico/Rediseño_FoodScan/fuentes/*.jpg
+/Proyecto/MóduloElectrónico/Rediseño_FoodScan/fuentes/EasyEDA-*.json

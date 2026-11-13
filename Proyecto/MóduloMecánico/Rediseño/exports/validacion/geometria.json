@@ -1,0 +1,81 @@
+{
+  "umbral_volumen_mm3": 0.05,
+  "instancias": 260,
+  "solidos": 654,
+  "por_metodo": {
+    "laser": 10,
+    "FDM": 50,
+    "compra": 200
+  },
+  "piezas_brep_invalidas": [],
+  "interferencias_cerrado": [],
+  "contactos_nominales_rosca_oled": [
+    {
+      "a": "E03",
+      "b": "LCD-1_3.5",
+      "mm3": 0.2819
+    },
+    {
+      "a": "E03",
+      "b": "LCD1_3.5",
+      "mm3": 0.2819
+    },
+    {
+      "a": "E03",
+      "b": "LCD1_36",
+      "mm3": 0.2819
+    }
+  ],
+  "fijaciones": {
+    "pares": 81,
+    "desalineacion_radial_max_mm": 0.0,
+    "observaciones": []
+  },
+  "errores_booleanos": [],
+  "puerta": {
+    "angulos_grados": [
+      0,
+      0.5,
+      1,
+      2,
+      5,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      105.0
+    ],
+    "muestras_con_observaciones": {}
+  },
+  "plato": {
+    "diametro_plato_mm": 270.0,
+    "altura_envolvente_mm": 24.0,
+    "z_superficie_portante_mm": 38.2,
+    "holgura_por_lado_vano_mm": 10.0,
+    "holgura_fondo_interior_mm": 14.0,
+    "interferencias_barrido": []
+  },
+  "plato_con_altura_alternativa_bmh_mm_36_4": {
+    "diametro_plato_mm": 270.0,
+    "altura_envolvente_mm": 24.0,
+    "z_superficie_portante_mm": 43.9,
+    "holgura_por_lado_vano_mm": 10.0,
+    "holgura_fondo_interior_mm": 14.0,
+    "interferencias_barrido": []
+  },
+  "pesaje": {
+    "separacion_min_portante_a_geometria_fija_modelada_mm": 16.7,
+    "nota": "Excluye geometría no publicada de base, celda, arnés y placa móvil. La coincidencia de la cara de apoyo es intencional."
+  },
+  "optica": {
+    "distancia_lente_a_borde_plato_mm": 287.8,
+    "holgura_radial_teorica_en_vano_mm": 2.57,
+    "nota": "Cono simetrico hipotetico de 120 grados. Faltan intrinsecos, enfoque, refraccion y ensayo de vapor."
+  }
+}

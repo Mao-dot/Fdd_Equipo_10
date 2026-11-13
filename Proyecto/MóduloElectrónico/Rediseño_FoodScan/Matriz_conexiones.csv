@@ -1,0 +1,180 @@
+ref,model,pin,pin_name,net,section,pin_type,library_mpn,footprint,symbol,note
+J1,1935161,1,5V_SW,5V_SW,01 Placa auxiliar,Passive,C3819953,,,Desde panel posterior F1 / SW1
+J1,1935161,2,GND,GND,01 Placa auxiliar,Passive,C3819953,,,Desde panel posterior F1 / SW1
+J2,1935187,1,5V_SW,5V_SW,01 Placa auxiliar,Passive,C3817931,,,Dos tiras COB; cada par tiene alimentación y retorno
+J2,1935187,2,LED_RET_A,LED_RET_A,01 Placa auxiliar,Passive,C3817931,,,Dos tiras COB; cada par tiene alimentación y retorno
+J2,1935187,3,5V_SW,5V_SW,01 Placa auxiliar,Passive,C3817931,,,Dos tiras COB; cada par tiene alimentación y retorno
+J2,1935187,4,LED_RET_A,LED_RET_A,01 Placa auxiliar,Passive,C3817931,,,Dos tiras COB; cada par tiene alimentación y retorno
+J3,1935187,1,5V_SW,5V_SW,01 Placa auxiliar,Passive,C3817931,,,Dos tiras COB; cada par tiene alimentación y retorno
+J3,1935187,2,LED_RET_B,LED_RET_B,01 Placa auxiliar,Passive,C3817931,,,Dos tiras COB; cada par tiene alimentación y retorno
+J3,1935187,3,5V_SW,5V_SW,01 Placa auxiliar,Passive,C3817931,,,Dos tiras COB; cada par tiene alimentación y retorno
+J3,1935187,4,LED_RET_B,LED_RET_B,01 Placa auxiliar,Passive,C3817931,,,Dos tiras COB; cada par tiene alimentación y retorno
+J4,B4B-XH-A(LF)(SN),1,GND,GND,01 Placa auxiliar,Passive,C144395,,,Al Best Modules BMH12M205
+J4,B4B-XH-A(LF)(SN),2,3V3_AUX,3V3_AUX,01 Placa auxiliar,Passive,C144395,,,Al Best Modules BMH12M205
+J4,B4B-XH-A(LF)(SN),3,PESO_TX,PESO_TX,01 Placa auxiliar,Passive,C144395,,,Al Best Modules BMH12M205
+J4,B4B-XH-A(LF)(SN),4,PESO_RX,PESO_RX,01 Placa auxiliar,Passive,C144395,,,Al Best Modules BMH12M205
+J5,B2B-XH-A(LF)(SN),1,3V3_AUX,3V3_AUX,01 Placa auxiliar,Passive,C158012,,,Ramal de alimentación de cámara
+J5,B2B-XH-A(LF)(SN),2,GND,GND,01 Placa auxiliar,Passive,C158012,,,Ramal de alimentación de cámara
+J6,B6B-XH-A(LF)(SN),1,5V_SW,5V_SW,01 Placa auxiliar,Passive,C144397,,,Al ESP32 J1 / J3
+J6,B6B-XH-A(LF)(SN),2,GND,GND,01 Placa auxiliar,Passive,C144397,,,Al ESP32 J1 / J3
+J6,B6B-XH-A(LF)(SN),3,3V3_ESP,3V3_ESP,01 Placa auxiliar,Passive,C144397,,,Al ESP32 J1 / J3
+J6,B6B-XH-A(LF)(SN),4,LED_EN,LED_EN,01 Placa auxiliar,Passive,C144397,,,Al ESP32 J1 / J3
+J6,B6B-XH-A(LF)(SN),5,PUERTA_ADC,PUERTA_ADC,01 Placa auxiliar,Passive,C144397,,,Al ESP32 J1 / J3
+J6,B6B-XH-A(LF)(SN),6,GND,GND,01 Placa auxiliar,Passive,C144397,,,Al ESP32 J1 / J3
+J7,B7B-XH-A(LF)(SN),1,3V3_AUX,3V3_AUX,01 Placa auxiliar,Passive,C144398,,,Al cable Waveshare de 7 contactos
+J7,B7B-XH-A(LF)(SN),2,GND,GND,01 Placa auxiliar,Passive,C144398,,,Al cable Waveshare de 7 contactos
+J7,B7B-XH-A(LF)(SN),3,OLED_DIN,OLED_DIN,01 Placa auxiliar,Passive,C144398,,,Al cable Waveshare de 7 contactos
+J7,B7B-XH-A(LF)(SN),4,OLED_CLK,OLED_CLK,01 Placa auxiliar,Passive,C144398,,,Al cable Waveshare de 7 contactos
+J7,B7B-XH-A(LF)(SN),5,OLED_CS_N,OLED_CS_N,01 Placa auxiliar,Passive,C144398,,,Al cable Waveshare de 7 contactos
+J7,B7B-XH-A(LF)(SN),6,OLED_DC,OLED_DC,01 Placa auxiliar,Passive,C144398,,,Al cable Waveshare de 7 contactos
+J7,B7B-XH-A(LF)(SN),7,OLED_RST_N,OLED_RST_N,01 Placa auxiliar,Passive,C144398,,,Al cable Waveshare de 7 contactos
+J8,B6B-XH-A(LF)(SN),1,GND,GND,01 Placa auxiliar,Passive,C144397,,,SPI desde ESP32
+J8,B6B-XH-A(LF)(SN),2,OLED_DIN,OLED_DIN,01 Placa auxiliar,Passive,C144397,,,SPI desde ESP32
+J8,B6B-XH-A(LF)(SN),3,OLED_CLK,OLED_CLK,01 Placa auxiliar,Passive,C144397,,,SPI desde ESP32
+J8,B6B-XH-A(LF)(SN),4,OLED_CS_N,OLED_CS_N,01 Placa auxiliar,Passive,C144397,,,SPI desde ESP32
+J8,B6B-XH-A(LF)(SN),5,OLED_DC,OLED_DC,01 Placa auxiliar,Passive,C144397,,,SPI desde ESP32
+J8,B6B-XH-A(LF)(SN),6,OLED_RST_N,OLED_RST_N,01 Placa auxiliar,Passive,C144397,,,SPI desde ESP32
+J9,B3B-XH-A(LF)(SN),1,GND,GND,01 Placa auxiliar,Passive,C144394,,,UART hacia y desde ESP32
+J9,B3B-XH-A(LF)(SN),2,PESO_TX,PESO_TX,01 Placa auxiliar,Passive,C144394,,,UART hacia y desde ESP32
+J9,B3B-XH-A(LF)(SN),3,PESO_RX,PESO_RX,01 Placa auxiliar,Passive,C144394,,,UART hacia y desde ESP32
+J10,B2B-XH-A(LF)(SN),1,PUERTA_5V,PUERTA_5V,01 Placa auxiliar,Passive,C158012,,,Interruptor NC y R9 en el extremo del arnés
+J10,B2B-XH-A(LF)(SN),2,GND,GND,01 Placa auxiliar,Passive,C158012,,,Interruptor NC y R9 en el extremo del arnés
+J11,B3B-XH-A(LF)(SN),1,TARA_N,TARA_N,01 Placa auxiliar,Passive,C144394,,,Dos pulsadores de panel
+J11,B3B-XH-A(LF)(SN),2,CAPTURA_N,CAPTURA_N,01 Placa auxiliar,Passive,C144394,,,Dos pulsadores de panel
+J11,B3B-XH-A(LF)(SN),3,GND,GND,01 Placa auxiliar,Passive,C144394,,,Dos pulsadores de panel
+J12,B2B-XH-A(LF)(SN),1,TARA_N,TARA_N,01 Placa auxiliar,Passive,C158012,,,GPIO del ESP32 para pulsadores
+J12,B2B-XH-A(LF)(SN),2,CAPTURA_N,CAPTURA_N,01 Placa auxiliar,Passive,C158012,,,GPIO del ESP32 para pulsadores
+U2,R-78K3.3-1.0,1,VIN,5V_SW,01 Placa auxiliar,Power,R-78K3.3-1.0,,,"3.3 V para cámara, OLED y pesaje"
+U2,R-78K3.3-1.0,2,GND,GND,01 Placa auxiliar,Power,R-78K3.3-1.0,,,"3.3 V para cámara, OLED y pesaje"
+U2,R-78K3.3-1.0,3,VOUT,3V3_AUX,01 Placa auxiliar,Out,R-78K3.3-1.0,,,"3.3 V para cámara, OLED y pesaje"
+C1,470 uF / 16 V,1,+,5V_SW,01 Placa auxiliar,Passive,C242145,,,
+C1,470 uF / 16 V,2,-,GND,01 Placa auxiliar,Passive,C242145,,,
+C2,10 uF / 10 V,1,1,5V_SW,01 Placa auxiliar,Passive,C19702,,,
+C2,10 uF / 10 V,2,2,GND,01 Placa auxiliar,Passive,C19702,,,
+C3,10 uF / 10 V,1,1,3V3_AUX,01 Placa auxiliar,Passive,C19702,,,
+C3,10 uF / 10 V,2,2,GND,01 Placa auxiliar,Passive,C19702,,,
+C4,100 nF / 50 V,1,1,3V3_AUX,01 Placa auxiliar,Passive,C14663,,,
+C4,100 nF / 50 V,2,2,GND,01 Placa auxiliar,Passive,C14663,,,
+C5,100 nF / 50 V,1,1,PUERTA_ADC,01 Placa auxiliar,Passive,C14663,,,
+C5,100 nF / 50 V,2,2,GND,01 Placa auxiliar,Passive,C14663,,,
+Q1,AO3400A,1,G,LED_GATE_A,01 Placa auxiliar,In,C20917,,,"Un canal por dos tiras, hasta 1.2 A nominal"
+Q1,AO3400A,2,S,GND,01 Placa auxiliar,Passive,C20917,,,"Un canal por dos tiras, hasta 1.2 A nominal"
+Q1,AO3400A,3,D,LED_RET_A,01 Placa auxiliar,Passive,C20917,,,"Un canal por dos tiras, hasta 1.2 A nominal"
+R1,100 ohm,1,1,LED_EN,01 Placa auxiliar,Passive,C22775,,,
+R1,100 ohm,2,2,LED_GATE_A,01 Placa auxiliar,Passive,C22775,,,
+R3,100 kohm,1,1,LED_GATE_A,01 Placa auxiliar,Passive,C22936,,,
+R3,100 kohm,2,2,GND,01 Placa auxiliar,Passive,C22936,,,
+Q2,AO3400A,1,G,LED_GATE_B,01 Placa auxiliar,In,C20917,,,"Un canal por dos tiras, hasta 1.2 A nominal"
+Q2,AO3400A,2,S,GND,01 Placa auxiliar,Passive,C20917,,,"Un canal por dos tiras, hasta 1.2 A nominal"
+Q2,AO3400A,3,D,LED_RET_B,01 Placa auxiliar,Passive,C20917,,,"Un canal por dos tiras, hasta 1.2 A nominal"
+R2,100 ohm,1,1,LED_EN,01 Placa auxiliar,Passive,C22775,,,
+R2,100 ohm,2,2,LED_GATE_B,01 Placa auxiliar,Passive,C22775,,,
+R4,100 kohm,1,1,LED_GATE_B,01 Placa auxiliar,Passive,C22936,,,
+R4,100 kohm,2,2,GND,01 Placa auxiliar,Passive,C22936,,,
+R5,2.2 kohm,1,1,5V_SW,01 Placa auxiliar,Passive,C114662,,,
+R5,2.2 kohm,2,2,PUERTA_5V,01 Placa auxiliar,Passive,C114662,,,
+R6,10 kohm,1,1,PUERTA_5V,01 Placa auxiliar,Passive,C25804,,,
+R6,10 kohm,2,2,PUERTA_ADC,01 Placa auxiliar,Passive,C25804,,,
+R7,10 kohm,1,1,PUERTA_ADC,01 Placa auxiliar,Passive,C25804,,,
+R7,10 kohm,2,2,GND,01 Placa auxiliar,Passive,C25804,,,
+R8,10 kohm,1,1,3V3_ESP,01 Placa auxiliar,Passive,C25804,,,
+R8,10 kohm,2,2,TARA_N,01 Placa auxiliar,Passive,C25804,,,
+R10,10 kohm,1,1,3V3_ESP,01 Placa auxiliar,Passive,C25804,,,
+R10,10 kohm,2,2,CAPTURA_N,01 Placa auxiliar,Passive,C25804,,,
+PS1,Adaptador 5 V CC / 4.8 A de referencia,1,CENTRO +,ADAPTADOR_5V,02 Entrada e iluminación,Out,,,,Salida SELV centro positivo; comprobar la unidad y el cable
+PS1,Adaptador 5 V CC / 4.8 A de referencia,2,MANGA -,GND,02 Entrada e iluminación,Passive,,,,Salida SELV centro positivo; comprobar la unidad y el cable
+J13,Tensility 54-00406,1,CENTRO,ADAPTADOR_5V,02 Entrada e iluminación,Passive,,,,Jack de panel 5.5 x 2.1 mm
+J13,Tensility 54-00406,2,MANGA,GND,02 Entrada e iluminación,Passive,,,,Jack de panel 5.5 x 2.1 mm
+F1,"Schurter SPT 0001.2510, T4 A",1,1,ADAPTADOR_5V,02 Entrada e iluminación,Passive,,,,Portafusible Schurter FPG2 3101.0120; validar coordinación
+F1,"Schurter SPT 0001.2510, T4 A",2,2,5V_FUS,02 Entrada e iluminación,Passive,,,,Portafusible Schurter FPG2 3101.0120; validar coordinación
+SW1,NKK JWMW11RAA,1,1,5V_FUS,02 Entrada e iluminación,Passive,,,,"Balancín SPST, corte del positivo"
+SW1,NKK JWMW11RAA,2,2,5V_SW,02 Entrada e iluminación,Passive,,,,"Balancín SPST, corte del positivo"
+LED1,COB 5 V / 4000 K / 200 mm,1,+,5V_SW,02 Entrada e iluminación,Passive,,,,
+LED1,COB 5 V / 4000 K / 200 mm,2,-,LED_RET_A,02 Entrada e iluminación,Passive,,,,
+LED2,COB 5 V / 4000 K / 200 mm,1,+,5V_SW,02 Entrada e iluminación,Passive,,,,
+LED2,COB 5 V / 4000 K / 200 mm,2,-,LED_RET_A,02 Entrada e iluminación,Passive,,,,
+LED3,COB 5 V / 4000 K / 200 mm,1,+,5V_SW,02 Entrada e iluminación,Passive,,,,
+LED3,COB 5 V / 4000 K / 200 mm,2,-,LED_RET_B,02 Entrada e iluminación,Passive,,,,
+LED4,COB 5 V / 4000 K / 200 mm,1,+,5V_SW,02 Entrada e iluminación,Passive,,,,
+LED4,COB 5 V / 4000 K / 200 mm,2,-,LED_RET_B,02 Entrada e iluminación,Passive,,,,
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,1,3V3,3V3_ESP,03 ESP32 y cámara,Power,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,2,3V3,,03 ESP32 y cámara,Power,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,3,RST,,03 ESP32 y cámara,In,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,4,GPIO4,PUERTA_ADC,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,5,GPIO5,TARA_N,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,6,GPIO6,CAM_D0,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,7,GPIO7,CAM_D1,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,8,GPIO15,CAPTURA_N,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,9,GPIO16,CAM_D5,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,10,GPIO17,CAM_D6,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,11,GPIO18,CAM_D7,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,12,GPIO8,CAM_SDA,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,13,GPIO3,,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,14,GPIO46,,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,15,GPIO9,CAM_SCL,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,16,GPIO10,CAM_D2,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,17,GPIO11,CAM_D3,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,18,GPIO12,CAM_D4,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,19,GPIO13,CAM_VSYNC,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,20,GPIO14,CAM_HREF,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,21,5V,5V_SW,03 ESP32 y cámara,Power,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,22,GND,GND,03 ESP32 y cámara,Power,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,23,GND,GND,03 ESP32 y cámara,Power,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,24,GND,GND,03 ESP32 y cámara,Power,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,25,GPIO19,,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,26,GPIO20,,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,27,GPIO21,CAM_PCLK,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,28,GPIO47,OLED_DC,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,29,GPIO48,OLED_RST_N,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,30,GPIO45,,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,31,GPIO0,,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,32,GPIO35,,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,33,GPIO36,,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,34,GPIO37,,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,35,GPIO38,,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,36,GPIO39,OLED_DIN,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,37,GPIO40,OLED_CLK,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,38,GPIO41,OLED_CS_N,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,39,GPIO42,LED_EN,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,40,GPIO2,PESO_RX,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,41,GPIO1,PESO_TX,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,42,GPIO44,,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,43,GPIO43,,03 ESP32 y cámara,I/O,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+U1,ESP32-S3-DevKitC-1-N16R8 v1.1,44,GND,GND,03 ESP32 y cámara,Power,,,,Pines 1-22 = J1.1-22; pines 23-44 = J3.22-1
+CAM1,Adafruit OV5640 5838,1,3.3V,3V3_AUX,03 ESP32 y cámara,Power,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,2,GND,GND,03 ESP32 y cámara,Power,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,3,SCL,CAM_SCL,03 ESP32 y cámara,In,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,4,SDA,CAM_SDA,03 ESP32 y cámara,I/O,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,5,VSYNC,CAM_VSYNC,03 ESP32 y cámara,Out,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,6,HREF,CAM_HREF,03 ESP32 y cámara,Out,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,7,PCLK,CAM_PCLK,03 ESP32 y cámara,Out,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,8,XC,,03 ESP32 y cámara,In,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,9,DATA9,CAM_D7,03 ESP32 y cámara,Out,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,10,DATA8,CAM_D6,03 ESP32 y cámara,Out,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,11,DATA7,CAM_D5,03 ESP32 y cámara,Out,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,12,DATA6,CAM_D4,03 ESP32 y cámara,Out,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,13,DATA5,CAM_D3,03 ESP32 y cámara,Out,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,14,DATA4,CAM_D2,03 ESP32 y cámara,Out,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,15,DATA3,CAM_D1,03 ESP32 y cámara,Out,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,16,DATA2,CAM_D0,03 ESP32 y cámara,Out,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,17,RESET_N,,03 ESP32 y cámara,In,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+CAM1,Adafruit OV5640 5838,18,PWDN,,03 ESP32 y cámara,In,,,,JP2 de 2x9; XCLK a INT 24 MHz; cerrar VM para autofoco
+U3,Best Modules BMH12M205,1,GND,GND,"04 Pesaje, pantalla y controles",Power,,,,UART 38400 8N1; tara por comando; celda interna del conjunto
+U3,Best Modules BMH12M205,2,VDD,3V3_AUX,"04 Pesaje, pantalla y controles",Power,,,,UART 38400 8N1; tara por comando; celda interna del conjunto
+U3,Best Modules BMH12M205,3,TXD,PESO_TX,"04 Pesaje, pantalla y controles",Out,,,,UART 38400 8N1; tara por comando; celda interna del conjunto
+U3,Best Modules BMH12M205,4,RXD,PESO_RX,"04 Pesaje, pantalla y controles",In,,,,UART 38400 8N1; tara por comando; celda interna del conjunto
+DS1,Waveshare 25742 / SSD1309,1,VCC,3V3_AUX,"04 Pesaje, pantalla y controles",Power,,,,SPI de fábrica; cable OEM de 7 contactos
+DS1,Waveshare 25742 / SSD1309,2,GND,GND,"04 Pesaje, pantalla y controles",Power,,,,SPI de fábrica; cable OEM de 7 contactos
+DS1,Waveshare 25742 / SSD1309,3,DIN,OLED_DIN,"04 Pesaje, pantalla y controles",In,,,,SPI de fábrica; cable OEM de 7 contactos
+DS1,Waveshare 25742 / SSD1309,4,CLK,OLED_CLK,"04 Pesaje, pantalla y controles",In,,,,SPI de fábrica; cable OEM de 7 contactos
+DS1,Waveshare 25742 / SSD1309,5,CS_N,OLED_CS_N,"04 Pesaje, pantalla y controles",In,,,,SPI de fábrica; cable OEM de 7 contactos
+DS1,Waveshare 25742 / SSD1309,6,DC,OLED_DC,"04 Pesaje, pantalla y controles",In,,,,SPI de fábrica; cable OEM de 7 contactos
+DS1,Waveshare 25742 / SSD1309,7,RST_N,OLED_RST_N,"04 Pesaje, pantalla y controles",In,,,,SPI de fábrica; cable OEM de 7 contactos
+SW2,"Panasonic ASQ10228, NC",1,1,PUERTA_5V,"04 Pesaje, pantalla y controles",Passive,,,,La puerta cerrada debe accionar el detector y abrir el contacto
+SW2,"Panasonic ASQ10228, NC",2,2,GND,"04 Pesaje, pantalla y controles",Passive,,,,La puerta cerrada debe accionar el detector y abrir el contacto
+R9,2.2 kohm,1,1,PUERTA_5V,"04 Pesaje, pantalla y controles",Passive,C114662,,,"Montar junto al microswitch, al final del arnés"
+R9,2.2 kohm,2,2,GND,"04 Pesaje, pantalla y controles",Passive,C114662,,,"Montar junto al microswitch, al final del arnés"
+SW3,"Adafruit 1505, Tara",1,1,TARA_N,"04 Pesaje, pantalla y controles",Passive,,,,
+SW3,"Adafruit 1505, Tara",2,2,GND,"04 Pesaje, pantalla y controles",Passive,,,,
+SW4,"Adafruit 1505, Captura",1,1,CAPTURA_N,"04 Pesaje, pantalla y controles",Passive,,,,
+SW4,"Adafruit 1505, Captura",2,2,GND,"04 Pesaje, pantalla y controles",Passive,,,,

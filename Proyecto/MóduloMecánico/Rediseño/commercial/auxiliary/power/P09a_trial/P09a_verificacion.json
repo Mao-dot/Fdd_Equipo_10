@@ -1,0 +1,29 @@
+{
+  "unidad": "mm",
+  "uso": "Prueba de montaje. Disposición eléctrica y portafusible pendientes de validación física.",
+  "interferencias": {
+    "Tensility_54-00406_STEP_OEM": {
+      "interseccion_placa_mm3": 1.7e-05,
+      "interseccion_panel_posterior_mm3": 0.0
+    },
+    "NKK_JWMW11RAA_espacio_de_montaje": {
+      "interseccion_placa_mm3": 0.0,
+      "interseccion_panel_posterior_mm3": 0.0
+    },
+    "Schurter_FPG2_3101.0120_espacio_de_montaje": {
+      "interseccion_placa_mm3": 0.0,
+      "interseccion_panel_posterior_mm3": 0.0
+    }
+  },
+  "interferencias_entre_componentes_mm3": {
+    "Tensility_54-00406_STEP_OEM / NKK_JWMW11RAA_espacio_de_montaje": 0.0,
+    "Tensility_54-00406_STEP_OEM / Schurter_FPG2_3101.0120_espacio_de_montaje": 0.0,
+    "NKK_JWMW11RAA_espacio_de_montaje / Schurter_FPG2_3101.0120_espacio_de_montaje": 0.0
+  },
+  "distancia_minima_de_corte_a_ventana_P04_mm": 1.0,
+  "centros_locales_x": {
+    "conector": -17.0,
+    "interruptor": 3.0,
+    "portafusible": 20.5
+  }
+}

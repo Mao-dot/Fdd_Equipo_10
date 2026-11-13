@@ -1,0 +1,18 @@
+{
+  "fuente_oem": "auxiliary/oled/2_42inch_oled_module-sku25742_asm.stp",
+  "sha256_oem": "531897681ff3d66d813d84e7f8c6f8272270ad2d5c56287f63813bcfe4822190",
+  "solidos_oem_conservados": 110,
+  "microrrelieves_omitidos": 49,
+  "conectores_oem_con_reparacion_local": 2,
+  "separadores_con_rosca_visual_simplificada": 4,
+  "solidos_validos_al_reimportar_oled": 116,
+  "limites_oled_en_montaje_mm": [
+    -30.7608,
+    6.5,
+    329.56421,
+    30.76079,
+    14.0,
+    369.08579
+  ],
+  "interferencias_externas_oled_mm3_umbral_0_05": {}
+}

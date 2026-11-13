@@ -1,0 +1,357 @@
+{
+  "components": 45,
+  "pages": 4,
+  "connected_pins": 162,
+  "nets": 35,
+  "explicit_nc": 17,
+  "vendor_converter": {
+    "pages": 4,
+    "components": 45,
+    "symbols": 45,
+    "footprints": 30
+  },
+  "pcb_vendor_converter": {
+    "COMPONENT": 33,
+    "PAD_NET": 607,
+    "LINE": 241,
+    "VIA": 10,
+    "POUR": 2
+  },
+  "pcb_geometry": {
+    "outline_mm": [
+      [
+        60.0,
+        65.0
+      ]
+    ],
+    "power_tracks": [
+      {
+        "net": "3V3_AUX",
+        "width_mm": 0.6,
+        "segments": 22
+      },
+      {
+        "net": "5V_SW",
+        "width_mm": 0.3,
+        "segments": 9
+      },
+      {
+        "net": "5V_SW",
+        "width_mm": 1.8,
+        "segments": 17
+      },
+      {
+        "net": "LED_RET_A",
+        "width_mm": 0.8,
+        "segments": 7
+      },
+      {
+        "net": "LED_RET_B",
+        "width_mm": 0.8,
+        "segments": 6
+      }
+    ],
+    "pours": [
+      {
+        "netName": "GND",
+        "layerId": 1,
+        "path": [
+          [
+            3149.6063,
+            -2755.90551,
+            "L",
+            5511.81102,
+            -2755.90551,
+            5511.81102,
+            -5314.96063,
+            3149.6063,
+            -5314.96063,
+            3149.6063,
+            -2755.90551
+          ]
+        ]
+      },
+      {
+        "netName": "GND",
+        "layerId": 2,
+        "path": [
+          [
+            3149.6063,
+            -2755.90551,
+            "L",
+            5511.81102,
+            -2755.90551,
+            5511.81102,
+            -5314.96063,
+            3149.6063,
+            -5314.96063,
+            3149.6063,
+            -2755.90551
+          ]
+        ]
+      }
+    ]
+  },
+  "svg": [
+    "01 Placa auxiliar.svg",
+    "02 Entrada e iluminación.svg",
+    "03 ESP32 y cámara.svg",
+    "04 Pesaje, pantalla y controles.svg"
+  ],
+  "library_sources": {
+    "J1": {
+      "symbol_source": "EasyEDA-C3819953-original.json",
+      "pins": 2,
+      "footprint": "32cfff82c648e20e",
+      "footprint_source": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
+    },
+    "J2": {
+      "symbol_source": "EasyEDA-C3817931-original.json",
+      "pins": 4,
+      "footprint": "3c1de87666fa1f98",
+      "footprint_source": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-5.0-H_1x04_P5.00mm_Horizontal"
+    },
+    "J3": {
+      "symbol_source": "EasyEDA-C3817931-original.json",
+      "pins": 4,
+      "footprint": "bba72ce0ed319fc5",
+      "footprint_source": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-5.0-H_1x04_P5.00mm_Horizontal"
+    },
+    "J4": {
+      "symbol_source": "EasyEDA-C144395-original.json",
+      "pins": 4,
+      "footprint": "0053beec1f9b605e",
+      "footprint_source": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+    },
+    "J5": {
+      "symbol_source": "EasyEDA-C158012-original.json",
+      "pins": 2,
+      "footprint": "99bab940c4f22b22",
+      "footprint_source": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+    },
+    "J6": {
+      "symbol_source": "EasyEDA-C144397-original.json",
+      "pins": 6,
+      "footprint": "97ec37459fa64236",
+      "footprint_source": "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
+    },
+    "J7": {
+      "symbol_source": "EasyEDA-C144398-original.json",
+      "pins": 7,
+      "footprint": "a328ed0a74d50ff4",
+      "footprint_source": "Connector_JST:JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical"
+    },
+    "J8": {
+      "symbol_source": "EasyEDA-C144397-original.json",
+      "pins": 6,
+      "footprint": "b6a370204b09708a",
+      "footprint_source": "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
+    },
+    "J9": {
+      "symbol_source": "EasyEDA-C144394-original.json",
+      "pins": 3,
+      "footprint": "ef635161a1783f83",
+      "footprint_source": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+    },
+    "J10": {
+      "symbol_source": "EasyEDA-C158012-original.json",
+      "pins": 2,
+      "footprint": "02a93bd6fb50955c",
+      "footprint_source": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+    },
+    "J11": {
+      "symbol_source": "EasyEDA-C144394-original.json",
+      "pins": 3,
+      "footprint": "c9dfdb5aba9e1038",
+      "footprint_source": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+    },
+    "J12": {
+      "symbol_source": "EasyEDA-C158012-original.json",
+      "pins": 2,
+      "footprint": "54d616aeae33209b",
+      "footprint_source": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+    },
+    "U2": {
+      "symbol_source": "Interfaz trazada de la matriz",
+      "pins": 3,
+      "footprint": "6f3d185220f7d357",
+      "footprint_source": "FoodScan:RECOM_R-78K-1.0"
+    },
+    "C1": {
+      "symbol_source": "EasyEDA-C242145-original.json",
+      "pins": 2,
+      "footprint": "f2382a3a65e883d1",
+      "footprint_source": "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+    },
+    "C2": {
+      "symbol_source": "EasyEDA-C19702-original.json",
+      "pins": 2,
+      "footprint": "840d5114b71a38b1",
+      "footprint_source": "Capacitor_SMD:C_0603_1608Metric"
+    },
+    "C3": {
+      "symbol_source": "EasyEDA-C19702-original.json",
+      "pins": 2,
+      "footprint": "41f10aa4d5b7be1d",
+      "footprint_source": "Capacitor_SMD:C_0603_1608Metric"
+    },
+    "C4": {
+      "symbol_source": "EasyEDA-C14663-original.json",
+      "pins": 2,
+      "footprint": "c4db38d9333cd4a8",
+      "footprint_source": "Capacitor_SMD:C_0603_1608Metric"
+    },
+    "C5": {
+      "symbol_source": "EasyEDA-C14663-original.json",
+      "pins": 2,
+      "footprint": "093388a99cbe07a4",
+      "footprint_source": "Capacitor_SMD:C_0603_1608Metric"
+    },
+    "Q1": {
+      "symbol_source": "EasyEDA-C20917-original.json",
+      "pins": 3,
+      "footprint": "fbf593d40eae07ec",
+      "footprint_source": "Package_TO_SOT_SMD:SOT-23"
+    },
+    "R1": {
+      "symbol_source": "EasyEDA-C22775-original.json",
+      "pins": 2,
+      "footprint": "28b242f2aa997a49",
+      "footprint_source": "Resistor_SMD:R_0603_1608Metric"
+    },
+    "R3": {
+      "symbol_source": "EasyEDA-C22936-original.json",
+      "pins": 2,
+      "footprint": "2eb7b89d891135ec",
+      "footprint_source": "Resistor_SMD:R_0603_1608Metric"
+    },
+    "Q2": {
+      "symbol_source": "EasyEDA-C20917-original.json",
+      "pins": 3,
+      "footprint": "4e6ea46832b30652",
+      "footprint_source": "Package_TO_SOT_SMD:SOT-23"
+    },
+    "R2": {
+      "symbol_source": "EasyEDA-C22775-original.json",
+      "pins": 2,
+      "footprint": "530feb5bd26552e7",
+      "footprint_source": "Resistor_SMD:R_0603_1608Metric"
+    },
+    "R4": {
+      "symbol_source": "EasyEDA-C22936-original.json",
+      "pins": 2,
+      "footprint": "a8a722055b3c5af7",
+      "footprint_source": "Resistor_SMD:R_0603_1608Metric"
+    },
+    "R5": {
+      "symbol_source": "EasyEDA-C114662-original.json",
+      "pins": 2,
+      "footprint": "70f4f5fcb23ea21a",
+      "footprint_source": "Resistor_SMD:R_0603_1608Metric"
+    },
+    "R6": {
+      "symbol_source": "EasyEDA-C25804-original.json",
+      "pins": 2,
+      "footprint": "92866978dfd9f852",
+      "footprint_source": "Resistor_SMD:R_0603_1608Metric"
+    },
+    "R7": {
+      "symbol_source": "EasyEDA-C25804-original.json",
+      "pins": 2,
+      "footprint": "aba8afa3fc1c660b",
+      "footprint_source": "Resistor_SMD:R_0603_1608Metric"
+    },
+    "R8": {
+      "symbol_source": "EasyEDA-C25804-original.json",
+      "pins": 2,
+      "footprint": "4ee42137ec565186",
+      "footprint_source": "Resistor_SMD:R_0603_1608Metric"
+    },
+    "R10": {
+      "symbol_source": "EasyEDA-C25804-original.json",
+      "pins": 2,
+      "footprint": "fbfc54e418ec90c6",
+      "footprint_source": "Resistor_SMD:R_0603_1608Metric"
+    },
+    "PS1": {
+      "symbol_source": "Interfaz trazada de la matriz",
+      "pins": 2,
+      "footprint": null
+    },
+    "J13": {
+      "symbol_source": "Interfaz trazada de la matriz",
+      "pins": 2,
+      "footprint": null
+    },
+    "F1": {
+      "symbol_source": "Interfaz trazada de la matriz",
+      "pins": 2,
+      "footprint": null
+    },
+    "SW1": {
+      "symbol_source": "Interfaz trazada de la matriz",
+      "pins": 2,
+      "footprint": null
+    },
+    "LED1": {
+      "symbol_source": "Interfaz trazada de la matriz",
+      "pins": 2,
+      "footprint": null
+    },
+    "LED2": {
+      "symbol_source": "Interfaz trazada de la matriz",
+      "pins": 2,
+      "footprint": null
+    },
+    "LED3": {
+      "symbol_source": "Interfaz trazada de la matriz",
+      "pins": 2,
+      "footprint": null
+    },
+    "LED4": {
+      "symbol_source": "Interfaz trazada de la matriz",
+      "pins": 2,
+      "footprint": null
+    },
+    "U1": {
+      "symbol_source": "EasyEDA-DevKitC-community-source.json",
+      "pins": 44,
+      "footprint": null
+    },
+    "CAM1": {
+      "symbol_source": "Adafruit-OV5640-Camera-Breakout.fzpz · adaptación a JP2",
+      "pins": 18,
+      "footprint": null
+    },
+    "U3": {
+      "symbol_source": "Interfaz trazada de la matriz",
+      "pins": 4,
+      "footprint": null
+    },
+    "DS1": {
+      "symbol_source": "Interfaz trazada de la matriz",
+      "pins": 7,
+      "footprint": null
+    },
+    "SW2": {
+      "symbol_source": "Interfaz trazada de la matriz",
+      "pins": 2,
+      "footprint": null
+    },
+    "R9": {
+      "symbol_source": "EasyEDA-C114662-original.json",
+      "pins": 2,
+      "footprint": null
+    },
+    "SW3": {
+      "symbol_source": "Interfaz trazada de la matriz",
+      "pins": 2,
+      "footprint": null
+    },
+    "SW4": {
+      "symbol_source": "Interfaz trazada de la matriz",
+      "pins": 2,
+      "footprint": null
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# Bibliotecas de la placa auxiliar
+
+Las carpetas `.pretty` y `modelos/` incluyen las huellas y STEP del proyecto de bibliotecas KiCad 10. Se conservan sus nombres de origen. Las rutas a los STEP se adaptaron para funcionar desde esta carpeta. Las bibliotecas KiCad se atribuyen a sus colaboradores y se incluyen bajo [CC BY-SA 4.0 con su excepción para diseños electrónicos](LICENCIA-KiCad-CC-BY-SA-4.0.txt). [Repositorio de huellas](https://gitlab.com/kicad/libraries/kicad-footprints) · [Repositorio de modelos](https://gitlab.com/kicad/libraries/kicad-packages3D)
+
+Las borneras Phoenix y los cabezales JST usan los modelos correspondientes de la biblioteca. Los STEP de los componentes SMD y del capacitor radial representan el encapsulado indicado, con el que se verifican posición, polaridad y envolvente. El RECOM usa el [STEP OEM](../fuentes/README.md), con giro 180° en X y desplazamiento local cartesiano de 2,54 mm en X y 2,325 mm en Y. `FoodScan.pretty` contiene la huella RECOM basada en su plano y el agujero de montaje sin metalizar. [Ficha RECOM](https://recom-power.com/en/products/switching-regulators/switching-regulators-sip/rec-p-R-78K3.3-1.0.html) · [Integración mecánica](../Integracion_mecanica.md)
+
+La versión editable de la placa mantiene las asociaciones 3D. Para asignarlas también en el editor de EasyEDA, usa el gestor de modelos 3D y verifica la correspondencia entre el pin 1, los pads y la cara superior. [Gestor de modelos 3D](https://prodocs.easyeda.com/en/pcb/tools-3d-model-manager/)
