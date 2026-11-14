@@ -35,6 +35,6 @@ La entrega sirve para revisión de prototipo. Quedan pendientes la importación 
 
 ## Reproducir
 
-Para regenerar el proyecto con sus referencias de origen, ejecutar `python fuentes/descargar_bibliotecas.py` y seguir las instrucciones para recuperar el STEP del regulador RECOM. [Fuentes y descargas](fuentes/README.md)
+Para recuperar las bibliotecas de origen y el STEP del regulador RECOM, ejecutar `python fuentes/descargar_bibliotecas.py`. [Fuentes y descargas](fuentes/README.md)
 
 `herramientas/definir_circuito.py` genera la matriz y `herramientas/definir_arneses.py` valida los arneses con ella. `herramientas/generar_pcb.py` usa Python, NumPy, sexpdata y la carpeta `share/kicad` de KiCad 10. Tras generarla, rellena zonas y guarda con `kicad-cli pcb drc --refill-zones --save-board`. Luego ejecuta `python herramientas/generar_easyeda.py --pcb pcb/FoodScan_Auxiliar.kicad_pcb` desde esta carpeta. El generador usa Node.js y el conversor de la instalación local de EasyEDA 3.2.209. Exporta el STEP con origen de usuario `80x135mm`.

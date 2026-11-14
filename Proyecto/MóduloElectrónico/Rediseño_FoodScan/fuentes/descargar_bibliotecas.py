@@ -1,13 +1,20 @@
-"""Recupera los originales de EasyEDA y comprueba sus hashes."""
+"""Recupera las bibliotecas de EasyEDA y el STEP de RECOM."""
 
 from concurrent.futures import ThreadPoolExecutor
 from hashlib import sha256
+from html import unescape
+from http.cookiejar import CookieJar
 from pathlib import Path
-from urllib.error import URLError
-from urllib.request import Request, urlopen
+import re
+from urllib.parse import urljoin
+from urllib.request import HTTPCookieProcessor, Request, build_opener, urlopen
 
 DIRECTORY = Path(__file__).resolve().parent
 API = "https://easyeda.com/api/components/"
+RECOM_PAGE = (
+    "https://recom-power.com/en/products/switching-regulators/"
+    "switching-regulators-sip/rec-p-R-78K3.3-1.0.html"
+)
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -39,16 +46,34 @@ COMPONENTS = {
 }
 
 
-def restore(filename, uuid, expected):
+def download_recom():
+    opener = build_opener(HTTPCookieProcessor(CookieJar()))
+    headers = {"User-Agent": HEADERS["User-Agent"]}
+    with opener.open(Request(RECOM_PAGE, headers=headers), timeout=25) as response:
+        page = response.read().decode("utf-8")
+        link = re.search(
+            r'<a[^>]+href="([^"]+)"[^>]*>\s*<i[^>]+></i>\s*R-78K-1\.0\.STEP',
+            page,
+        )
+        if link is None:
+            raise ValueError(f"No se encontró el STEP en {RECOM_PAGE}")
+        url = urljoin(response.url, unescape(link[1]))
+    with opener.open(Request(url, headers=headers), timeout=25) as response:
+        return response.read()
+
+
+def restore(filename, expected, uuid=None):
     target = DIRECTORY / filename
     if target.exists():
         if sha256(target.read_bytes()).hexdigest() == expected:
             return f"Verificado {filename}"
         raise ValueError(f"{filename} local no coincide con el inventario SHA-256")
 
-    url = API + uuid
-    with urlopen(Request(url, headers=HEADERS), timeout=25) as response:
-        data = response.read()
+    if uuid is None:
+        data = download_recom()
+    else:
+        with urlopen(Request(API + uuid, headers=HEADERS), timeout=25) as response:
+            data = response.read()
     if sha256(data).hexdigest() != expected:
         raise ValueError(f"{filename} descargado no coincide con el inventario SHA-256")
     with target.open("xb") as file:
@@ -66,17 +91,18 @@ def main():
     }
     files = {f"EasyEDA-{code}-original.json": uuid for code, uuid in COMPONENTS.items()}
     files["EasyEDA-DevKitC-community-source.json"] = "f202b75334f94af1a1a7ebbcbafb3fae"
+    files["RECOM-R-78K-1.0-original.STEP"] = None
 
     failed = False
     with ThreadPoolExecutor(max_workers=5) as executor:
         pending = {
-            filename: executor.submit(restore, filename, uuid, expected[filename])
+            filename: executor.submit(restore, filename, expected[filename], uuid)
             for filename, uuid in files.items()
         }
         for filename, task in pending.items():
             try:
                 print(task.result())
-            except (OSError, URLError, ValueError) as error:
+            except (OSError, ValueError) as error:
                 failed = True
                 print(f"Error al recuperar {filename}: {error}")
     return int(failed)

@@ -67,8 +67,8 @@ El proyecto `FoodScan.epro2` incluye los símbolos y las huellas utilizados. Par
 python fuentes/descargar_bibliotecas.py
 ```
 
-El script recupera 19 entradas de EasyEDA por UUID y comprueba sus SHA-256 antes de guardar. Si una revisión de biblioteca cambia, el script muestra el archivo afectado y conserva la copia local.
+El script recupera 19 entradas de EasyEDA por UUID y el STEP de RECOM. Comprueba sus SHA-256 antes de guardar. Si una revisión de biblioteca cambia, el script muestra el archivo afectado y conserva la copia local.
 
-Para mostrar el regulador RECOM en la vista 3D de KiCad o regenerar el STEP poblado, abrir la ficha del R-78K3.3-1.0, pulsar **R-78K-1.0.STEP** en **Documents & Media** y guardar el archivo como `fuentes/RECOM-R-78K-1.0-original.STEP`. Su SHA-256 de referencia es `ecccfe1c22482a3027a58e833983ba0b48335354601b9bb0ee4e917a8db27751`. El STEP poblado de la placa está disponible en `pcb/FoodScan_Auxiliar.step`. [Descarga RECOM](https://recom-power.com/en/products/switching-regulators/switching-regulators-sip/rec-p-R-78K3.3-1.0.html)
+El STEP del RECOM permite mostrar el regulador en la vista 3D de KiCad o regenerar el STEP poblado. Para descargarlo manualmente, abrir la ficha del R-78K3.3-1.0, pulsar **R-78K-1.0.STEP** en **Documents & Media** y guardar el archivo como `fuentes/RECOM-R-78K-1.0-original.STEP`. Su SHA-256 de referencia es `ecccfe1c22482a3027a58e833983ba0b48335354601b9bb0ee4e917a8db27751`. El STEP poblado de la placa está disponible en `pcb/FoodScan_Auxiliar.step`. [Descarga RECOM](https://recom-power.com/en/products/switching-regulators/switching-regulators-sip/rec-p-R-78K3.3-1.0.html)
 
 Documentación adicional consultada. [AO3400A](https://www.aosmd.com/res/data_sheets/AO3400A.pdf) · [SN74LVC1G17](https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf) · [JST XH](https://www.jst-mfg.com/product/pdf/eng/eXH.pdf) · [Phoenix Contact 1935187](https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-pt-15-4-50-h-1935187) · [Schurter SPT](https://www.schurter.com/en/datasheet/typ_spt_5x20.pdf).
