@@ -16,9 +16,9 @@
 - [Estado y requisitos del Entregable 3](Fundamentos%20de%20diseño/Entregables/Entregable_03.md).
 - [Esquemático vigente v6 en EasyEDA](Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v6.eprj2) y [lista nueva de componentes de rediseño](Proyecto/MóduloElectrónico/BOM.md).
 - [Bocetos en Markdown: vistas 1, 2, 3 y 4 (interna)](Fundamentos%20de%20diseño/Entregables/Entregable_03/Bocetos/Boceto_01/Boceto_01.md) y [carpetas de las propuestas](Fundamentos%20de%20diseño/Entregables/Entregable_03/Bocetos/).
-- [Modelado 3D, planos y STL](Fundamentos%20de%20diseño/Entregables/Entregable_03/Modelado_3D/) · [Solicitud de fabricación](Fundamentos%20de%20diseño/Entregables/Entregable_03/Fabricacion/).
+- [Modelo 3D en Onshape](Fundamentos%20de%20diseño/Entregables/Entregable_03/Modelado_3D/Enlaces_Onshape.md) · [Planos y STL](Fundamentos%20de%20diseño/Entregables/Entregable_03/Modelado_3D/) · [Solicitud de fabricación](Fundamentos%20de%20diseño/Entregables/Entregable_03/Fabricacion/).
 
-El equipo está completando los archivos finales. El PDF y el enlace compartido de EasyEDA, la revisión de los bocetos y las demás propuestas, y el modelo 3D final figuran como pendientes en la página del entregable.
+El enlace de Onshape ya está incorporado. Los archivos complementarios y las revisiones pendientes se detallan en la página del entregable.
 
 [Entrega anterior del Taller 11](Fundamentos%20de%20diseño/Talleres/Taller_11.md) · [Informe del Entregable 2 corregido](Fundamentos%20de%20diseño/Entregables/Informe_Entregable_2_Equipo10_Corregido_v2.pdf).
 
