@@ -1,5 +1,7 @@
 # FoodScan: corrección del esquemático y componentes
 
+> Documento histórico. Para la entrega actual consultar [Entregable 3](../Entregables/Entregable_03.md). Los enlaces a electrónica anterior se conservan en el historial de Git.
+
 **Equipo 10 · Fundamentos de Diseño · 4 de noviembre de 2026**
 
 Entrega de la revisión electrónica 2 para levantar las observaciones y llevar
@@ -8,13 +10,13 @@ las piezas al taller. El modelo 3D no se modifica en esta etapa.
 | Entregable | Enlace |
 |---|---|
 | Informe técnico corregido | [Informe del Entregable 2, revisión v2](../Entregables/Informe_Entregable_2_Equipo10_Corregido_v2.pdf) |
-| Lista de componentes | [BOM v2](../../Proyecto/MóduloElectrónico/BOM.md) |
-| Lista ampliada de compra y funcionamiento | [componentes.md](../../Proyecto/MóduloElectrónico/Componentes_v2.md) |
-| Esquemático PDF A3 | [FoodScan_Esquematico_v2.pdf](../../output/pdf/FoodScan_Esquematico_v2.pdf) |
-| Esquemático editable EasyEDA Standard | [FoodScan_Esquematico_v2.json](../../Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v2.json) |
-| Instrucciones de apertura y alcance | [README v2](../../Proyecto/MóduloElectrónico/README_v2.md) |
-| Comprobación local de conexiones | [Verificacion_conexiones_v2.json](../../Proyecto/MóduloElectrónico/EasyEDA/Verificacion_conexiones_v2.json) |
-| Paquete para compartir | [FoodScan_Electronica_Corregida_v2.zip](../../output/electronica/FoodScan_Electronica_Corregida_v2.zip) |
+| Lista de componentes | [BOM v2](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/BOM.md) |
+| Lista ampliada de compra y funcionamiento | [componentes.md](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/Componentes_v2.md) |
+| Esquemático PDF A3 | [FoodScan_Esquematico_v2.pdf](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/output/pdf/FoodScan_Esquematico_v2.pdf) |
+| Esquemático editable EasyEDA Standard | [FoodScan_Esquematico_v2.json](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/EasyEDA/FoodScan_Esquematico_v2.json) |
+| Instrucciones de apertura y alcance | [README v2](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/README_v2.md) |
+| Comprobación local de conexiones | [Verificacion_conexiones_v2.json](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/EasyEDA/Verificacion_conexiones_v2.json) |
+| Paquete para compartir | [FoodScan_Electronica_Corregida_v2.zip](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/output/electronica/FoodScan_Electronica_Corregida_v2.zip) |
 
 Se sustituye la ESP32-CAM por una ESP32-S3 N16R8 y una cámara Waveshare OV5640
 Camera Board (C) independiente; se añade Q1 con sus resistencias para controlar

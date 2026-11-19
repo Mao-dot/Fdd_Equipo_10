@@ -11,12 +11,16 @@
 
 ---
 
-## Entrega del Taller 11 - FoodScan
+## Entregable 3 · FoodScan · avance 0.5
 
-- [Informe técnico corregido: componentes y funcionamiento v2](Fundamentos%20de%20diseño/Entregables/Informe_Entregable_2_Equipo10_Corregido_v2.pdf) (04/11/2026). Conserva la investigación y señala los bocetos mecánicos como anteriores.
-- [Modelo 3D FoodScan v3 en STEP](Proyecto/MóduloMecánico/CAD/FoodScan_Conjunto_Completo_v3.step). [FeatureScript, Onshape y parámetros](Proyecto/MóduloMecánico/README_v3.md).
-- [Esquemático v4 para las tiras COB](Proyecto/MóduloElectrónico/README_v4.md). [Editable en EasyEDA](Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_EasyEDA_Standard_v4_COB.json) y [hoja PDF](output/pdf/FoodScan_Conexiones_v4_COB.pdf).
-- [Entrega vigente y archivo de planos/modelos anteriores](Fundamentos%20de%20diseño/Talleres/Taller_11.md).
+- [Estado y requisitos del Entregable 3](Fundamentos%20de%20diseño/Entregables/Entregable_03.md).
+- [Esquemático vigente v6 en EasyEDA](Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v6.eprj2) y [lista nueva de componentes de rediseño](Proyecto/MóduloElectrónico/BOM.md).
+- [Carpetas para subir los tres bocetos](Fundamentos%20de%20diseño/Entregables/Entregable_03/Bocetos/).
+- [Modelado 3D, planos y STL](Fundamentos%20de%20diseño/Entregables/Entregable_03/Modelado_3D/) · [Solicitud de fabricación](Fundamentos%20de%20diseño/Entregables/Entregable_03/Fabricacion/).
+
+El equipo está completando los archivos finales. El PDF y el enlace compartido de EasyEDA, los bocetos y el modelo 3D final figuran como pendientes en la página del entregable.
+
+[Entrega anterior del Taller 11](Fundamentos%20de%20diseño/Talleres/Taller_11.md) · [Informe del Entregable 2 corregido](Fundamentos%20de%20diseño/Entregables/Informe_Entregable_2_Equipo10_Corregido_v2.pdf).
 
 ## 🌍 Descripción del Equipo
 

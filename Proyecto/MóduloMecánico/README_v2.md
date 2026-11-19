@@ -1,5 +1,7 @@
 # FoodScan: modelo 3D vigente, revisión 2
 
+> Documento histórico. Para la entrega actual consultar [Entregable 3](../../Fundamentos%20de%20diseño/Entregables/Entregable_03.md). Los enlaces a electrónica anterior se conservan en el historial de Git.
+
 **Equipo 10 · Archivo recibido el 5 de noviembre de 2026 · Unidades: mm**
 
 El modelo vigente es [FoodScan_Onshape_v2.fs](CAD/FoodScan_Onshape_v2.fs).
@@ -22,8 +24,8 @@ y la geometría resultante deben comprobarse dentro de Onshape.
 
 Los cuerpos comerciales son representaciones del archivo recibido; contrastar
 medidas y fijaciones con las piezas compradas. La lista eléctrica y el cableado
-siguen en [Componentes_v2.md](../MóduloElectrónico/Componentes_v2.md) y en el
-[esquemático v2](../MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v2.pdf).
+siguen en [Componentes_v2.md](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/Componentes_v2.md) y en el
+[esquemático v2](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/EasyEDA/FoodScan_Esquematico_v2.pdf).
 
 ## Parámetros declarados
 

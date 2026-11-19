@@ -2,12 +2,13 @@
 
 Esta carpeta contendrá todos los archivos necesarios para comprender y reproducir la solución desarrollada por el equipo.
 
-## Entrega del Taller 11
+## Entregable 3
 
-- [Modelo 3D FoodScan v3 en STEP](MóduloMecánico/CAD/FoodScan_Conjunto_Completo_v3.step) e [instrucciones para Onshape](MóduloMecánico/README_v3.md).
-- [Esquemático v4 para las tiras COB](MóduloElectrónico/README_v4.md).
-- [Entrega del Taller 11](../Fundamentos%20de%20diseño/Talleres/Taller_11.md).
-- [Especificación técnica de FoodScan para S11](Especificacion_S11.md).
+- [Estado, requisitos y carpetas de trabajo](../Fundamentos%20de%20diseño/Entregables/Entregable_03.md).
+- [Esquemático vigente v6](MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v6.eprj2) y [lista de componentes importada de rediseño](MóduloElectrónico/BOM.md).
+- [Bocetos](../Fundamentos%20de%20diseño/Entregables/Entregable_03/Bocetos/), [modelo 3D y planos](../Fundamentos%20de%20diseño/Entregables/Entregable_03/Modelado_3D/) y [fabricación](../Fundamentos%20de%20diseño/Entregables/Entregable_03/Fabricacion/).
+
+El modelo final está en preparación. La [entrega del Taller 11](../Fundamentos%20de%20diseño/Talleres/Taller_11.md) y la [especificación S11](Especificacion_S11.md) corresponden a etapas anteriores.
 
 ## Módulos
 

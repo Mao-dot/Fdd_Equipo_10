@@ -14,3 +14,6 @@ LICENSE text eol=lf
 *.step binary
 *.epro binary
 *.zip binary
+
+*.eprj2 binary
+*.epro2 binary

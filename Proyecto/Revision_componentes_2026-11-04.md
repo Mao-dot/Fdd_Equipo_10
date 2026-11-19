@@ -1,11 +1,13 @@
 # FoodScan: revisión de componentes y funcionamiento
 
+> Documento histórico. Para la entrega actual consultar [Entregable 3](../Fundamentos%20de%20diseño/Entregables/Entregable_03.md). Los enlaces a electrónica anterior se conservan en el historial de Git.
+
 Fecha: 4 de noviembre de 2026. Estado: planificación para revisar el prototipo existente; no acredita compras, montaje ni pruebas físicas.
 
 ## Base revisada
 
-- El informe y el [esquema anterior v1](MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v1.json) utilizaban ESP32-CAM AI-Thinker, OV2640, celda de 5 kg, HX711, microswitch y tres paneles de cuatro LED. La lista vigente es [Componentes_v2.md](MóduloElectrónico/Componentes_v2.md); la copia de la raíz `componentes.md` ya fue actualizada.
-- La [verificación de conexiones anterior](MóduloElectrónico/EasyEDA/Verificacion_conexiones.json) corresponde a iluminación conectada a la alimentación general. La [BOM vigente](MóduloElectrónico/BOM.md) y el esquema v2 incorporan Q1 para controlarla desde el microcontrolador.
+- El informe y el [esquema anterior v1](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/EasyEDA/FoodScan_Esquematico_v1.json) utilizaban ESP32-CAM AI-Thinker, OV2640, celda de 5 kg, HX711, microswitch y tres paneles de cuatro LED. La lista vigente es [Componentes_v2.md](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/Componentes_v2.md); la copia de la raíz `componentes.md` ya fue actualizada.
+- La [verificación de conexiones anterior](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/EasyEDA/Verificacion_conexiones.json) corresponde a iluminación conectada a la alimentación general. La [BOM vigente](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/BOM.md) y el esquema v2 incorporan Q1 para controlarla desde el microcontrolador.
 - [Especificación del Taller 11](Especificacion_S11.md) y [documentación mecánica](MóduloMecánico/README.md): plataforma de 220 × 220 mm, plato de referencia de 200 mm y cámara a una distancia nominal de 270 mm del plano del plato. El soporte CAD actual es fijo.
 - [Guion del avance de FoodScan](../output/guiones/Guion_FoodScan_Avance_Prototipo_5_minutos.md): documenta Gemini 3.8 Flash, fotografía, peso total y descripción, con 924 entradas de las Tablas Peruanas de Composición de Alimentos del INS, décima edición de 2017. El programa calcula los nutrientes a partir de la tabla; el usuario puede corregir alimentos y porciones. Describe ingreso manual del peso y la integración automática pendiente.
 

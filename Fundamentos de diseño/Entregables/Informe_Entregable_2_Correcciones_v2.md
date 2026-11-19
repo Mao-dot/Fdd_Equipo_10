@@ -1,5 +1,7 @@
 # Correcciones del informe técnico FoodScan
 
+> Documento histórico. Para la entrega actual consultar [Entregable 3](Entregable_03.md). Los enlaces a electrónica anterior se conservan en el historial de Git.
+
 **Equipo 10 · Revisión electrónica 2 · 4 de noviembre de 2026**
 
 Se corrigió el [informe del Entregable 2](Informe_Entregable_2_Equipo10_Corregido_v2.pdf), conservando las 40 páginas, el índice, la investigación, las alternativas A/B y la numeración de tablas y figuras. El PDF original de octubre se conserva sin modificar. Existe una copia idéntica de la revisión en `Presentaciones de Proyecto` y en `output/pdf`.
@@ -15,7 +17,7 @@ Se corrigió el [informe del Entregable 2](Informe_Entregable_2_Equipo10_Corregi
 | 38 | Justificación del concepto C actualizada. S/ 150 corresponde solo a placa y cámara; total por cotizar. Puntajes de Pugh conservados como comparación conceptual. |
 | 40 | Fuentes de Espressif, Waveshare y AO3400A; documentación electrónica v2. |
 
-La referencia vigente es [Componentes_v2.md](../../Proyecto/MóduloElectrónico/Componentes_v2.md), junto con la [BOM](../../Proyecto/MóduloElectrónico/BOM.md) y el [esquemático v2](../../Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v2.pdf).
+La referencia vigente es [Componentes_v2.md](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/Componentes_v2.md), junto con la [BOM](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/BOM.md) y el [esquemático v2](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/EasyEDA/FoodScan_Esquematico_v2.pdf).
 
 La revisión distingue el diseño propuesto de las pruebas realizadas: quedan pendientes montaje, calibración, captura/autofocus, consumo y temperatura, firmware e integración automática con la app. Gemini y el cálculo con TPCA se conservan en el backend existente.
 

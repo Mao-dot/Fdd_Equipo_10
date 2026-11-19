@@ -1,22 +1,24 @@
 # Taller 11 - FoodScan: esquema eléctrico y modelo 3D
 
+> Documento histórico. Para la entrega actual consultar [Entregable 3](../Entregables/Entregable_03.md). Los enlaces a electrónica anterior se conservan en el historial de Git.
+
 **Equipo 10 · Fundamentos de Diseño · Actualizado el 12 de noviembre de 2026**
 
 ## Entregables
 
 | Trabajo | Documento / enlace |
 |---|---|
-| Modelo 3D vigente | [FoodScan v3 en STEP](../../Proyecto/MóduloMecánico/CAD/FoodScan_Conjunto_Completo_v3.step) |
+| Modelo 3D del Taller 11 | [FoodScan v3 en STEP](../../Proyecto/MóduloMecánico/CAD/FoodScan_Conjunto_Completo_v3.step) |
 | Cómo abrir el modelo | [Onshape, FeatureScript y parámetros](../../Proyecto/MóduloMecánico/README_v3.md) |
-| Esquema eléctrico en PDF | [FoodScan v4 con tiras COB](../../output/pdf/FoodScan_Conexiones_v4_COB.pdf) |
-| Electrónica editable | [Esquema v4 en EasyEDA Standard](../../Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_EasyEDA_Standard_v4_COB.json) y [guía de conexiones](../../Proyecto/MóduloElectrónico/README_v4.md) |
+| Esquema eléctrico en PDF | [FoodScan v4 con tiras COB](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/output/pdf/FoodScan_Conexiones_v4_COB.pdf) |
+| Electrónica editable | [Esquema v4 en EasyEDA Standard](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/EasyEDA/FoodScan_Esquematico_EasyEDA_Standard_v4_COB.json) y [guía de conexiones](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/README_v4.md) |
 | Informe técnico corregido | [Entregable 2: corrección electrónica del 04/11/2026](../Entregables/Informe_Entregable_2_Equipo10_Corregido_v2.pdf) |
 
 ## Prototipo
 
 FoodScan integra una ESP32-S3 N16R8, cámara OV5640 (C) independiente, celda de
 carga de 5 kg, HX711, iluminación blanca con control MOSFET y detector de puerta.
-El modelo vigente define carcasa, puerta, bandeja y ubicación de los módulos.
+El modelo de esa entrega define carcasa, puerta, bandeja y ubicación de los módulos.
 Sus valores predeterminados son **310 × 300 × 380 mm** (ancho, fondo sin puerta
 y alto sin patas), MDF de **3,5 mm** y plato de referencia de **Ø220 mm**.
 
@@ -49,6 +51,6 @@ las dimensiones del conjunto, el despiece de paneles y los detalles de pesaje.
 - Componentes comerciales y soportes de referencia: medidas y taladros pendientes
   de ajuste con las piezas reales. La maqueta no demuestra desempeño físico.
 - La copia nativa de EasyEDA Pro conserva referencias provisionales; su estado se
-  explica en las [notas de importación a Pro](../../Proyecto/MóduloElectrónico/EasyEDA/LEEME_Pro.md).
+  explica en las [notas de importación a Pro](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/EasyEDA/LEEME_Pro.md).
 
 [Especificación técnica y conexiones](../../Proyecto/Especificacion_S11.md).

@@ -1,6 +1,6 @@
 # Modelo 3D de FoodScan - Taller S11
 
-## Modelo vigente: revisión 3
+## Modelo del Taller 11: revisión 3 (histórico)
 
 El conjunto de 92 piezas está disponible como [STEP en milímetros](CAD/FoodScan_Conjunto_Completo_v3.step)
 y como [FeatureScript editable](CAD/FoodScan_Onshape_v3.fs). La [guía de la revisión 3](README_v3.md)

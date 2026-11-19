@@ -2,6 +2,10 @@
 
 Aquí se guardan los documentos solicitados en cada etapa del curso.
 
+## Entregable 3
+
+[Abrir el Entregable 3](Entregable_03.md): esquemático v6, lista de componentes vigente y carpetas para bocetos, modelo 3D, planos, STL y solicitud de fabricación. Avance 0.5; los pendientes están señalados en cada apartado.
+
 ## Informe técnico de FoodScan
 
 - [Informe del Entregable 2 corregido, revisión electrónica 2](Informe_Entregable_2_Equipo10_Corregido_v2.pdf), 4 de noviembre de 2026. Actualiza placa, cámara, iluminación, alimentación, secuencia, presupuesto y referencias. Mantiene 40 páginas; las vistas mecánicas se identifican como previas.

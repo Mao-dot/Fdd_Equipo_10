@@ -1,5 +1,7 @@
 # FoodScan: modelo 3D, revisión 3
 
+> Documento histórico. Para la entrega actual consultar [Entregable 3](../../Fundamentos%20de%20diseño/Entregables/Entregable_03.md). Los enlaces a electrónica anterior se conservan en el historial de Git.
+
 **Equipo 10 · 11 de noviembre de 2026 · Unidades: mm**
 
 El [STEP completo](CAD/FoodScan_Conjunto_Completo_v3.step) contiene los 92 sólidos
@@ -110,6 +112,6 @@ usar modelos STEP descargados (por ejemplo, de SnapEDA):
 
 ## Esquemático correspondiente
 
-El [esquemático v4](../MóduloElectrónico/README_v4.md) documenta las cuatro tiras
+El [esquemático v4](https://github.com/Mao-dot/Fdd_Equipo_10/blob/58de49927de7cf15c683ff6cd5e82904dfc200d5/Proyecto/M%C3%B3duloElectr%C3%B3nico/README_v4.md) documenta las cuatro tiras
 COB, las borneras y la alimentación de esta revisión. La lista de compra del
 módulo electrónico corresponde a la revisión 2.
