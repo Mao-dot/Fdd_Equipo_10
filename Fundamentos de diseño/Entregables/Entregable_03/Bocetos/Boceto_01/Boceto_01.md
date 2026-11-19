@@ -1,32 +1,35 @@
-# Boceto 01 · FoodScan
+# Bocetos de FoodScan · Vistas 1 a 4
 
-**Estado: PENDIENTE · Autor/a: PENDIENTE · Fecha: PENDIENTE**
+**Equipo 10 · Entregable 3 · 18 de noviembre de 2026**
 
-## Propuesta y matriz morfológica
+Imágenes proporcionadas por el equipo, presentadas en el orden indicado. La cuarta corresponde a la vista interna a color.
 
-PENDIENTE: describir la propuesta, enlazar la matriz morfológica y registrar la combinación de soluciones utilizada. Adaptar este documento al formato indicado en clase.
+## Vista 1
 
-## Vistas externas
+Vista general en corte del Concepto C, con gabinete, iluminación, plato removible, plataforma de pesaje y apoyos.
 
-| Vista | Imagen en `Imagenes/` | Qué muestra |
-| --- | --- | --- |
-| Externa 1 | PENDIENTE | PENDIENTE |
-| Externa 2 | PENDIENTE | PENDIENTE |
-| Externa 3 | PENDIENTE | PENDIENTE |
+![Vista 1 de FoodScan: vista general en corte del Concepto C](Imagenes/Vista_01.jpeg)
 
-Insertar las imágenes con rutas relativas; por ejemplo, `![Vista externa 1](Imagenes/vista_externa_01.png)` cuando el archivo exista.
+## Vista 2
 
-## Vista interior a color
+Distribución de componentes y conexiones en el interior de la estructura, con elementos numerados y su leyenda.
 
-PENDIENTE: insertar la vista interior a color e identificar los módulos electrónicos, la plataforma de pesaje, cámara, luces, alimentación y fijaciones de la propuesta.
+![Vista 2 de FoodScan: distribución de componentes y conexiones](Imagenes/Vista_02.jpeg)
 
-## Decisiones y revisión de coherencia
+## Vista 3
 
-PENDIENTE: justificar distribución, acceso, montaje y uso; comprobar la correspondencia con la lista de componentes vigente. Si se utilizó IA, indicar las correcciones y la validación de criterio realizadas.
+Vista frontal con puerta, bisagras, manija, mandos y apoyos inferiores.
 
-## Estado de avance
+![Vista 3 de FoodScan: vista frontal de la carcasa y la puerta](Imagenes/Vista_03.jpeg)
 
-- [ ] Formato de clase y relación con la matriz morfológica.
-- [ ] Tres vistas externas completas.
-- [ ] Una vista interior a color.
-- [ ] Diseño revisado y coherente con FoodScan.
+## Vista 4 · Vista interna
+
+Vista interna a color con la placa ESP32-S3, iluminación, plato removible, plataforma flotante, celda de carga y base de apoyo.
+
+![Vista 4 de FoodScan: vista interna a color](Imagenes/Vista_04_interna.jpeg)
+
+## Revisión para la entrega
+
+Las cuatro imágenes se conservan tal como fueron recibidas. Revisar sus leyendas con la [lista vigente de componentes](../../../../../Proyecto/MóduloElectrónico/BOM.md) y el [esquemático v6](../../../../../Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v6.eprj2): la vista 1 rotula ESP32-CAM/OV2640 y MDF de 3 mm; la vista 2 menciona motor, tuberías y válvulas; las vistas 1 y 4 muestran una entrada jack DC. Esas referencias requieren actualización o justificación frente al montaje vigente.
+
+La consigna solicita **tres bocetos derivados de la matriz morfológica**, cada uno con al menos **tres vistas externas y una interior a color**. Aquí se documentan las cuatro vistas recibidas; completar la relación con la matriz y las demás propuestas en [Boceto 02](../Boceto_02/Boceto_02.md) y [Boceto 03](../Boceto_03/Boceto_03.md). Las vistas 1 y 2 muestran cortes o interiores y deben distinguirse de las vistas externas solicitadas.

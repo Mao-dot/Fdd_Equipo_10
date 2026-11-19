@@ -1,10 +1,10 @@
-# Tres bocetos actualizados
+# Bocetos de FoodScan
 
-Cada boceto tiene una carpeta propia para que los integrantes puedan trabajar y subir sus imágenes de forma independiente.
+Las cuatro vistas recibidas están incorporadas en [Boceto_01.md](Boceto_01/Boceto_01.md), con la cuarta identificada como vista interna a color. Se conserva una carpeta por propuesta para completar la entrega del equipo.
 
 | Propuesta | Documento | Estado |
 | --- | --- | --- |
-| 01 | [Boceto_01.md](Boceto_01/Boceto_01.md) | PENDIENTE |
+| 01 | [Boceto_01.md: vistas 1, 2, 3 y 4](Boceto_01/Boceto_01.md) | Cuatro imágenes incorporadas; revisión de leyendas y relación con la matriz pendientes. |
 | 02 | [Boceto_02.md](Boceto_02/Boceto_02.md) | PENDIENTE |
 | 03 | [Boceto_03.md](Boceto_03/Boceto_03.md) | PENDIENTE |
 

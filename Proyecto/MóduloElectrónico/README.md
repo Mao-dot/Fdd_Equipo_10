@@ -1,6 +1,6 @@
 # Módulo electrónico de FoodScan
 
-## Entregable 3 · avance 0.5
+## Entregable 3
 
 El archivo vigente es el **esquemático v6 recibido del equipo el 18/11/2026**. Las versiones anteriores de los esquemas y sus paquetes electrónicos se retiraron de `main`; se pueden recuperar desde el historial de Git.
 

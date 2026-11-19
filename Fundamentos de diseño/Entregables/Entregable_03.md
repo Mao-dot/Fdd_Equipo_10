@@ -1,15 +1,15 @@
 # Entregable 3 · FoodScan
 
-**Equipo 10 · Avance 0.5 · 18 de noviembre de 2026**
+**Equipo 10 · 18 de noviembre de 2026**
 
-Repositorio preparado para integrar el trabajo del equipo. Este avance incorpora el proyecto electrónico v6 y la nueva lista de componentes de `rediseño`; los bocetos, el modelo 3D final y la solicitud de fabricación están en preparación.
+Esta entrega incorpora el proyecto electrónico v6, la nueva lista de componentes de `rediseño` y cuatro vistas de los bocetos, incluida una vista interna a color. Las demás propuestas, el modelo 3D final y la solicitud de fabricación están en preparación.
 
 ## Archivos y responsables
 
 | Parte | Puntos | Ubicación | Responsable | Estado |
 | --- | ---: | --- | --- | --- |
 | Esquemático final | 6 | [Proyecto v6](../../Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v6.eprj2) · [PDF](Entregable_03/Esquematico/PDF/) · [Enlaces](Entregable_03/Esquematico/Enlaces.md) | PENDIENTE: completar por el equipo | Nativo incorporado; revisión, PDF y enlace compartido pendientes. |
-| Tres bocetos actualizados | 3 | [Boceto 01](Entregable_03/Bocetos/Boceto_01/) · [Boceto 02](Entregable_03/Bocetos/Boceto_02/) · [Boceto 03](Entregable_03/Bocetos/Boceto_03/) | PENDIENTE: completar por el equipo | Carpetas y plantillas listas para subir contenido. |
+| Tres bocetos actualizados | 3 | [Boceto 01: cuatro vistas](Entregable_03/Bocetos/Boceto_01/Boceto_01.md) · [Boceto 02](Entregable_03/Bocetos/Boceto_02/) · [Boceto 03](Entregable_03/Bocetos/Boceto_03/) | PENDIENTE: completar por el equipo | Cuatro imágenes incorporadas en Markdown; revisión, matriz y propuestas 02 y 03 pendientes. |
 | Modelado 3D integrado | 10 | [Modelado 3D](Entregable_03/Modelado_3D/) | Mao | En preparación: Assembly, planos y STL finales. |
 | Solicitud de fabricación | 2 | [Fabricación](Entregable_03/Fabricacion/) | PENDIENTE: completar por el equipo | Plantilla de correo y carpeta de adjuntos listas. |
 
