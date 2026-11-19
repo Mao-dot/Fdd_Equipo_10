@@ -4,11 +4,11 @@ Esta carpeta contendrá todos los archivos necesarios para comprender y reproduc
 
 ## Entregable 3
 
-- [Estado, requisitos y carpetas de trabajo](../Fundamentos%20de%20diseño/Entregables/Entregable_03.md).
+- [Entrega final de FoodScan](../Fundamentos%20de%20diseño/Entregables/Entregable_03.md).
 - [Esquemático vigente v6](MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v6.eprj2) y [lista de componentes importada de rediseño](MóduloElectrónico/BOM.md).
-- [Bocetos](../Fundamentos%20de%20diseño/Entregables/Entregable_03/Bocetos/), [modelo 3D y planos](../Fundamentos%20de%20diseño/Entregables/Entregable_03/Modelado_3D/) y [fabricación](../Fundamentos%20de%20diseño/Entregables/Entregable_03/Fabricacion/).
+- [Bocetos](../Fundamentos%20de%20diseño/Entregables/Entregable_03/Bocetos/) y [modelo 3D y planos](../Fundamentos%20de%20diseño/Entregables/Entregable_03/Modelado_3D/).
 
-El modelo final está en preparación. La [entrega del Taller 11](../Fundamentos%20de%20diseño/Talleres/Taller_11.md) y la [especificación S11](Especificacion_S11.md) corresponden a etapas anteriores.
+La [entrega del Taller 11](../Fundamentos%20de%20diseño/Talleres/Taller_11.md) y la [especificación S11](Especificacion_S11.md) corresponden a etapas anteriores.
 
 ## Módulos
 

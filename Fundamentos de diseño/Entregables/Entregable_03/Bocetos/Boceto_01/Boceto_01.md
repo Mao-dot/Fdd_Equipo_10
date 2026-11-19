@@ -28,8 +28,6 @@ Vista interna a color con la placa ESP32-S3, iluminación, plato removible, plat
 
 ![Vista 4 de FoodScan: vista interna a color](Imagenes/Vista_04_interna.jpeg)
 
-## Revisión para la entrega
+## Matriz morfológica
 
-Las cuatro imágenes se conservan tal como fueron recibidas. Revisar sus leyendas con la [lista vigente de componentes](../../../../../Proyecto/MóduloElectrónico/BOM.md) y el [esquemático v6](../../../../../Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v6.eprj2): la vista 1 rotula ESP32-CAM/OV2640 y MDF de 3 mm; la vista 2 menciona motor, tuberías y válvulas; las vistas 1 y 4 muestran una entrada jack DC. Esas referencias requieren actualización o justificación frente al montaje vigente.
-
-La consigna solicita **tres bocetos derivados de la matriz morfológica**, cada uno con al menos **tres vistas externas y una interior a color**. Aquí se documentan las cuatro vistas recibidas; completar la relación con la matriz y las demás propuestas en [Boceto 02](../Boceto_02/Boceto_02.md) y [Boceto 03](../Boceto_03/Boceto_03.md). Las vistas 1 y 2 muestran cortes o interiores y deben distinguirse de las vistas externas solicitadas.
+El concepto C corresponde a la caja integrada. La matriz está en las páginas 24 y 25 del [informe corregido del Entregable 2](../../../Informe_Entregable_2_Equipo10_Corregido_v2.pdf).

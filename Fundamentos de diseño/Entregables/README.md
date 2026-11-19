@@ -4,7 +4,7 @@ Aquí se guardan los documentos solicitados en cada etapa del curso.
 
 ## Entregable 3
 
-[Abrir el Entregable 3](Entregable_03.md): esquemático v6, lista de componentes vigente, cuatro vistas de bocetos en Markdown y carpetas para modelo 3D, planos, STL y solicitud de fabricación. Los pendientes están señalados en cada apartado.
+La entrega reúne el esquemático v6, la lista de componentes, las cuatro vistas de los bocetos, el enlace de Onshape y los planos acotados. [Abrir el Entregable 3](Entregable_03.md).
 
 ## Informe técnico de FoodScan
 
@@ -18,5 +18,3 @@ Aquí se guardan los documentos solicitados en cada etapa del curso.
 - Nombrar los archivos con dos dígitos: `Entregable_01.md`, `Entregable_02.md`, etc.
 - Incluir fecha, integrantes participantes, desarrollo, resultados, evidencias y referencias cuando correspondan.
 - Agregar imágenes en `../../Recursos/Imágenes/` y enlazarlas mediante rutas relativas.
-
-Los archivos incluidos son plantillas iniciales y deben reemplazarse con el contenido solicitado por el equipo docente.

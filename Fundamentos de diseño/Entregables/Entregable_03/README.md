@@ -1,14 +1,8 @@
 # Entregable 3 · FoodScan
 
-**18/11/2026 · Equipo 10**
+**Entrega final · Equipo 10**
 
-La [página principal del entregable](../Entregable_03.md) reúne los requisitos, enlaces y pendientes.
-
-| Carpeta | Qué subir |
-| --- | --- |
-| [Esquematico](Esquematico/) | Enlace al v6, avances por subsistema, PDF final y enlace compartido de EasyEDA. |
-| [Bocetos](Bocetos/) | Cuatro vistas incorporadas en el primer documento Markdown; completar las tres propuestas con las vistas requeridas. |
-| [Modelado_3D](Modelado_3D/) | Assembly compartido de Onshape, planos acotados en PDF y modelos finales en STL. |
-| [Fabricacion](Fabricacion/) | Correo de solicitud de impresión/corte, adjuntos y enlaces de fabricación. |
-
-Cada integrante completa su carpeta y actualiza su estado en la página principal. Los campos **PENDIENTE** deben completarse con archivos o enlaces reales antes de la entrega final.
+- [Índice de la entrega](../Entregable_03.md)
+- [Esquemático v6 y lista de componentes](Esquematico/)
+- [Bocetos de FoodScan](Bocetos/)
+- [Modelo 3D y planos acotados](Modelado_3D/)

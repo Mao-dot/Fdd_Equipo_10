@@ -1,6 +1,6 @@
 # Lista de compra vigente de FoodScan
 
-> Lista importada de la rama `rediseño`, commit `d419a1f`. Sustituye la lista anterior de `main`. Los enlaces a archivos de CAD y revisiones anteriores apuntan a esa revisión de `rediseño`; el modelo 3D del Entregable 3 sigue en preparación.
+> Lista importada de la rama `rediseño`, commit `d419a1f`. Los enlaces a archivos de CAD y revisiones anteriores apuntan a esa revisión.
 
 [Esquemático recibido v6](EasyEDA/FoodScan_Esquematico_v6.eprj2) · [Organización del Entregable 3](../../Fundamentos%20de%20diseño/Entregables/Entregable_03.md)
 
