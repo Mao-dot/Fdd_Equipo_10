@@ -7,7 +7,7 @@
 | Ubicación | Contenido esperado |
 | --- | --- |
 | [Enlaces_Onshape.md](Enlaces_Onshape.md) | Documento y Assembly final compartidos, revisión y permisos de acceso. |
-| [Planos_PDF/](Planos_PDF/) | Planos acotados del conjunto y de cada pieza a fabricar. |
+| [Planos acotados (PDF)](Planos_PDF/FoodScan_Planos_acotados.pdf) | Planos de FoodScan. |
 | [STL/](STL/) | Modelos finales de las piezas que se imprimirán. |
 
 El Assembly debe incluir los componentes electrónicos y mecánicos reales, soportes, tornillos, tuercas, arandelas, botones, interruptores, pantallas y conectores que correspondan. Incorporar los recursos de modelado solicitados en clase, como nervaduras, chaflanes y escuadras. La consigna excluye cables y mangueras.

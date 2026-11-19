@@ -10,7 +10,7 @@ Esta entrega incorpora el proyecto electrónico v6, la nueva lista de componente
 | --- | ---: | --- | --- | --- |
 | Esquemático final | 6 | [Proyecto v6](../../Proyecto/MóduloElectrónico/EasyEDA/FoodScan_Esquematico_v6.eprj2) · [PDF](Entregable_03/Esquematico/PDF/) · [Enlaces](Entregable_03/Esquematico/Enlaces.md) | PENDIENTE: completar por el equipo | Nativo incorporado; revisión, PDF y enlace compartido pendientes. |
 | Tres bocetos actualizados | 3 | [Boceto 01: cuatro vistas](Entregable_03/Bocetos/Boceto_01/Boceto_01.md) · [Boceto 02](Entregable_03/Bocetos/Boceto_02/) · [Boceto 03](Entregable_03/Bocetos/Boceto_03/) | PENDIENTE: completar por el equipo | Cuatro imágenes incorporadas en Markdown; revisión, matriz y propuestas 02 y 03 pendientes. |
-| Modelado 3D integrado | 10 | [Entrega final en Onshape](Entregable_03/Modelado_3D/Enlaces_Onshape.md) · [Planos y STL](Entregable_03/Modelado_3D/) | Mao | Enlace de Onshape publicado. |
+| Modelado 3D integrado | 10 | [Entrega final en Onshape](Entregable_03/Modelado_3D/Enlaces_Onshape.md) · [Planos acotados (PDF)](Entregable_03/Modelado_3D/Planos_PDF/FoodScan_Planos_acotados.pdf) · [STL](Entregable_03/Modelado_3D/STL/) | Mao | Enlace de Onshape y planos publicados. |
 | Solicitud de fabricación | 2 | [Fabricación](Entregable_03/Fabricacion/) | PENDIENTE: completar por el equipo | Plantilla de correo y carpeta de adjuntos listas. |
 
 [Lista de componentes vigente](../../Proyecto/MóduloElectrónico/BOM.md) · [Guía para subir archivos](Entregable_03/README.md) · [Avances electrónicos por partes](Entregable_03/Esquematico/Avances/)

@@ -1,3 +1,3 @@
 # Planos acotados en PDF
 
-PENDIENTE: subir los planos finales del conjunto y de cada parte a fabricar. Usar nombres identificables, por ejemplo `P01_Nombre_pieza.pdf`, y registrar la revisión y las unidades en el plano.
+[Descargar los planos acotados de FoodScan (PDF)](FoodScan_Planos_acotados.pdf)
